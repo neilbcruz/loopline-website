@@ -1,0 +1,36 @@
+@use '../../styles/fonts' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    padding-top: 2rem;
+
+    &__container {
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
+        padding: 0.5rem 1rem;
+        
+
+        @include tablet {
+            padding: 1.25rem 2rem;
+        }
+
+        @include desktop {
+            padding: 1.25rem 10rem;
+        }
+    }
+
+    &__text {
+        text-align: center;
+        // display: flex;
+        // align-items: center;
+        gap: 1rem;
+    }
+}
