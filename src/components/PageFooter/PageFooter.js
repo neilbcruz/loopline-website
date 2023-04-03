@@ -6,9 +6,9 @@ import './PageFooter.scss';
 // import Google from '../../assets/icons/googlemail.png';
 
 export default function PageFooter() {
-    const newTab = url => {
-        window.open(url, '_blank', 'noopener,noreferrer');
-    }
+    // const newTab = url => {
+    //     window.open(url, '_blank', 'noopener,noreferrer');
+    // }
 
     return (
         <>
