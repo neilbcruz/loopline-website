@@ -21,7 +21,7 @@ export default function PageFooter() {
                         <h3>HQ Phone 519-660-6966</h3>
                         <h3>TICO Reg. #1549342."</h3>
                         <br></br>
-                        <h3>Loopline Travel. All Rights Reserve 2015</h3>
+                        <h3>Loopline Travel. All Rights Reserved 2015</h3>
                     </div>
                 </div>
             </div>
