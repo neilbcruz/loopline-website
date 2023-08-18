@@ -15,6 +15,7 @@ function App() {
           <title>Loopline Travel</title>
           <link rel="icon" href="./assets/icons/favicon.ico" />
           {/* <link rel="canonical" href="https://www.looplinetravel.com/" /> */}
+          <meta http-equiv="refresh" content="0; URL=https://8751.vacation.escapevacations.ca/" />
           <meta name="description" content="Loopline Travel Website" />
         </Helmet>
         <Router>
