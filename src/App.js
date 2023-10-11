@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import PageHeader from './components/PageHeader/PageHeader';
 import HomePage from './pages/HomePage/HomePage';

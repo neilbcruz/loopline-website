@@ -1,7 +1,7 @@
 import './PageHeader.scss';
 import { NavLink } from 'react-router-dom';
 
-import LLTIcon from '../../assets/icons/LLT_logo-full.jpg';
+import LLTIcon from '../../assets/images/LLT_full-open.jpg';
 
 export default function PageHeader() {
     return (
