@@ -1,11 +1,13 @@
 import './InspirationPage.scss';
 
+import { Container } from 'react-bootstrap';
+
 export default function InspirationPage() {
     return (
         <>
-            <div className='inspiration'>
+            <Container className='text-center'>
                 <h1>Travel Inspiration</h1>
-            </div>
+            </Container>
         </>
     )
 }

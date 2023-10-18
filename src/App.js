@@ -10,6 +10,7 @@ import HomePage from './pages/HomePage/HomePage';
 import InspirationPage from './pages/InspirationPage/InspirationPage';
 import SpecialsPage from './pages/SpecialsPage/SpecialsPage';
 import Bootstrap from './pages/Bootstrap/Bootstrap';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path='/inspiration' element={<InspirationPage />} />
             <Route path='/specials' element={<SpecialsPage />} />
             <Route path='/bootstrap' element={<Bootstrap />} />
+            <Route path='/contact' element={<ContactPage />} />
           </Routes>
           <PageFooter />
         </Router>

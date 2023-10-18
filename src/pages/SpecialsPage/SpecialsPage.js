@@ -1,11 +1,13 @@
 import './SpecialsPage.scss';
 
+import { Container } from 'react-bootstrap';
+
 export default function SpecialsPage() {
     return (
         <>
-            <div className='specials'>
+            <Container className='text-center'>
                 <h1>Travel Specials</h1>
-            </div>
+            </Container>
         </>
     )
 }
