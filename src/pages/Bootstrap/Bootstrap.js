@@ -20,15 +20,15 @@ import {
     Carousel,
     Image
 } from 'react-bootstrap';
-
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
+import { ArrowUp } from 'react-bootstrap-icons'
 
 import LLTLogo1 from '../../assets/images/LLT_bold-open.jpg';
 import LLTLogo2 from '../../assets/images/LLT_bold-close.jpg';
 
-import { useState, useContext } from 'react';
+import { useState, useContext, useEffect } from 'react';
 
-export default function InspirationPage() {
+export default function Bootstrap() {
     const [validated, setValidated] = useState(false);
 
     const handleSubmit = (event) => {
@@ -66,6 +66,27 @@ export default function InspirationPage() {
             </button>
         );
     }
+
+    const [showButton, setShowButton] = useState(false);
+
+    const handleScroll = () => {
+        if (window.scrollY > 300) {
+            setShowButton(true);
+        } else {
+            setShowButton(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    };
 
     return (
         <>
@@ -510,6 +531,13 @@ export default function InspirationPage() {
                     </Carousel>
                 </Container>
             </div>
+            <Container className="scroll-to-top">
+                {showButton && (
+                    <Button variant='light' onClick={scrollToTop} size='sm' className='position-fixed bottom-0 end-0 opacity-75'>
+                        <ArrowUp />
+                    </Button>
+                )}
+            </Container>
         </>
     )
 }

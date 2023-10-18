@@ -7,6 +7,7 @@ import PageHeader from './components/PageHeader/PageHeader';
 import PageFooter from './components/PageFooter/PageFooter';
 
 import HomePage from './pages/HomePage/HomePage';
+import AboutPage from './pages/AboutPage/AboutPage';
 import InspirationPage from './pages/InspirationPage/InspirationPage';
 import SpecialsPage from './pages/SpecialsPage/SpecialsPage';
 import Bootstrap from './pages/Bootstrap/Bootstrap';
@@ -27,6 +28,7 @@ function App() {
           <PageHeader />
           <Routes>
             <Route path='/' element={<HomePage />} />
+            <Route path='/about' element={<AboutPage />} />
             <Route path='/inspiration' element={<InspirationPage />} />
             <Route path='/specials' element={<SpecialsPage />} />
             <Route path='/bootstrap' element={<Bootstrap />} />
