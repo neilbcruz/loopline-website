@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Dreaming Outloud Pro";
+  src: url("../assets/fonts/DreamingOutloudRegularPro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dreaming Outloud Pro";
+  src: url("../assets/fonts/DreamingOutloudRegularPro.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dreaming Outloud Pro";
+  src: url("../assets/fonts/DreamingOutloudRegularPro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  font-family: "Dreaming Outloud Pro", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.specials {
+  padding: 0.5rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .specials {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .specials {
+    padding: 1.25rem 10rem;
+  }
+}/*# sourceMappingURL=SpecialsPage.css.map */

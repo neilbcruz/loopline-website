@@ -147,9 +147,9 @@ export default function PageBody() {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-                <Stack direction="horizontal" className='display-flex justify-content-center align-items-center' gap={5}>
+                <Stack direction="horizontal" className='display-flex justify-content-center align-items-center gap-1 gap-xl-5 gap-md-3 gap-sm-1'>
                     <DropdownButton
-                        id="dropdown-button-dark-example2"
+                        id="dropdown-locations"
                         variant="secondary"
                         title="Locations"
                         className="mt-2"
@@ -169,11 +169,11 @@ export default function PageBody() {
                         </LinkContainer>
                     </DropdownButton>
                     <DropdownButton
-                        id="dropdown-button-dark-example2"
+                        id="dropdown-ideas"
                         variant="secondary"
                         title="Ideas"
                         className="mt-2"
-                        data-bs-theme="dark"
+                        data-bs-theme="light"
                     >
                         <LinkContainer to='/about'>
                             <Dropdown.Item>Why Choose A Cruise Vacation?</Dropdown.Item>
@@ -249,88 +249,107 @@ export default function PageBody() {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-                <Stack direction="horizontal" className='display-flex justify-content-center align-items-center' gap={5}>
+                <Stack direction="horizontal" className='display-flex justify-content-center align-items-center gap-1 gap-xl-5 gap-md-3 gap-sm-1'>
                     <DropdownButton
-                        id="dropdown-button-dark-example2"
+                        id="dropdown-cruise"
                         variant="secondary"
-                        title="Locations"
+                        title="Cruises"
                         className="mt-2"
                         data-bs-theme="light"
                     >
                         <LinkContainer to='/about'>
-                            <Dropdown.Item>Australia Vacations</Dropdown.Item>
+                            <Dropdown.Item>Silversea Cruises</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/inspiration'>
-                            <Dropdown.Item>Italy Vacations</Dropdown.Item>
+                            <Dropdown.Item>Avalon Waterways</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/bootstrap'>
-                            <Dropdown.Item>Hawaii Vacations</Dropdown.Item>
+                            <Dropdown.Item>Holland America Line</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/contact'>
-                            <Dropdown.Item>New Zealand Vacations</Dropdown.Item>
+                            <Dropdown.Item>Royal Caribbean</Dropdown.Item>
+                        </LinkContainer>
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Norwegian Cruise listen</Dropdown.Item>
+                        </LinkContainer>
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Amawaterways</Dropdown.Item>
+                        </LinkContainer>
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Celebrity Cruises</Dropdown.Item>
+                        </LinkContainer>
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Travel Leaders Travel Partners</Dropdown.Item>
+                        </LinkContainer>
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Seabourn</Dropdown.Item>
+                        </LinkContainer>
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Virgin Voyages</Dropdown.Item>
                         </LinkContainer>
                     </DropdownButton>
                     <DropdownButton
-                        id="dropdown-button-dark-example2"
+                        id="dropdown-hotels"
                         variant="secondary"
-                        title="Ideas"
+                        title="Hotels"
                         className="mt-2"
-                        data-bs-theme="dark"
-                        autoClose={false}
+                        data-bs-theme="light"
                     >
-                        <LinkContainer to='/about'>
-                            <Dropdown.Item>Why Choose A Cruise Vacation?</Dropdown.Item>
-                        </LinkContainer>
-                        <LinkContainer to='/inspiration'>
-                            <Dropdown.Item>Family Vacations</Dropdown.Item>
-                        </LinkContainer>
-                        <LinkContainer to='/bootstrap'>
-                            <Dropdown.Item>Planning Your Wedding & Honeymoon</Dropdown.Item>
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Sandals Resorts</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/contact'>
-                            <Dropdown.Item>Adventure Vacations</Dropdown.Item>
+                            <Dropdown.Item>Travel Leaders Travel Partners</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/contact'>
-                            <Dropdown.Item>Wildlife & Safari Vacations</Dropdown.Item>
+                            <Dropdown.Item>Palace Resorts</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/contact'>
-                            <Dropdown.Item>Romantic Vacations</Dropdown.Item>
+                            <Dropdown.Item>Westjet Vacations</Dropdown.Item>
+                        </LinkContainer>
+                    </DropdownButton>
+                    <DropdownButton
+                        id="dropdown-vacations"
+                        variant="secondary"
+                        title="Vacations"
+                        className="mt-2"
+                        data-bs-theme="light"
+                    >
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Roadtrips Sports Travel</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/contact'>
-                            <Dropdown.Item>Golf Vacations</Dropdown.Item>
+                            <Dropdown.Item>Travel Leaders Travel Partners</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/contact'>
-                            <Dropdown.Item>Beach Vacations</Dropdown.Item>
+                            <Dropdown.Item>Westjet Vacations</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/contact'>
-                            <Dropdown.Item>European Vacations</Dropdown.Item>
+                            <Dropdown.Item>Globus</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/contact'>
-                            <Dropdown.Item>Family Vacations</Dropdown.Item>
+                            <Dropdown.Item>Travel Leaders Travel Partners</Dropdown.Item>
                         </LinkContainer>
                         <LinkContainer to='/contact'>
-                            <Dropdown.Item>River Cruise Vacations</Dropdown.Item>
+                            <Dropdown.Item>Funjet Vacations</Dropdown.Item>
                         </LinkContainer>
-                        <Dropdown.Item>
-                            <Dropdown>
-                                <Button variant='light'>Vacations</Button>
-                                <Dropdown.Toggle split variant='light' id='dropdown-split-basic' />
-                                <Dropdown.Menu>
-                                    <LinkContainer to='/contact'>
-                                        <Dropdown.Item>European Vacations</Dropdown.Item>
-                                    </LinkContainer>
-                                    <LinkContainer to='/contact'>
-                                        <Dropdown.Item>Family Vacations</Dropdown.Item>
-                                    </LinkContainer>
-                                    <LinkContainer to='/contact'>
-                                        <Dropdown.Item>River Cruise Vacations</Dropdown.Item>
-                                    </LinkContainer>
-                                </Dropdown.Menu>
-                            </Dropdown>
-                        </Dropdown.Item>
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Cosmos</Dropdown.Item>
+                        </LinkContainer>
+                    </DropdownButton>
+                    <DropdownButton
+                        id="dropdown-rails"
+                        variant="secondary"
+                        title="Rails"
+                        className="mt-2"
+                        data-bs-theme="light"
+                    >
+                        <LinkContainer to='/contact'>
+                            <Dropdown.Item>Travel Leaders Travel Partners</Dropdown.Item>
+                        </LinkContainer>
                     </DropdownButton>
                 </Stack>
-                <NavLink to='/inspiration' >
+                <NavLink to='/specials'>
                     <Button className='mt-3' variant='outline-success'>
                         SEE ALL TRAVEL SPECIALS
                     </Button>

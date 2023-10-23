@@ -182,7 +182,7 @@ export default function Bootstrap() {
                         <ThemeProvider
                             prefixes={{ btn: 'my-btn' }}
                             breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
-                            minBreakpoint="xxs"
+                            minBreakpoint="sm"
                         >
                             <Button className='p-1' variant="primary">My Button</Button>
                         </ThemeProvider>
