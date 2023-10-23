@@ -8,17 +8,8 @@
     box-sizing: border-box;
 }
 
-.inspiration {
-    padding: 0.5rem 1rem;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-
-    @include tablet {
-        padding: 1rem 2rem;
-    }
-
-    @include desktop {
-        padding: 1.25rem 10rem;
+.image_hover {
+    &:hover{
+        filter: brightness(120%) saturate(120%);
     }
 }
