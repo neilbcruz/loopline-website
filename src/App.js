@@ -8,7 +8,10 @@ import PageFooter from './components/PageFooter/PageFooter';
 
 import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';
+
 import InspirationPage from './pages/InspirationPage/InspirationPage';
+import VacayAustralia from './components/VacayAustralia/VacayAustralia';
+
 import SpecialsPage from './pages/SpecialsPage/SpecialsPage';
 import Bootstrap from './pages/Bootstrap/Bootstrap';
 import ContactPage from './pages/ContactPage/ContactPage';
@@ -30,6 +33,7 @@ function App() {
             <Route path='/' element={<HomePage />} />
             <Route path='/about' element={<AboutPage />} />
             <Route path='/inspiration' element={<InspirationPage />} />
+            <Route path='/australia' element={<VacayAustralia />} />
             <Route path='/specials' element={<SpecialsPage />} />
             <Route path='/bootstrap' element={<Bootstrap />} />
             <Route path='/contact' element={<ContactPage />} />

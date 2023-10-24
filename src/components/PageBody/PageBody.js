@@ -8,6 +8,7 @@ import {
     Carousel
 } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link'
 import { ArrowUp } from 'react-bootstrap-icons';
 
 import { useEffect, useState } from 'react';
@@ -110,9 +111,9 @@ export default function PageBody() {
                         <Card.Text>
                             CERTIFIED TRAVEL COUNSELLOR
                         </Card.Text>
-                        <NavLink to='/about'>
+                        <HashLink to='/about#about'>
                             <Button variant='outline-success'>Learn more</Button>
-                        </NavLink>
+                        </HashLink>
                     </Card.Body>
                 </Card>
             </Container>

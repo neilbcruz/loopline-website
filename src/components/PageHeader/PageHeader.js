@@ -49,7 +49,7 @@ export default function PageHeader() {
                                 <LinkContainer to='/about' onClick={handleClose}>
                                     <Nav.Link>About</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to='inspiration' onClick={handleClose}>
+                                <LinkContainer to='/inspiration' onClick={handleClose}>
                                     <Nav.Link>Travel<br></br>Inspiration</Nav.Link>
                                 </LinkContainer>
                                 <LinkContainer to='/specials' onClick={handleClose}>
