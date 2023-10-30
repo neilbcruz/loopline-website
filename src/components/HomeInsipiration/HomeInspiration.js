@@ -8,7 +8,8 @@ import {
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
-import Placeholder2 from '../../assets/images/image_placeholder2.jpg';
+import AustraliaPH from '../../assets/images/australia_placeholder.jpg';
+import ItalyPH from '../../assets/images/italy_placeholder.jpg';
 import Placeholder from '../../assets/images/image_placeholder.jpg';
 
 export default function HomeInspiration() {
@@ -31,7 +32,7 @@ export default function HomeInspiration() {
                     <Col xs={12} md={6} className='pe-md-0'>
                         <NavLink to='/australia' className='image-container'>
                             <Image
-                                src={Placeholder2}
+                                src={AustraliaPH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
@@ -40,9 +41,9 @@ export default function HomeInspiration() {
                         </NavLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
-                        <NavLink to='/inspiration' className='image-container'>
+                        <NavLink to='/italy' className='image-container'>
                             <Image
-                                src={Placeholder}
+                                src={ItalyPH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'

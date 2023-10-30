@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react';
 
 import HeroPlaceholder from '../../assets/images/Kangaroos.jpg';
 import Placeholder from '../../assets/images/image_placeholder.jpg';
-import Placeholder2 from '../../assets/images/image_placeholder2.jpg';
+import AustraliaPH from '../../assets/images/australia_placeholder.jpg';
 import AustraliaLogo from '../../assets/logo/AustraliaLogo.png';
 
 export default function VacayAustralia() {
@@ -70,7 +70,7 @@ export default function VacayAustralia() {
                 <Row>
                     <Col xs={12} md={6} className='pe-md-0 pe-lg-5 mb-3'>
                         <Image
-                            src={Placeholder2}
+                            src={AustraliaPH}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -92,7 +92,7 @@ export default function VacayAustralia() {
                 <Row>
                     <Col xs={12} md={6} className='pe-md-0 pe-lg-5 mb-3'>
                         <Image
-                            src={Placeholder2}
+                            src={AustraliaPH}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -114,7 +114,7 @@ export default function VacayAustralia() {
                 <Row>
                     <Col xs={12} md={6} className='pe-md-0 pe-lg-5 mb-3'>
                         <Image
-                            src={Placeholder2}
+                            src={AustraliaPH}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -145,7 +145,7 @@ export default function VacayAustralia() {
                 </ul>
             </Container>
 
-            <Container className='mb-5'>
+            <Container className='my-5'>
                 <h2 className='text-center'>WE CAN HELP YOU PLAN THE ULTIMATE AUSTRALIAN ADVENTURE! CONTACT OUR AGENCY TODAY TO LEARN MORE.</h2>
                 <Image
                     src={AustraliaLogo}

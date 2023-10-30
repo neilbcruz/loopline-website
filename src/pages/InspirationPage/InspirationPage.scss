@@ -9,6 +9,8 @@
 // }
 
 .image_hover {
+    filter: brightness(50%);
+
     &:hover {
         filter: brightness(120%) saturate(120%);
     }
