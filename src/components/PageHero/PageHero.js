@@ -6,7 +6,7 @@ import { Container, Image } from 'react-bootstrap';
 export default function PageHero() {
     return (
         <>
-        <Container>
+        <Container className='my-3'>
             <Image src={LLTLogo} className='bg-dark' fluid />
         </Container>
         </>

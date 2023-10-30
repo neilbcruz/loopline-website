@@ -45,7 +45,7 @@ export default function PageBody() {
 
     return (
         <>
-            <Container className='text-center mb-5'>
+            <Container className='text-center my-5'>
                 <h1>YOUR EXTRAORDINARY VACATION BEGINS HERE</h1>
                 <p>No matter where in the world you want to go, we can help get you there. Our experienced agents will take the time to answer your questions and listen to your ideas, before making expert recommendations that fit your budget. We believe extraordinary vacations begin with careful planning, that's why we are devoted to ensuring our clients always have the best possible experience—both before they leave and while they're away.</p>
                 <NavLink to='/contact'>

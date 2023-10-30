@@ -2,13 +2,24 @@ import {
     Container,
     Row,
     Image,
-    Col
+    Col,
+    Button
 } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
+import Placeholder2 from '../../assets/images/image_placeholder2.jpg';
 import Placeholder from '../../assets/images/image_placeholder.jpg';
 
 export default function HomeInspiration() {
+    const [showRows, setShowRows] = useState(false);
+    const [showButton, setShowButton] = useState(true);
+
+    const toggleRows = () => {
+        setShowRows(true);
+        setShowButton(false);
+    };
+
     return (
         <>
             <Container className='text-center'>
@@ -17,46 +28,50 @@ export default function HomeInspiration() {
             </Container>
             <Container className='text-center mb-5'>
                 <Row>
-                    <Col xs={6} className='pe-0'>
-                        <NavLink to='/australia'>
+                    <Col xs={12} md={6} className='pe-md-0'>
+                        <NavLink to='/australia' className='image-container'>
                             <Image
-                                src={Placeholder}
+                                src={Placeholder2}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
+                            <div className='text-on-image'>AUSTRALIA VACATIONS</div>
                         </NavLink>
                     </Col>
-                    <Col xs={6} className='ps-0'>
-                        <NavLink to='/inspiration'>
+                    <Col xs={12} md={6} className='ps-md-0'>
+                        <NavLink to='/inspiration' className='image-container'>
                             <Image
                                 src={Placeholder}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
+                            <div className='text-on-image'>ITALY VACATIONS</div>
                         </NavLink>
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={6} className='pe-0'>
-                        <NavLink to='/inspiration'>
+                    <Col  xs={12} md={6} className='pe-md-0'>
+                        <NavLink to='/inspiration' className='image-container'>
                             <Image
                                 src={Placeholder}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
+                            <div className='text-on-image'>HAWAII VACATIONS</div>
                         </NavLink>
                     </Col>
-                    <Col xs={6} className='ps-0'>
-                        <NavLink to='/inspiration'>
+                    <Col xs={12} md={6} className='ps-md-0'>
+                        <NavLink to='/inspiration' className='image-container'>
                             <Image
                                 src={Placeholder}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
+                            <div className='text-on-image'>NEW ZEALAND VACATIONS</div>
                         </NavLink>
                     </Col>
                 </Row>
@@ -68,49 +83,159 @@ export default function HomeInspiration() {
             </Container>
             <Container className='text-center mb-5'>
                 <Row>
-                    <Col xs={6} className='pe-0'>
-                        <NavLink to='/inspiration'>
+                    <Col xs={12} md={6} className='pe-md-0'>
+                        <NavLink to='/inspiration' className='image-container'>
                             <Image
                                 src={Placeholder}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
+                            <div className='text-on-image'>WHY CHOOSE A CRUISE VACATION?</div>
                         </NavLink>
                     </Col>
-                    <Col xs={6} className='ps-0'>
-                        <NavLink to='/inspiration'>
+                    <Col xs={12} md={6} className='ps-md-0'>
+                        <NavLink to='/inspiration' className='image-container'>
                             <Image
                                 src={Placeholder}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
+                            <div className='text-on-image'>FAMILY VACATIONS</div>
                         </NavLink>
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={6} className='pe-0'>
-                        <NavLink to='/inspiration'>
+                    <Col xs={12} md={6} className='pe-md-0'>
+                        <NavLink to='/inspiration' className='image-container'>
                             <Image
                                 src={Placeholder}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
+                            <div className='text-on-image'>PLANNING YOUR WEDDING & HONEYMOON</div>
                         </NavLink>
                     </Col>
-                    <Col xs={6} className='ps-0'>
-                        <NavLink to='/inspiration'>
+                    <Col xs={12} md={6} className='ps-md-0'>
+                        <NavLink to='/inspiration' className='image-container'>
                             <Image
                                 src={Placeholder}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
+                            <div className='text-on-image'>ADVENTURE VACATIONS</div>
                         </NavLink>
                     </Col>
                 </Row>
+                {showButton && (
+                <Button variant='secondary' className='my-2' onClick={toggleRows}>
+                Show More
+            </Button>
+                )}
+
+                {showRows && (
+                    <Row>
+                        <Col xs={12} md={6} className='pe-md-0'>
+                            <NavLink to='/inspiration' className='image-container'>
+                                <Image
+                                    src={Placeholder}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image'>WILDLIFE & SAFARI VACATIONS</div>
+                            </NavLink>
+                        </Col>
+                        <Col xs={12} md={6} className='ps-md-0'>
+                            <NavLink to='/inspiration' className='image-container'>
+                                <Image
+                                    src={Placeholder}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image'>ROMANTIC VACATIONS</div>
+                            </NavLink>
+                        </Col>
+                    </Row>)}
+                {showRows && (
+                    <Row>
+                        <Col xs={12} md={6} className='pe-md-0'>
+                            <NavLink to='/inspiration' className='image-container'>
+                                <Image
+                                    src={Placeholder}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image'>GOLF VACATIONS</div>
+                            </NavLink>
+                        </Col>
+                        <Col xs={12} md={6} className='ps-md-0'>
+                            <NavLink to='/inspiration' className='image-container'>
+                                <Image
+                                    src={Placeholder}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image'>BEACH VACATIONS</div>
+                            </NavLink>
+                        </Col>
+                    </Row>)}
+                    {showRows && (
+                    <Row>
+                        <Col xs={12} md={6} className='pe-md-0'>
+                            <NavLink to='/inspiration' className='image-container'>
+                                <Image
+                                    src={Placeholder}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image'>EUROPEAN VACATIONS</div>
+                            </NavLink>
+                        </Col>
+                        <Col xs={12} md={6} className='ps-md-0'>
+                            <NavLink to='/inspiration' className='image-container'>
+                                <Image
+                                    src={Placeholder}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image'>FAMILY VACATIONS</div>
+                            </NavLink>
+                        </Col>
+                    </Row>)}
+                    {showRows && (
+                    <Row>
+                        <Col xs={12} md={6} className='pe-md-0'>
+                            <NavLink to='/inspiration' className='image-container'>
+                                <Image
+                                    src={Placeholder}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image'>RIVER CRUISE VACATIONS</div>
+                            </NavLink>
+                        </Col>
+                        <Col xs={12} md={6} className='ps-md-0'>
+                            <NavLink to='/inspiration' className='image-container'>
+                                <Image
+                                    src={Placeholder}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image'>ALL-INCLUSIVE VACATIONS</div>
+                            </NavLink>
+                        </Col>
+                    </Row>)}
             </Container>
         </>
     )

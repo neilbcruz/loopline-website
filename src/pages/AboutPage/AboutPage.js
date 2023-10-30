@@ -48,7 +48,7 @@ export default function HomePage() {
 
     return (
         <>
-            <Container id='about'>
+            <Container id='about' className='my-3'>
                 <Row>
                     <Col xs={12} md={9}>
                         <Container className='my-5'>
@@ -77,7 +77,7 @@ export default function HomePage() {
                             </Card>
                         </Container>
 
-                        <Container className='mb-5'>
+                        <Container className='mb-3'>
                             <h2>Certified Travel Counsellor</h2>
                             <Row>
                                 <Col xs={12} lg={6}>

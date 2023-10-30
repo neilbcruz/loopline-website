@@ -2,14 +2,100 @@
 @use '../../styles/mixins' as *;
 @use '../../styles/variables' as *;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
 
 .image_hover {
-    &:hover{
+    &:hover {
         filter: brightness(120%) saturate(120%);
+    }
+}
+
+.link_style {
+    & a {
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        &:hover {
+            color: blue;
+        }
+    }
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+
+    & img {
+        object-fit: cover
+    }
+}
+
+.text-on-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    /* Add background color for better text readability */
+    color: #fff;
+    /* Text color */
+    padding: 4px;
+    /* Adjust padding as needed */
+    font-size: 14px;
+    /* Adjust font size as needed */
+}
+
+.hero-container {
+    position: relative;
+    padding: 0;
+}
+
+.hero-container .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-on-hero {
+    position: absolute;
+    top: 50%;
+    /* Adjust the top value to position the text vertically */
+    left: 50%;
+    /* Adjust the left value to position the text horizontally */
+    transform: translate(-50%, -50%);
+    /* Center the text both horizontally and vertically */
+    color: #fff;
+    /* Text color */
+    font-size: 20px;
+    /* Adjust font size as needed */
+    text-align: center;
+    /* Center align the text */
+    background-color: rgba(0, 0, 0, 0);
+    /* Add background color for better text readability */
+    & h1, p {
+        white-space: nowrap;
+    }
+}
+
+.custom-fluid-image {
+    width: 100%;
+    /* 100% width by default */
+    max-width: none;
+    /* Remove the max-width limit */
+    max-height: 30rem;
+    object-fit: cover;
+}
+
+/* Media query to maintain fluidity beyond 1600px */
+@media (min-width: 1600px) {
+    .custom-fluid-image {
+        width: 100%;
     }
 }
