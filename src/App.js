@@ -10,8 +10,10 @@ import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';
 
 import InspirationPage from './pages/InspirationPage/InspirationPage';
-import VacayAustralia from './components/VacayAustralia/VacayAustralia';
-import VacayItaly from './components/VacayItaly/VacayItaly';
+import VacayAustralia from './components/InspirationComponents/VacayAustralia/VacayAustralia';
+import VacayItaly from './components/InspirationComponents/VacayItaly/VacayItaly';
+import VacayHawaii from './components/InspirationComponents/VacayHawaii/VacayHawaii';
+import VacayNZ from './components/InspirationComponents/VacayNZ/VacayNZ';
 
 import SpecialsPage from './pages/SpecialsPage/SpecialsPage';
 import Bootstrap from './pages/Bootstrap/Bootstrap';
@@ -36,6 +38,8 @@ function App() {
             <Route path='/inspiration' element={<InspirationPage />} />
             <Route path='/australia' element={<VacayAustralia />} />
             <Route path='/italy' element={<VacayItaly />} />
+            <Route path='/hawaii' element={<VacayHawaii />} />
+            <Route path='/nzealand' element={<VacayNZ />} />
             <Route path='/specials' element={<SpecialsPage />} />
             <Route path='/bootstrap' element={<Bootstrap />} />
             <Route path='/contact' element={<ContactPage />} />

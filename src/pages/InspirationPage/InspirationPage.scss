@@ -10,6 +10,7 @@
 
 .image_hover {
     filter: brightness(50%);
+    height:300px;
 
     &:hover {
         filter: brightness(120%) saturate(120%);
@@ -33,7 +34,7 @@
 
 .image-container {
     position: relative;
-    display: inline-block;
+    display: flex;
 
     & img {
         object-fit: cover

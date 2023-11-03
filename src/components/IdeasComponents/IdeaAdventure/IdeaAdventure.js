@@ -6,9 +6,9 @@ import {
 import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
-import ItalyPH from '../../assets/images/italy_placeholder.jpg';
+import ItalyPH from '../../../assets/images/italy_placeholder.jpg';
 
-export default function VacayAustralia() {
+export default function IdeaAdventure() {
     // Scroll-to-Top functions //
     const [showButton, setShowButton] = useState(false);
     const handleScroll = () => {

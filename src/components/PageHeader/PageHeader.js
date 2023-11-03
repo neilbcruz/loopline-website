@@ -24,11 +24,14 @@ export default function PageHeader() {
     return (
         <>
             <Container>
-                <Navbar key='md' expand='md' className='d-flex bd-highlight'>
+                <Navbar key='md' expand='md' className='d-flex bd-highlight align-items-center'>
                     <NavLink to='/'>
                         <img className='header__top-logo' src={LLTIcon} alt='Loopline Logo with plane and text of company name' />
                     </NavLink>
-                    <Navbar.Toggle onClick={handleShow} />
+                    <Navbar.Toggle
+                        onClick={handleShow}
+                        style={{ padding: '0.25rem 0.5rem', fontSize: '0.8rem' }}
+                    />
                     <Navbar.Offcanvas
                         id='offcanvasNavbar-expand-md'
                         placement='end'

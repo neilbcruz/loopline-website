@@ -8,9 +8,13 @@ import {
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
+import Placeholder from '../../assets/images/image_placeholder.jpg';
+
 import AustraliaPH from '../../assets/images/australia_placeholder.jpg';
 import ItalyPH from '../../assets/images/italy_placeholder.jpg';
-import Placeholder from '../../assets/images/image_placeholder.jpg';
+import HawaiiPH from '../../assets/images/hawaii_placeholder.jpg';
+import NZPH from '../../assets/images/nz_placeholder.jpg';
+
 
 export default function HomeInspiration() {
     const [showRows, setShowRows] = useState(false);
@@ -54,9 +58,9 @@ export default function HomeInspiration() {
                 </Row>
                 <Row>
                     <Col  xs={12} md={6} className='pe-md-0'>
-                        <NavLink to='/inspiration' className='image-container'>
+                        <NavLink to='/hawaii' className='image-container'>
                             <Image
-                                src={Placeholder}
+                                src={HawaiiPH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
@@ -65,9 +69,9 @@ export default function HomeInspiration() {
                         </NavLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
-                        <NavLink to='/inspiration' className='image-container'>
+                        <NavLink to='/nzealand' className='image-container'>
                             <Image
-                                src={Placeholder}
+                                src={NZPH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
