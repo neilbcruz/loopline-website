@@ -15,6 +15,18 @@ import VacayItaly from './components/InspirationComponents/VacayItaly/VacayItaly
 import VacayHawaii from './components/InspirationComponents/VacayHawaii/VacayHawaii';
 import VacayNZ from './components/InspirationComponents/VacayNZ/VacayNZ';
 
+import IdeaCruise from './components/IdeasComponents/IdeaCruise/IdeaCruise';
+import IdeaFamily from './components/IdeasComponents/IdeaFamily/IdeaFamily';
+import IdeaWedding from './components/IdeasComponents/IdeaWedding/IdeaWedding';
+import IdeaAdventure from './components/IdeasComponents/IdeaAdventure/IdeaAdventure';
+import IdeaWildlife from './components/IdeasComponents/IdeaWildlife/IdeaWildlife';
+import IdeaRomantic from './components/IdeasComponents/IdeaRomantic/IdeaRomantic';
+import IdeaGolf from './components/IdeasComponents/IdeaGolf/IdeaGolf';
+import IdeaBeach from './components/IdeasComponents/IdeaBeach/IdeaBeach';
+import IdeaEuropean from './components/IdeasComponents/IdeaEuropean/IdeaEuropean';
+import IdeaRiverCruise from './components/IdeasComponents/IdeaRiverCruise/IdeaRiverCruise';
+import IdeaAllInclusive from './components/IdeasComponents/IdeaAllInclusive/IdeaAllInclusive';
+
 import SpecialsPage from './pages/SpecialsPage/SpecialsPage';
 import Bootstrap from './pages/Bootstrap/Bootstrap';
 import ContactPage from './pages/ContactPage/ContactPage';
@@ -40,6 +52,17 @@ function App() {
             <Route path='/italy' element={<VacayItaly />} />
             <Route path='/hawaii' element={<VacayHawaii />} />
             <Route path='/nzealand' element={<VacayNZ />} />
+            <Route path='/ideacruise' element={<IdeaCruise />} />
+            <Route path='/ideafamily' element={<IdeaFamily />} />
+            <Route path='/ideawedding' element={<IdeaWedding />} />
+            <Route path='/ideaadventure' element={<IdeaAdventure />} />
+            <Route path='/ideawildlife' element={<IdeaWildlife />} />
+            <Route path='/idearomantic' element={<IdeaRomantic />} />
+            <Route path='/ideagolf' element={<IdeaGolf />} />
+            <Route path='/ideabeach' element={<IdeaBeach />} />
+            <Route path='/ideaeuropean' element={<IdeaEuropean />} />
+            <Route path='/idearivercruise' element={<IdeaRiverCruise />} />
+            <Route path='/ideaallinclusive' element={<IdeaAllInclusive />} />
             <Route path='/specials' element={<SpecialsPage />} />
             <Route path='/bootstrap' element={<Bootstrap />} />
             <Route path='/contact' element={<ContactPage />} />

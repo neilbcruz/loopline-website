@@ -8,7 +8,7 @@ import {
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
-import Placeholder from '../../assets/images/image_placeholder.jpg';
+import CruisePH from '../../assets/images/cruise_placeholder.jpg';
 
 import AustraliaPH from '../../assets/images/australia_placeholder.jpg';
 import ItalyPH from '../../assets/images/italy_placeholder.jpg';
@@ -89,9 +89,9 @@ export default function HomeInspiration() {
             <Container className='text-center mb-5'>
                 <Row>
                     <Col xs={12} md={6} className='pe-md-0'>
-                        <NavLink to='/inspiration' className='image-container'>
+                        <NavLink to='/ideacruise' className='image-container'>
                             <Image
-                                src={Placeholder}
+                                src={CruisePH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
@@ -100,9 +100,9 @@ export default function HomeInspiration() {
                         </NavLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
-                        <NavLink to='/inspiration' className='image-container'>
+                        <NavLink to='/ideafamily' className='image-container'>
                             <Image
-                                src={Placeholder}
+                                src={CruisePH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
@@ -113,9 +113,9 @@ export default function HomeInspiration() {
                 </Row>
                 <Row>
                     <Col xs={12} md={6} className='pe-md-0'>
-                        <NavLink to='/inspiration' className='image-container'>
+                        <NavLink to='/ideawedding' className='image-container'>
                             <Image
-                                src={Placeholder}
+                                src={CruisePH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
@@ -124,9 +124,9 @@ export default function HomeInspiration() {
                         </NavLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
-                        <NavLink to='/inspiration' className='image-container'>
+                        <NavLink to='/ideaadventure' className='image-container'>
                             <Image
-                                src={Placeholder}
+                                src={CruisePH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
@@ -144,9 +144,9 @@ export default function HomeInspiration() {
                 {showRows && (
                     <Row>
                         <Col xs={12} md={6} className='pe-md-0'>
-                            <NavLink to='/inspiration' className='image-container'>
+                            <NavLink to='/ideawildlife' className='image-container'>
                                 <Image
-                                    src={Placeholder}
+                                    src={CruisePH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
@@ -155,9 +155,9 @@ export default function HomeInspiration() {
                             </NavLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
-                            <NavLink to='/inspiration' className='image-container'>
+                            <NavLink to='/idearomantic' className='image-container'>
                                 <Image
-                                    src={Placeholder}
+                                    src={CruisePH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
@@ -169,9 +169,9 @@ export default function HomeInspiration() {
                 {showRows && (
                     <Row>
                         <Col xs={12} md={6} className='pe-md-0'>
-                            <NavLink to='/inspiration' className='image-container'>
+                            <NavLink to='/ideagolf' className='image-container'>
                                 <Image
-                                    src={Placeholder}
+                                    src={CruisePH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
@@ -180,9 +180,9 @@ export default function HomeInspiration() {
                             </NavLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
-                            <NavLink to='/inspiration' className='image-container'>
+                            <NavLink to='/ideabeach' className='image-container'>
                                 <Image
-                                    src={Placeholder}
+                                    src={CruisePH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
@@ -194,34 +194,9 @@ export default function HomeInspiration() {
                     {showRows && (
                     <Row>
                         <Col xs={12} md={6} className='pe-md-0'>
-                            <NavLink to='/inspiration' className='image-container'>
+                            <NavLink to='/idearivercruise' className='image-container'>
                                 <Image
-                                    src={Placeholder}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>EUROPEAN VACATIONS</div>
-                            </NavLink>
-                        </Col>
-                        <Col xs={12} md={6} className='ps-md-0'>
-                            <NavLink to='/inspiration' className='image-container'>
-                                <Image
-                                    src={Placeholder}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>FAMILY VACATIONS</div>
-                            </NavLink>
-                        </Col>
-                    </Row>)}
-                    {showRows && (
-                    <Row>
-                        <Col xs={12} md={6} className='pe-md-0'>
-                            <NavLink to='/inspiration' className='image-container'>
-                                <Image
-                                    src={Placeholder}
+                                    src={CruisePH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
@@ -230,14 +205,28 @@ export default function HomeInspiration() {
                             </NavLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
-                            <NavLink to='/inspiration' className='image-container'>
+                            <NavLink to='/ideaallinclusive' className='image-container'>
                                 <Image
-                                    src={Placeholder}
+                                    src={CruisePH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
                                 />
                                 <div className='text-on-image'>ALL-INCLUSIVE VACATIONS</div>
+                            </NavLink>
+                        </Col>
+                    </Row>)}
+                    {showRows && (
+                    <Row>
+                        <Col xs={12} md={6} className='pe-md-0'>
+                            <NavLink to='/ideaeuropean' className='image-container'>
+                                <Image
+                                    src={CruisePH}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image'>EUROPEAN VACATIONS</div>
                             </NavLink>
                         </Col>
                     </Row>)}

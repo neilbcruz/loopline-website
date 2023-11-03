@@ -9,8 +9,7 @@ import {
 import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
-import HeroPlaceholder from '../../../assets/images/Kangaroos.jpg';
-import Placeholder from '../../../assets/images/image_placeholder.jpg';
+import AustraliaHero from '../../../assets/images/australia-hero_placeholder.jpg';
 import AustraliaPH from '../../../assets/images/australia_placeholder.jpg';
 import AustraliaLogo from '../../../assets/logo/AustraliaLogo.png';
 
@@ -40,7 +39,7 @@ export default function VacayAustralia() {
         <>
             <Container className='text-center my-3 p-0 hero-container' fluid>
                 <Image
-                    src={HeroPlaceholder}
+                    src={AustraliaHero}
                     className="custom-fluid-image"
                     width='100%'
                 />
@@ -80,7 +79,7 @@ export default function VacayAustralia() {
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0 ps-lg-5 mb-4'>
                         <Image
-                            src={Placeholder}
+                            src={AustraliaPH}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -102,7 +101,7 @@ export default function VacayAustralia() {
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0 ps-lg-5 mb-4'>
                         <Image
-                            src={Placeholder}
+                            src={AustraliaPH}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -124,7 +123,7 @@ export default function VacayAustralia() {
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0 ps-lg-5 mb-4'>
                         <Image
-                            src={Placeholder}
+                            src={AustraliaPH}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
