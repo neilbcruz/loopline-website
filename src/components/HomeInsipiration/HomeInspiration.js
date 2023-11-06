@@ -8,13 +8,14 @@ import {
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
-import CruisePH from '../../assets/images/cruise_placeholder.jpg';
-
 import AustraliaPH from '../../assets/images/australia_placeholder.jpg';
 import ItalyPH from '../../assets/images/italy_placeholder.jpg';
 import HawaiiPH from '../../assets/images/hawaii_placeholder.jpg';
 import NZPH from '../../assets/images/nz_placeholder.jpg';
 
+import CruisePH from '../../assets/images/cruise_placeholder.jpg';
+import FamilyPH from '../../assets/images/family_placeholder.jpg';
+import WeddingPH from '../../assets/images/wedding_placeholder.jpg';
 
 export default function HomeInspiration() {
     const [showRows, setShowRows] = useState(false);
@@ -102,7 +103,7 @@ export default function HomeInspiration() {
                     <Col xs={12} md={6} className='ps-md-0'>
                         <NavLink to='/ideafamily' className='image-container'>
                             <Image
-                                src={CruisePH}
+                                src={FamilyPH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
@@ -115,7 +116,7 @@ export default function HomeInspiration() {
                     <Col xs={12} md={6} className='pe-md-0'>
                         <NavLink to='/ideawedding' className='image-container'>
                             <Image
-                                src={CruisePH}
+                                src={WeddingPH}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'

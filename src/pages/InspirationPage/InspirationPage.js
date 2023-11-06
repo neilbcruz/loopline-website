@@ -34,7 +34,7 @@ export default function InspirationPage() {
 
     return (
         <>
-            <Container className='link_style text-center my-3'>
+            <Container  id='top' className='link_style text-center my-3'>
                 <NavLink to='/inspiration'>
                     <h1>Travel Inspiration</h1>
                 </NavLink>

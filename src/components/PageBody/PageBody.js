@@ -148,11 +148,11 @@ export default function PageBody() {
                     </Carousel.Item>
                 </Carousel>
                 <DropdownInspiration />
-                <NavLink to='/inspiration' >
+                <HashLink to='/inspiration#top' >
                     <Button className='mt-3' variant='outline-success'>
                         SEE ALL TRAVEL INSPIRATIONS
                     </Button>
-                </NavLink>
+                </HashLink>
             </Container>
 
             <Container className='text-center bg-secondary bg-opacity-25 py-3 mb-5' fluid>
