@@ -1,8 +1,16 @@
-import { Container, Image, Button, Row, Stack, Col } from "react-bootstrap";
+import { 
+    Container, 
+    Image, 
+    Button, 
+    Row, 
+    Stack, 
+} from "react-bootstrap";
 import { ArrowUp } from "react-bootstrap-icons";
 import { useEffect, useState } from "react";
 
-import CruisePH from "../../../assets/images/cruise_placeholder.jpg";
+import CruisePH from '../../../assets/images/cruise_placeholder.jpg';
+
+import IdeaCruiseLogos from '../IdeaCruise/IdeaCruiseLogos'
 
 export default function IdeaCruise() {
     // Scroll-to-Top functions //
@@ -31,8 +39,8 @@ export default function IdeaCruise() {
             <Container className="text-center my-3 p-0 hero-container" fluid>
                 <Image src={CruisePH} className="custom-fluid-image" width="100%" />
                 <div className="text-on-hero">
-                    <h1>ITALY VACATIONS</h1>
-                    <p>TRAVEL AGENTS - DESTINATIONS, ITALY</p>
+                    <h1>WHY CHOOSE A CRUISE VACATION?</h1>
+                    <p>TRAVEL AGENTS - CRUISES, OCEAN CRUISES</p>
                 </div>
                 <Row>
                     <Stack
@@ -48,7 +56,7 @@ export default function IdeaCruise() {
                             TRAVEL PERIOD: TODAY - 12/31/2023
                         </p>
                         <div className="vr" />
-                        <p className="m-0">VACATION CODE: HAWAII</p>
+                        <p className="m-0">VACATION CODE: OCEAN CRUISES</p>
                     </Stack>
                 </Row>
             </Container>
@@ -171,30 +179,7 @@ export default function IdeaCruise() {
                 </p>
             </Container>
 
-            <Row>
-                <Col xs={12} md={6} className="pe-md-0 image-container">
-                    <Stack className="image-container">
-                        <Image
-                            src={CruisePH}
-                            alt="placeholder image"
-                            width="100%"
-                            className="image_hover"
-                        />
-                        <div className="text-on-image">WILDLIFE & SAFARI VACATIONS</div>
-                    </Stack>
-                </Col>
-                <Col xs={12} md={6} className="ps-md-0 image-container">
-                    <Stack className="image-container">
-                        <Image
-                            src={CruisePH}
-                            alt="placeholder image"
-                            width="100%"
-                            className="image_hover"
-                        />
-                        <div className="text-on-image">WILDLIFE & SAFARI VACATIONS</div>
-                    </Stack>
-                </Col>
-            </Row>
+            <IdeaCruiseLogos />
 
             <Container className="my-5">
                 <strong>Terms and Conditions</strong>
