@@ -20,6 +20,8 @@ import AdventurePH from '../../assets/images/adventure_placeholder.jpg';
 import WildlifePH from '../../assets/images/wildlife_placeholder.jpg';
 import RomanticPH from '../../assets/images/romantic_placeholder.jpg';
 import GolfPH from '../../assets/images/golf_placeholder.jpg';
+import BeachPH from '../../assets/images/beach_placeholder.jpg';
+import RiverCruisePH from '../../assets/images/rivercruise_placeholder.jpg';
 
 export default function HomeInspiration() {
     const [showRows, setShowRows] = useState(false);
@@ -187,7 +189,7 @@ export default function HomeInspiration() {
                         <Col xs={12} md={6} className='ps-md-0'>
                             <NavLink to='/ideabeach' className='image-container'>
                                 <Image
-                                    src={CruisePH}
+                                    src={BeachPH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
@@ -201,7 +203,7 @@ export default function HomeInspiration() {
                         <Col xs={12} md={6} className='pe-md-0'>
                             <NavLink to='/idearivercruise' className='image-container'>
                                 <Image
-                                    src={CruisePH}
+                                    src={RiverCruisePH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
