@@ -17,6 +17,23 @@
     }
 }
 
+.image_allinclusive {
+    filter: brightness(50%);
+    height: 300px;
+    
+    @include tablet {
+        height: 225px;
+    }
+
+    @include desktop {
+        height: 300px;
+    }
+
+    &:hover {
+        filter: brightness(120%) saturate(120%);
+    }
+}
+
 .link_style {
     & a {
 
@@ -106,6 +123,15 @@
     max-width: none;
     /* Remove the max-width limit */
     max-height: 30rem;
+    object-fit: cover;
+}
+
+.all-inclusive__image {
+    width: 100%;
+    /* 100% width by default */
+    max-width: none;
+    /* Remove the max-width limit */
+    max-height: 20rem;
     object-fit: cover;
 }
 

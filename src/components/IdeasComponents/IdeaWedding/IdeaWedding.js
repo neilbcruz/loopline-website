@@ -69,7 +69,7 @@ export default function IdeaWedding() {
 
             <Container className='text-center mb-5'>
                 <Row>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} className='mb-3'>
                         <NavLink
                             to='https://viewer.joomag.com/destination-bliss-volume-3/0350537001510069653/p96?short&'
                             target='_blank'
@@ -78,11 +78,11 @@ export default function IdeaWedding() {
                                 src={Topics1}
                                 alt='placeholder image'
                                 width='100%'
-                                className='mb-3 image_hover border border-4 border-dark'
+                                className='image_hover border border-4 border-dark'
                             />
                         </NavLink>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} className='mb-3'>
                         <NavLink 
                         to='https://viewer.joomag.com/destination-bliss-volume-3/0350537001510069653/p68?short&' 
                         target='_blank'
@@ -91,13 +91,13 @@ export default function IdeaWedding() {
                                 src={Topics2}
                                 alt='placeholder image'
                                 width='100%'
-                                className='mb-3 image_hover border border-4 border-dark'
+                                className='image_hover border border-4 border-dark'
                             />
                         </NavLink>
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} className='mb-3'>
                         <NavLink
                             to='https://viewer.joomag.com/destination-bliss-volume-3/0350537001510069653/p44?short&'
                             target='_blank'
@@ -106,11 +106,11 @@ export default function IdeaWedding() {
                                 src={Topics3}
                                 alt='placeholder image'
                                 width='100%'
-                                className='mb-3 image_hover border border-4 border-dark'
+                                className='image_hover border border-4 border-dark'
                             />
                         </NavLink>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} className='mb-3'>
                         <NavLink 
                         to='https://viewer.joomag.com/destination-bliss-volume-3/0350537001510069653/p78?short&' 
                         target='_blank'
@@ -119,13 +119,13 @@ export default function IdeaWedding() {
                                 src={Topics4}
                                 alt='placeholder image'
                                 width='100%'
-                                className='mb-3 image_hover border border-4 border-dark'
+                                className='image_hover border border-4 border-dark'
                             />
                         </NavLink>
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} className='mb-3'>
                         <NavLink
                             to='https://viewer.joomag.com/destination-bliss-volume-3/0350537001510069653/p90?short&'
                             target='_blank'
@@ -134,11 +134,11 @@ export default function IdeaWedding() {
                                 src={Topics5}
                                 alt='placeholder image'
                                 width='100%'
-                                className='mb-3 image_hover border border-4 border-dark'
+                                className='image_hover border border-4 border-dark'
                             />
                         </NavLink>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={6} className='mb-3'>
                         <NavLink 
                         to='https://viewer.joomag.com/destination-bliss-volume-3/0350537001510069653/p50?short&' 
                         target='_blank'
@@ -147,7 +147,7 @@ export default function IdeaWedding() {
                                 src={Topics6}
                                 alt='placeholder image'
                                 width='100%'
-                                className='mb-3 image_hover border border-4 border-dark'
+                                className='image_hover border border-4 border-dark'
                             />
                         </NavLink>
                     </Col>

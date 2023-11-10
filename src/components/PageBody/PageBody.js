@@ -111,7 +111,7 @@ export default function PageBody() {
                         <Card.Text>
                             CERTIFIED TRAVEL COUNSELLOR
                         </Card.Text>
-                        <HashLink to='/about#about'>
+                        <HashLink to='/about#top'>
                             <Button variant='outline-success'>Learn more</Button>
                         </HashLink>
                     </Card.Body>

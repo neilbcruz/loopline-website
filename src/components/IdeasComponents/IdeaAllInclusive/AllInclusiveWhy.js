@@ -8,7 +8,6 @@ import {
 } from 'react-bootstrap';
 import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
-import { HashLink } from 'react-router-hash-link';
 
 import AllInclusivePH from '../../../assets/images/allinclusive_placeholder.jpg';
 
@@ -36,15 +35,15 @@ export default function IdeaAllInclusive() {
 
     return (
         <>
-            <Container className='text-center my-3 p-0 hero-container' fluid>
+            <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={AllInclusivePH}
                     className='custom-fluid-image'
                     width='100%'
                 />
                 <div className='text-on-hero'>
-                    <h1>ALL-INCLUSIVE VACATIONS</h1>
-                    <p>TRAVEL AGENTS - <br></br>ALL-INCLUSIVE VACATION PACKAGES</p>
+                    <h1>WHY ALL-INCLUSIVE?</h1>
+                    <p>ALL-INCLUSIVE VACATION PACKAGE TRAVEL AGENTS</p>
                 </div>
                 <Row>
                     <Stack
@@ -62,58 +61,9 @@ export default function IdeaAllInclusive() {
             </Container>
 
             <Container className='my-3'>
-                <p>There are so many options to choose from when traveling today and all-inclusive resorts have become a popular choice. We have compiled some of advice from our experts in regards to which resorts we recommend, what amenities all-inclusive resorts offer and the beautiful destinations you can find them. We also have included some information on traveling with kids, as well as options for couples looking to getaway and reconnect. Read on to discover why an all-inclusive resort vacation can be the best vacation choice for you!</p>
-            </Container>
-
-            <Container className='my-3'>
-                <Row className='text-center'>
-                    <Col xs={12} md={4} className='mb-3'>
-                        <Image
-                            src={AllInclusivePH}
-                            alt='placeholder image'
-                            width='100%'
-                            className='custom-fluid-image mb-2'
-                        />
-                        <h3>ALL-INCLUSIVE RESORTS</h3>
-                        <p>From family friendly to luxury adults-only properties, there is an all-inclusive resort that is right for you.</p>
-                        <HashLink to='/allinclusiveresorts#top' >
-                            <Button variant='outline-danger'>
-                                LEARN MORE
-                            </Button>
-                        </HashLink>
-                    </Col>
-                    <Col xs={12} md={4} className='mb-3'>
-                        <Image
-                            src={AllInclusivePH}
-                            alt='placeholder image'
-                            width='100%'
-                            className='custom-fluid-image mb-2'
-                        />
-                        <h3>WHY ALL-INCLUSIVE?</h3>
-                        <p>All-inclusive resorts offer a variety of amenities that can satisfy every traveler. From swim-up suites to 5-star dining, they have all your needs covered for the perfect vacation.</p>
-                        <HashLink to='/allinclusivewhy#top' >
-                            <Button variant='outline-danger'>
-                                LEARN MORE
-                            </Button>
-                        </HashLink>
-                    </Col>
-                    <Col xs={12} md={4} className='mb-3'>
-                        <Image
-                            src={AllInclusivePH}
-                            alt='placeholder image'
-                            width='100%'
-                            className='custom-fluid-image mb-2'
-                        />
-                        <h3>ALL-INCLUSIVE DESTINATIONS</h3>
-                        <p>All-inclusive resorts are located in some of the most beautiful destinations in the world. You can immerse yourself in the local culture or spend the day relaxing on a beautiful beach.</p>
-                        <HashLink to='/allinclusivedestinations#top' >
-                            <Button variant='outline-danger'>
-                                LEARN MORE
-                            </Button>
-                        </HashLink>
-                    </Col>
-
-                </Row>
+                <h1 className='mb-0 text-center'><strong>WHY ALL-INCLUSIVE VACATIONS?</strong></h1>
+                <hr className='mt-0 border-2'></hr>
+                <p>Catering to couples and families alike, all-inclusive resorts provide almost everything you could possibly desire included in the price: luxurious accommodations, a wide range of cuisines and top-shelf drinks, onsite activities, nightly entertainment and instant access to the rejuvenating ocean waters. We’ve visited resorts across the Caribbean and Mexico to provide personal recommendations that ensure you find the right all-inclusive getaway to fit your lifestyle, your budget and your dreams.</p>
             </Container>
 
             <Container className='my-3'>
@@ -127,8 +77,8 @@ export default function IdeaAllInclusive() {
                         />
                     </Col>
                     <Col xs={12} lg={6}>
-                        <h2>TRAVELING WITH KIDS</h2>
-                        <p>The best family vacations start with a well-devised plan. From our experience, we know there’s a lot to consider when planning a vacation with kids. Should you choose a cruise or an all-inclusive resort? Which destinations are both entertaining and educational? What’s the best way to prevent a travel meltdown? We have tips for all these topics and more.  Our agency can help you narrow down your planning process so you can focus on the more important items, like which waterslide to tackle first.</p>
+                        <h2>One up-front price</h2>
+                        <p>At all-inclusive resorts there are no hidden fees; everything really is included. Your vacation includes all your food, drinks, entertainment, fitness classes, kids clubs, non-motorized water sports and more! All this along with taxes and gratuities are included for one price.</p>
                     </Col>
                 </Row>
             </Container>
@@ -144,8 +94,8 @@ export default function IdeaAllInclusive() {
                         />
                     </Col>
                     <Col xs={12} lg={6} className='order-lg-1'>
-                        <h2>BEST FAMILY VACATION DESTINATIONS</h2>
-                        <p>Now more than ever is a great time to take the opportunity to unwind and disconnect from their hectic schedules and get away from it all. Everyone’s family gets caught up in it. The daily grind of work, school, activities and too much screen time. A vacation allows you time to just be together and create new memories, lifetime memories. There is nothing better than creating those moments on a vacation that your family will carry with them for a lifetime. Being able to remember and re-connect on those experiences even when you are back home, will build a stronger future family bond.</p>
+                        <h2>Stunning settings</h2>
+                        <p>Whether you desire the nightlife in Cancun's hotel zone, long walks along the beautiful beaches in Punta Cana, or Costa Rica with its lush rainforests, most all-inclusive resorts will provide you with the backdrop for all those perfect photo opps.</p>
                     </Col>
                 </Row>
             </Container>
@@ -161,8 +111,59 @@ export default function IdeaAllInclusive() {
                         />
                     </Col>
                     <Col xs={12} lg={6}>
-                        <h2>ADULTS-ONLY IS THE ONLY WAY</h2>
-                        <p>Sometimes even adults like to live it up, in the form of a weekend getaway with friends or a tropical escape for one. Or an all-adult experience that includes vibrant nightlife, trendy restaurants, music, resort amenities and sophisticated guests, it’ll give Vegas a run for its money.</p>
+                        <h2>Endless dining options</h2>
+                        <p>All-inclusive resorts today can accommodate even the pickiest of eaters. From foodies to the youngest of children, all-inclusive resorts have something for everyone. Be it a morning wake-up with your favorite latte', a freshly caught fish grilled poolside, and a 5-star dinner perfectly paired with a specially selected bottle of wine, you have the making of an unforgettable vacation.</p>
+                    </Col>
+                </Row>
+            </Container>
+
+            <Container className='my-3'>
+                <Row className='d-flex align-items-center'>
+                    <Col lg={6} className='order-lg-2'>
+                        <Image
+                            src={AllInclusivePH}
+                            alt='placeholder image'
+                            width='100%'
+                            className='all-inclusive__image my-2'
+                        />
+                    </Col>
+                    <Col xs={12} lg={6} className='order-lg-1'>
+                        <h2>Fun</h2>
+                        <p>You'll never run out of things to do at an all-inclusive resort. From epic water slides to lazy rivers, to bumper cars and outdoor movies on the beach, all-inclusive resorts are able to cater to each individual's idea of fun! Feel free to hang with your friends and family and experience everything your resort offers together, or have each person find their perfect activity and then re-group and share later.</p>
+                    </Col>
+                </Row>
+            </Container>
+
+            <Container className='my-3'>
+                <Row className='d-flex align-items-center'>
+                    <Col lg={6}>
+                        <Image
+                            src={AllInclusivePH}
+                            alt='placeholder image'
+                            width='100%'
+                            className='all-inclusive__image my-2'
+                        />
+                    </Col>
+                    <Col xs={12} lg={6}>
+                        <h2>Amenities</h2>
+                        <p>All-inclusive resorts offer amenities that have you covered both in your room as well as around the resort. You will find your favorite drinks and snacks refreshed daily in your room, to signature bath products and robes to refresh you after a day at the pool. All-inclusive resorts also offer kids clubs for all ages so the adults can get in a round of golf or some quiet time at the spa.</p>
+                    </Col>
+                </Row>
+            </Container>
+
+            <Container className='my-3'>
+                <Row className='d-flex align-items-center'>
+                    <Col lg={6} className='order-lg-2'>
+                        <Image
+                            src={AllInclusivePH}
+                            alt='placeholder image'
+                            width='100%'
+                            className='all-inclusive__image my-2'
+                        />
+                    </Col>
+                    <Col xs={12} lg={6} className='order-lg-1'>
+                        <h2>Choices</h2>
+                        <p>All-inclusive properties are designed to cater to all travelers depending upon who is traveling. If you are culturally minded and want to be immersed in a destination's history, to those looking for a more active-adventure trip, there are resorts that can accommodate many of your hobbies and interests, as well as your wallet. From private suites with a butler to a family-friendly resort with a water park, the perfect resort is awaiting your arrival.</p>
                     </Col>
                 </Row>
             </Container>

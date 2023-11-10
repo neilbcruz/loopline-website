@@ -26,6 +26,9 @@ import IdeaBeach from './components/IdeasComponents/IdeaBeach/IdeaBeach';
 import IdeaEuropean from './components/IdeasComponents/IdeaEuropean/IdeaEuropean';
 import IdeaRiverCruise from './components/IdeasComponents/IdeaRiverCruise/IdeaRiverCruise';
 import IdeaAllInclusive from './components/IdeasComponents/IdeaAllInclusive/IdeaAllInclusive';
+import AllInclusiveResorts from './components/IdeasComponents/IdeaAllInclusive/AllInclusiveResort';
+import AllInclusiveWhy from './components/IdeasComponents/IdeaAllInclusive/AllInclusiveWhy';
+import AllInclusiveDestinations from './components/IdeasComponents/IdeaAllInclusive/AllInclusiveDestinations';
 
 import SpecialsPage from './pages/SpecialsPage/SpecialsPage';
 import Bootstrap from './pages/Bootstrap/Bootstrap';
@@ -47,11 +50,13 @@ function App() {
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/about' element={<AboutPage />} />
+
             <Route path='/inspiration' element={<InspirationPage />} />
             <Route path='/australia' element={<VacayAustralia />} />
             <Route path='/italy' element={<VacayItaly />} />
             <Route path='/hawaii' element={<VacayHawaii />} />
             <Route path='/nzealand' element={<VacayNZ />} />
+
             <Route path='/ideacruise' element={<IdeaCruise />} />
             <Route path='/ideafamily' element={<IdeaFamily />} />
             <Route path='/ideawedding' element={<IdeaWedding />} />
@@ -63,6 +68,10 @@ function App() {
             <Route path='/ideaeuropean' element={<IdeaEuropean />} />
             <Route path='/idearivercruise' element={<IdeaRiverCruise />} />
             <Route path='/ideaallinclusive' element={<IdeaAllInclusive />} />
+            <Route path='/allinclusiveresorts' element={<AllInclusiveResorts />} />
+            <Route path='/allinclusivewhy' element={<AllInclusiveWhy />} />
+            <Route path='/allinclusivedestinations' element={<AllInclusiveDestinations />} />
+
             <Route path='/specials' element={<SpecialsPage />} />
             <Route path='/bootstrap' element={<Bootstrap />} />
             <Route path='/contact' element={<ContactPage />} />

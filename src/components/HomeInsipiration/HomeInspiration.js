@@ -22,6 +22,8 @@ import RomanticPH from '../../assets/images/romantic_placeholder.jpg';
 import GolfPH from '../../assets/images/golf_placeholder.jpg';
 import BeachPH from '../../assets/images/beach_placeholder.jpg';
 import RiverCruisePH from '../../assets/images/rivercruise_placeholder.jpg';
+import EuropeanPH from '../../assets/images/european_placeholder.jpg';
+import AllInclusivePH from '../../assets/images/allinclusive_placeholder.jpg';
 
 export default function HomeInspiration() {
     const [showRows, setShowRows] = useState(false);
@@ -212,28 +214,28 @@ export default function HomeInspiration() {
                             </NavLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
-                            <NavLink to='/ideaallinclusive' className='image-container'>
+                            <NavLink to='/ideaeuropean' className='image-container'>
                                 <Image
-                                    src={CruisePH}
+                                    src={EuropeanPH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>ALL-INCLUSIVE VACATIONS</div>
+                                <div className='text-on-image'>EUROPEAN VACATIONS</div>
                             </NavLink>
                         </Col>
                     </Row>)}
                     {showRows && (
                     <Row>
                         <Col xs={12} md={6} className='pe-md-0'>
-                            <NavLink to='/ideaeuropean' className='image-container'>
+                            <NavLink to='/ideaallinclusive' className='image-container'>
                                 <Image
-                                    src={CruisePH}
+                                    src={AllInclusivePH}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>EUROPEAN VACATIONS</div>
+                                <div className='text-on-image'>ALL-INCLUSIVE VACATIONS</div>
                             </NavLink>
                         </Col>
                     </Row>)}

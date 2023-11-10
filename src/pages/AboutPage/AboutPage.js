@@ -48,7 +48,7 @@ export default function HomePage() {
 
     return (
         <>
-            <Container id='about' className='my-3'>
+            <Container id='top' className='my-3'>
                 <Row>
                     <Col xs={12} md={9}>
                         <Container className='my-5'>
