@@ -1,8 +1,8 @@
-import { Container, Image, Row, Col } from "react-bootstrap";
+import { Container, Image, Row, Col } from 'react-bootstrap';
 
-import AtlasLogo from "../../../assets/logo/AtlasLogo.png";
-import AzamaraLogo from "../../../assets/logo/AzamaraLogo.png";
-import CelebrityCruiseLogo from "../../../assets/logo/CelebrityCruisesLogo.png";
+import AtlasLogo from '../../../assets/logo/AtlasLogo.png';
+import AzamaraLogo from '../../../assets/logo/AzamaraLogo.png';
+import CelebrityCruiseLogo from '../../../assets/logo/CelebrityCruisesLogo.png';
 import CrystalLogo from '../../../assets/logo/CrystalLogo.png';
 import CunardLogo from '../../../assets/logo/CunardLogo.png';
 import DisneyCruiseLogo from '../../../assets/logo/DisneyCruiseLogo.png';
@@ -28,64 +28,64 @@ export default function IdeaCruiseLogos() {
             <Container>
                 <Row>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={AtlasLogo} className="logo-image" />
+                        <Image src={AtlasLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={AzamaraLogo} className="logo-image" />
+                        <Image src={AzamaraLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={CelebrityCruiseLogo} className="logo-image" />
+                        <Image src={CelebrityCruiseLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={CrystalLogo} className="logo-image" />
+                        <Image src={CrystalLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={CunardLogo} className="logo-image" />
+                        <Image src={CunardLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={DisneyCruiseLogo} className="logo-image" />
+                        <Image src={DisneyCruiseLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={HollandALLogo} className="logo-image" />
+                        <Image src={HollandALLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={HurtigrutenLogo} className="logo-image" />
+                        <Image src={HurtigrutenLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={MSCCruisesLogo} className="logo-image" />
+                        <Image src={MSCCruisesLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={NorweigianCLLogo} className="logo-image" />
+                        <Image src={NorweigianCLLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={OceaniaCruisesLogo} className="logo-image" />
+                        <Image src={OceaniaCruisesLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={PaulgauguinLogo} className="logo-image" />
+                        <Image src={PaulgauguinLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={PrincessLogo} className="logo-image" />
+                        <Image src={PrincessLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={RegentSevenSeaCruisesLogo} className="logo-image" />
+                        <Image src={RegentSevenSeaCruisesLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={RoyalCarribeanLogo} className="logo-image" />
+                        <Image src={RoyalCarribeanLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={SeabournLogo} className="logo-image" />
+                        <Image src={SeabournLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={SilverseaLogo} className="logo-image" />
+                        <Image src={SilverseaLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={VikingLogo} className="logo-image" />
+                        <Image src={VikingLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={VoyagesLogo} className="logo-image" />
+                        <Image src={VoyagesLogo} className='logo-image' />
                     </Col>
                     <Col xs={6} sm={4} md={3} lg={2}>
-                        <Image src={WindstarCruisesLogo} className="logo-image" />
+                        <Image src={WindstarCruisesLogo} className='logo-image' />
                     </Col>
                 </Row>
             </Container>

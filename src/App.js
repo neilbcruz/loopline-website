@@ -14,7 +14,6 @@ import VacayAustralia from './components/InspirationComponents/VacayAustralia/Va
 import VacayItaly from './components/InspirationComponents/VacayItaly/VacayItaly';
 import VacayHawaii from './components/InspirationComponents/VacayHawaii/VacayHawaii';
 import VacayNZ from './components/InspirationComponents/VacayNZ/VacayNZ';
-
 import IdeaCruise from './components/IdeasComponents/IdeaCruise/IdeaCruise';
 import IdeaFamily from './components/IdeasComponents/IdeaFamily/IdeaFamily';
 import IdeaWedding from './components/IdeasComponents/IdeaWedding/IdeaWedding';
@@ -31,6 +30,20 @@ import AllInclusiveWhy from './components/IdeasComponents/IdeaAllInclusive/AllIn
 import AllInclusiveDestinations from './components/IdeasComponents/IdeaAllInclusive/AllInclusiveDestinations';
 
 import SpecialsPage from './pages/SpecialsPage/SpecialsPage';
+import CruiseSilverseaFares from './components/CruiseComponents/CruiseSilversea/CruiseSilverseaFares';
+import CruiseHollandHaveitall from './components/CruiseComponents/CruiseHolland/CruiseHollandHaveitall';
+import CruiseNorwegianAdventure from './components/CruiseComponents/CruiseNorwegian/CruiseNorwegianAdventure';
+import CruiseCelebrityResort from './components/CruiseComponents/CruiseCelebrity/CruiseCelebrityResort';
+import CruiseNorwegianVacation from './components/CruiseComponents/CruiseNorwegian/CruiseNorwegianVacation';
+import CruiseCrystalSolo from './components/CruiseComponents/CruiseCrystal/CruiseCrystalSolo';
+import CruiseCaribbeanIcon from './components/CruiseComponents/CruiseCaribbean/CruiseCaribbeanIcon';
+import CruiseSeabournDestinations from './components/CruiseComponents/CruiseSeabourn/CruiseSeabornDestinations';
+import CruiseHollandYoucanhave from './components/CruiseComponents/CruiseHolland/CruiseHollandYoucanhave';
+import CruiseAmawaterwaysRiver from './components/CruiseComponents/CruiseAmawaterways/CruiseAmawaterwaysRiver';
+import CruiseTravelLeadersElevate from './components/CruiseComponents/CruiseTravelLeaders/CruiseTravelLeadersElevate';
+import CruiseCelebrityGetaway from './components/CruiseComponents/CruiseCelebrity/CruiseCelebrityGetaway';
+import CruiseVVoyagesLuxury from './components/CruiseComponents/CruiseVVoyages/CruiseVVoyagesLuxury';
+
 import Bootstrap from './pages/Bootstrap/Bootstrap';
 import ContactPage from './pages/ContactPage/ContactPage';
 
@@ -50,29 +63,42 @@ function App() {
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/about' element={<AboutPage />} />
-
+            
             <Route path='/inspiration' element={<InspirationPage />} />
-            <Route path='/australia' element={<VacayAustralia />} />
-            <Route path='/italy' element={<VacayItaly />} />
-            <Route path='/hawaii' element={<VacayHawaii />} />
-            <Route path='/nzealand' element={<VacayNZ />} />
-
-            <Route path='/ideacruise' element={<IdeaCruise />} />
-            <Route path='/ideafamily' element={<IdeaFamily />} />
-            <Route path='/ideawedding' element={<IdeaWedding />} />
-            <Route path='/ideaadventure' element={<IdeaAdventure />} />
-            <Route path='/ideawildlife' element={<IdeaWildlife />} />
-            <Route path='/idearomantic' element={<IdeaRomantic />} />
-            <Route path='/ideagolf' element={<IdeaGolf />} />
-            <Route path='/ideabeach' element={<IdeaBeach />} />
-            <Route path='/ideaeuropean' element={<IdeaEuropean />} />
-            <Route path='/idearivercruise' element={<IdeaRiverCruise />} />
-            <Route path='/ideaallinclusive' element={<IdeaAllInclusive />} />
-            <Route path='/allinclusiveresorts' element={<AllInclusiveResorts />} />
-            <Route path='/allinclusivewhy' element={<AllInclusiveWhy />} />
-            <Route path='/allinclusivedestinations' element={<AllInclusiveDestinations />} />
+            <Route path='/inspiration/australia' element={<VacayAustralia />} />
+            <Route path='/inspiration/italy' element={<VacayItaly />} />
+            <Route path='/inspiration/hawaii' element={<VacayHawaii />} />
+            <Route path='/inspiration/nzealand' element={<VacayNZ />} />
+            <Route path='/inspiration/cruise' element={<IdeaCruise />} />
+            <Route path='/inspiration/family' element={<IdeaFamily />} />
+            <Route path='/inspiration/wedding' element={<IdeaWedding />} />
+            <Route path='/inspiration/adventure' element={<IdeaAdventure />} />
+            <Route path='/inspiration/wildlife' element={<IdeaWildlife />} />
+            <Route path='/inspiration/romantic' element={<IdeaRomantic />} />
+            <Route path='/inspiration/golf' element={<IdeaGolf />} />
+            <Route path='/inspiration/beach' element={<IdeaBeach />} />
+            <Route path='/inspiration/european' element={<IdeaEuropean />} />
+            <Route path='/inspiration/rivercruise' element={<IdeaRiverCruise />} />
+            <Route path='/inspiration/allinclusive' element={<IdeaAllInclusive />} />
+            <Route path='/inspiration/allinclusive/resorts' element={<AllInclusiveResorts />} />
+            <Route path='/inspiration/allinclusive/why' element={<AllInclusiveWhy />} />
+            <Route path='/inspiration/allinclusive/destinations' element={<AllInclusiveDestinations />} />
 
             <Route path='/specials' element={<SpecialsPage />} />
+            <Route path='/specials/silversea-fares' element={<CruiseSilverseaFares />} />
+            <Route path='/specials/holland-haveitall' element={<CruiseHollandHaveitall />} />
+            <Route path='/specials/norwegian-adventure' element={<CruiseNorwegianAdventure />} />
+            <Route path='/specials/celebrity-resort' element={<CruiseCelebrityResort />} />
+            <Route path='/specials/norwegian-vacation' element={<CruiseNorwegianVacation />} />
+            <Route path='/specials/crystal-solo' element={<CruiseCrystalSolo />} />
+            <Route path='/specials/caribbean-icon' element={<CruiseCaribbeanIcon />} />
+            <Route path='/specials/seabourn-destinations' element={<CruiseSeabournDestinations />} />
+            <Route path='/specials/holland-youcanhave' element={<CruiseHollandYoucanhave />} />
+            <Route path='/specials/amawayerways-river' element={<CruiseAmawaterwaysRiver />} />
+            <Route path='/specials/travelleaders-elevate' element={<CruiseTravelLeadersElevate />} />
+            <Route path='/specials/celebrity-getaway' element={<CruiseCelebrityGetaway />} />
+            <Route path='/specials/vvoyages-luxury' element={<CruiseVVoyagesLuxury />} />
+
             <Route path='/bootstrap' element={<Bootstrap />} />
             <Route path='/contact' element={<ContactPage />} />
           </Routes>

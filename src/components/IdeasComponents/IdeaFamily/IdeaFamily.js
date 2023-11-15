@@ -34,7 +34,7 @@ export default function IdeaFamily() {
 
     return (
         <>
-            <Container className='text-center my-3 p-0 hero-container' fluid>
+            <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={FamilyPH}
                     className='custom-fluid-image'

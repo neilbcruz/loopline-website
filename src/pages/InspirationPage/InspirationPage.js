@@ -1,5 +1,3 @@
-import './InspirationPage.scss';
-
 import {
     Container,
     Button
@@ -39,7 +37,9 @@ export default function InspirationPage() {
                     <h1>Travel Inspiration</h1>
                 </NavLink>
             </Container>
+
             <HomeInspiration />
+
             <Container className="scroll-to-top">
                 {showButton && (
                     <Button variant='light' onClick={scrollToTop} size='sm' className='position-fixed bottom-0 end-0 opacity-75'>

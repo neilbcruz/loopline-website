@@ -4,9 +4,9 @@ import {
     Button, 
     Row, 
     Stack, 
-} from "react-bootstrap";
-import { ArrowUp } from "react-bootstrap-icons";
-import { useEffect, useState } from "react";
+} from 'react-bootstrap';
+import { ArrowUp } from 'react-bootstrap-icons';
+import { useEffect, useState } from 'react';
 
 import CruisePH from '../../../assets/images/cruise_placeholder.jpg';
 
@@ -24,9 +24,9 @@ export default function IdeaCruise() {
     };
 
     useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
+        window.addEventListener('scroll', handleScroll);
         return () => {
-            window.removeEventListener("scroll", handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
@@ -36,32 +36,32 @@ export default function IdeaCruise() {
 
     return (
         <>
-            <Container className="text-center my-3 p-0 hero-container" fluid>
-                <Image src={CruisePH} className="custom-fluid-image" width="100%" />
-                <div className="text-on-hero">
-                    <h1>WHY CHOOSE A CRUISE VACATION?</h1>
+            <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
+                <Image src={CruisePH} className='custom-fluid-image' width='100%' />
+                <div className='text-on-hero'>
+                    <h1>WHY CHOOSE<br></br> A CRUISE VACATION?</h1>
                     <p>TRAVEL AGENTS - CRUISES, OCEAN CRUISES</p>
                 </div>
                 <Row>
                     <Stack
-                        direction="horizontal"
+                        direction='horizontal'
                         gap={5}
-                        className="d-flex justify-content-center align-items-center text-align-center py-2 px-5 bg-secondary"
+                        className='d-flex justify-content-center align-items-center text-align-center py-2 px-5 bg-secondary'
                     >
-                        <p className="m-0" xs={4}>
+                        <p className='m-0' xs={4}>
                             BOOKING PERIOD: 2021/01/01 - 2023/12/31
                         </p>
-                        <div className="vr" />
-                        <p className="m-0" xs={4}>
+                        <div className='vr' />
+                        <p className='m-0' xs={4}>
                             TRAVEL PERIOD: TODAY - 12/31/2023
                         </p>
-                        <div className="vr" />
-                        <p className="m-0">VACATION CODE: OCEAN CRUISES</p>
+                        <div className='vr' />
+                        <p className='m-0'>VACATION CODE: OCEAN CRUISES</p>
                     </Stack>
                 </Row>
             </Container>
 
-            <Container className="my-3">
+            <Container className='my-3'>
                 <p>
                     Few vacations can match the value of a cruise. Many of the greatest,
                     most intriguing destinations in the world can be explored on a cruise
@@ -79,11 +79,11 @@ export default function IdeaCruise() {
                 </p>
             </Container>
 
-            <Container className="mb-4">
+            <Container className='mb-4'>
                 <Image
                     src={CruisePH}
-                    width="100%"
-                    className="custom-fluid-image mb-2"
+                    width='100%'
+                    className='custom-fluid-image mb-2'
                 />
                 <h2>The Onboard Experience</h2>
                 <p>
@@ -135,11 +135,11 @@ export default function IdeaCruise() {
                 </p>
             </Container>
 
-            <Container className="mb-4">
+            <Container className='mb-4'>
                 <Image
                     src={CruisePH}
-                    width="100%"
-                    className="custom-fluid-image mb-2"
+                    width='100%'
+                    className='custom-fluid-image mb-2'
                 />
                 <h2>
                     Distinctive Voyages: Unforgettable Cruise Explorations with Bonus
@@ -181,7 +181,7 @@ export default function IdeaCruise() {
 
             <IdeaCruiseLogos />
 
-            <Container className="my-5">
+            <Container className='my-5'>
                 <strong>Terms and Conditions</strong>
                 <p>
                     Distinctive Voyages sailing dates and amenities, including exclusive
@@ -204,13 +204,13 @@ export default function IdeaCruise() {
                 </p>
             </Container>
 
-            <Container className="scroll-to-top">
+            <Container className='scroll-to-top'>
                 {showButton && (
                     <Button
-                        variant="light"
+                        variant='light'
                         onClick={scrollToTop}
-                        size="sm"
-                        className="position-fixed bottom-0 end-0 opacity-75"
+                        size='sm'
+                        className='position-fixed bottom-0 end-0 opacity-75'
                     >
                         <ArrowUp />
                     </Button>

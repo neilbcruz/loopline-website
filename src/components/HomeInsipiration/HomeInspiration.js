@@ -5,7 +5,7 @@ import {
     Col,
     Button
 } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { useState } from 'react';
 
 import AustraliaPH from '../../assets/images/australia_placeholder.jpg';
@@ -43,7 +43,7 @@ export default function HomeInspiration() {
             <Container className='text-center mb-5'>
                 <Row>
                     <Col xs={12} md={6} className='pe-md-0'>
-                        <NavLink to='/australia' className='image-container'>
+                        <HashLink to='australia#top' className='image-container'>
                             <Image
                                 src={AustraliaPH}
                                 alt='placeholder image'
@@ -51,10 +51,10 @@ export default function HomeInspiration() {
                                 className='image_hover'
                             />
                             <div className='text-on-image'>AUSTRALIA VACATIONS</div>
-                        </NavLink>
+                        </HashLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
-                        <NavLink to='/italy' className='image-container'>
+                        <HashLink to='italy#top' className='image-container'>
                             <Image
                                 src={ItalyPH}
                                 alt='placeholder image'
@@ -62,12 +62,12 @@ export default function HomeInspiration() {
                                 className='image_hover'
                             />
                             <div className='text-on-image'>ITALY VACATIONS</div>
-                        </NavLink>
+                        </HashLink>
                     </Col>
                 </Row>
                 <Row>
                     <Col  xs={12} md={6} className='pe-md-0'>
-                        <NavLink to='/hawaii' className='image-container'>
+                        <HashLink to='hawaii#top' className='image-container'>
                             <Image
                                 src={HawaiiPH}
                                 alt='placeholder image'
@@ -75,10 +75,10 @@ export default function HomeInspiration() {
                                 className='image_hover'
                             />
                             <div className='text-on-image'>HAWAII VACATIONS</div>
-                        </NavLink>
+                        </HashLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
-                        <NavLink to='/nzealand' className='image-container'>
+                        <HashLink to='nzealand#top' className='image-container'>
                             <Image
                                 src={NZPH}
                                 alt='placeholder image'
@@ -86,7 +86,7 @@ export default function HomeInspiration() {
                                 className='image_hover'
                             />
                             <div className='text-on-image'>NEW ZEALAND VACATIONS</div>
-                        </NavLink>
+                        </HashLink>
                     </Col>
                 </Row>
             </Container>
@@ -98,7 +98,7 @@ export default function HomeInspiration() {
             <Container className='text-center mb-5'>
                 <Row>
                     <Col xs={12} md={6} className='pe-md-0'>
-                        <NavLink to='/ideacruise' className='image-container'>
+                        <HashLink to='cruise#top' className='image-container'>
                             <Image
                                 src={CruisePH}
                                 alt='placeholder image'
@@ -106,10 +106,10 @@ export default function HomeInspiration() {
                                 className='image_hover'
                             />
                             <div className='text-on-image'>WHY CHOOSE A CRUISE VACATION?</div>
-                        </NavLink>
+                        </HashLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
-                        <NavLink to='/ideafamily' className='image-container'>
+                        <HashLink to='family#top' className='image-container'>
                             <Image
                                 src={FamilyPH}
                                 alt='placeholder image'
@@ -117,12 +117,12 @@ export default function HomeInspiration() {
                                 className='image_hover'
                             />
                             <div className='text-on-image'>FAMILY VACATIONS</div>
-                        </NavLink>
+                        </HashLink>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs={12} md={6} className='pe-md-0'>
-                        <NavLink to='/ideawedding' className='image-container'>
+                        <HashLink to='wedding#top' className='image-container'>
                             <Image
                                 src={WeddingPH}
                                 alt='placeholder image'
@@ -130,10 +130,10 @@ export default function HomeInspiration() {
                                 className='image_hover'
                             />
                             <div className='text-on-image'>PLANNING YOUR WEDDING & HONEYMOON</div>
-                        </NavLink>
+                        </HashLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
-                        <NavLink to='/ideaadventure' className='image-container'>
+                        <HashLink to='adventure#top' className='image-container'>
                             <Image
                                 src={AdventurePH}
                                 alt='placeholder image'
@@ -141,7 +141,7 @@ export default function HomeInspiration() {
                                 className='image_hover'
                             />
                             <div className='text-on-image'>ADVENTURE VACATIONS</div>
-                        </NavLink>
+                        </HashLink>
                     </Col>
                 </Row>
                 {showButton && (
@@ -153,7 +153,7 @@ export default function HomeInspiration() {
                 {showRows && (
                     <Row>
                         <Col xs={12} md={6} className='pe-md-0'>
-                            <NavLink to='/ideawildlife' className='image-container'>
+                            <HashLink to='wildlife#top' className='image-container'>
                                 <Image
                                     src={WildlifePH}
                                     alt='placeholder image'
@@ -161,10 +161,10 @@ export default function HomeInspiration() {
                                     className='image_hover'
                                 />
                                 <div className='text-on-image'>WILDLIFE & SAFARI VACATIONS</div>
-                            </NavLink>
+                            </HashLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
-                            <NavLink to='/idearomantic' className='image-container'>
+                            <HashLink to='romantic#top' className='image-container'>
                                 <Image
                                     src={RomanticPH}
                                     alt='placeholder image'
@@ -172,13 +172,13 @@ export default function HomeInspiration() {
                                     className='image_hover'
                                 />
                                 <div className='text-on-image'>ROMANTIC VACATIONS</div>
-                            </NavLink>
+                            </HashLink>
                         </Col>
                     </Row>)}
                 {showRows && (
                     <Row>
                         <Col xs={12} md={6} className='pe-md-0'>
-                            <NavLink to='/ideagolf' className='image-container'>
+                            <HashLink to='golf#top' className='image-container'>
                                 <Image
                                     src={GolfPH}
                                     alt='placeholder image'
@@ -186,10 +186,10 @@ export default function HomeInspiration() {
                                     className='image_hover'
                                 />
                                 <div className='text-on-image'>GOLF VACATIONS</div>
-                            </NavLink>
+                            </HashLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
-                            <NavLink to='/ideabeach' className='image-container'>
+                            <HashLink to='beach#top' className='image-container'>
                                 <Image
                                     src={BeachPH}
                                     alt='placeholder image'
@@ -197,13 +197,13 @@ export default function HomeInspiration() {
                                     className='image_hover'
                                 />
                                 <div className='text-on-image'>BEACH VACATIONS</div>
-                            </NavLink>
+                            </HashLink>
                         </Col>
                     </Row>)}
                     {showRows && (
                     <Row>
                         <Col xs={12} md={6} className='pe-md-0'>
-                            <NavLink to='/idearivercruise' className='image-container'>
+                            <HashLink to='rivercruise#top' className='image-container'>
                                 <Image
                                     src={RiverCruisePH}
                                     alt='placeholder image'
@@ -211,10 +211,10 @@ export default function HomeInspiration() {
                                     className='image_hover'
                                 />
                                 <div className='text-on-image'>RIVER CRUISE VACATIONS</div>
-                            </NavLink>
+                            </HashLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
-                            <NavLink to='/ideaeuropean' className='image-container'>
+                            <HashLink to='european#top' className='image-container'>
                                 <Image
                                     src={EuropeanPH}
                                     alt='placeholder image'
@@ -222,13 +222,13 @@ export default function HomeInspiration() {
                                     className='image_hover'
                                 />
                                 <div className='text-on-image'>EUROPEAN VACATIONS</div>
-                            </NavLink>
+                            </HashLink>
                         </Col>
                     </Row>)}
                     {showRows && (
                     <Row>
                         <Col xs={12} md={6} className='pe-md-0'>
-                            <NavLink to='/ideaallinclusive' className='image-container'>
+                            <HashLink to='allinclusive#top' className='image-container'>
                                 <Image
                                     src={AllInclusivePH}
                                     alt='placeholder image'
@@ -236,7 +236,7 @@ export default function HomeInspiration() {
                                     className='image_hover'
                                 />
                                 <div className='text-on-image'>ALL-INCLUSIVE VACATIONS</div>
-                            </NavLink>
+                            </HashLink>
                         </Col>
                     </Row>)}
             </Container>

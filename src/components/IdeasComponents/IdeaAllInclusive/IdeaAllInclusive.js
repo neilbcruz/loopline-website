@@ -36,7 +36,7 @@ export default function IdeaAllInclusive() {
 
     return (
         <>
-            <Container className='text-center my-3 p-0 hero-container' fluid>
+            <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={AllInclusivePH}
                     className='custom-fluid-image'
@@ -76,7 +76,7 @@ export default function IdeaAllInclusive() {
                         />
                         <h3>ALL-INCLUSIVE RESORTS</h3>
                         <p>From family friendly to luxury adults-only properties, there is an all-inclusive resort that is right for you.</p>
-                        <HashLink to='/allinclusiveresorts#top' >
+                        <HashLink to='resorts#top' >
                             <Button variant='outline-danger'>
                                 LEARN MORE
                             </Button>
@@ -91,7 +91,7 @@ export default function IdeaAllInclusive() {
                         />
                         <h3>WHY ALL-INCLUSIVE?</h3>
                         <p>All-inclusive resorts offer a variety of amenities that can satisfy every traveler. From swim-up suites to 5-star dining, they have all your needs covered for the perfect vacation.</p>
-                        <HashLink to='/allinclusivewhy#top' >
+                        <HashLink to='why#top' >
                             <Button variant='outline-danger'>
                                 LEARN MORE
                             </Button>
@@ -106,13 +106,12 @@ export default function IdeaAllInclusive() {
                         />
                         <h3>ALL-INCLUSIVE DESTINATIONS</h3>
                         <p>All-inclusive resorts are located in some of the most beautiful destinations in the world. You can immerse yourself in the local culture or spend the day relaxing on a beautiful beach.</p>
-                        <HashLink to='/allinclusivedestinations#top' >
+                        <HashLink to='destinations#top' >
                             <Button variant='outline-danger'>
                                 LEARN MORE
                             </Button>
                         </HashLink>
                     </Col>
-
                 </Row>
             </Container>
 
