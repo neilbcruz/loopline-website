@@ -83,7 +83,7 @@ export default function HomeInspiration() {
                                     <p>Whether you’re looking for an all-inclusive family getaway or an off the beaten path adventure for two, our experienced beach vacation.</p>
                                 </div>
                                 <div>
-                                    <HashLink to='/inspiration/beach#top' >
+                                    <HashLink to='inspiration/beach#top' >
                                         <Button variant='outline-danger'>
                                             LEARN MORE
                                         </Button>
@@ -112,7 +112,7 @@ export default function HomeInspiration() {
                         </HashLink>
                     </Col>
                     <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='/holland-haveitall#top' className='image-container'>
+                        <HashLink to='holland-haveitall#top' className='image-container'>
                             <Image
                                 src={HollandPH}
                                 alt='placeholder image'
@@ -123,7 +123,7 @@ export default function HomeInspiration() {
                         </HashLink>
                     </Col>
                     <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='/norwegian-adventure#top' className='image-container'>
+                        <HashLink to='norwegian-adventure#top' className='image-container'>
                             <Image
                                 src={NorwegianPH}
                                 alt='placeholder image'
@@ -153,7 +153,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/norwegian-vacation#top' className='image-container'>
+                            <HashLink to='norwegian-vacation#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -164,7 +164,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/crystal-solo#top' className='image-container'>
+                            <HashLink to='crystal-solo#top' className='image-container'>
                                 <Image
                                     src={CrystalPH}
                                     alt='placeholder image'
@@ -189,7 +189,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/seabourn-destinations#top' className='image-container'>
+                            <HashLink to='seabourn-destinations#top' className='image-container'>
                                 <Image
                                     src={SeabournPH}
                                     alt='placeholder image'
@@ -200,7 +200,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/holland-youcanhave#top' className='image-container'>
+                            <HashLink to='holland-youcanhave#top' className='image-container'>
                                 <Image
                                     src={HollandPH}
                                     alt='placeholder image'
@@ -225,7 +225,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/travelleaders-elevate#top' className='image-container'>
+                            <HashLink to='travelleaders-elevate#top' className='image-container'>
                                 <Image
                                     src={TravelLeadersPH}
                                     alt='placeholder image'
@@ -236,7 +236,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/celebrity-getaway#top' className='image-container'>
+                            <HashLink to='celebrity-getaway#top' className='image-container'>
                                 <Image
                                     src={CelebrityPH}
                                     alt='placeholder image'
@@ -280,7 +280,7 @@ export default function HomeInspiration() {
                         </HashLink>
                     </Col>
                     <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='/holland-haveitall#top' className='image-container'>
+                        <HashLink to='holland-haveitall#top' className='image-container'>
                             <Image
                                 src={HollandPH}
                                 alt='placeholder image'
@@ -291,7 +291,7 @@ export default function HomeInspiration() {
                         </HashLink>
                     </Col>
                     <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='/norwegian-adventure#top' className='image-container'>
+                        <HashLink to='norwegian-adventure#top' className='image-container'>
                             <Image
                                 src={NorwegianPH}
                                 alt='placeholder image'
@@ -321,7 +321,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/norwegian-vacation#top' className='image-container'>
+                            <HashLink to='norwegian-vacation#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -332,7 +332,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/crystal-solo#top' className='image-container'>
+                            <HashLink to='crystal-solo#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -357,7 +357,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/seabourn-destinations#top' className='image-container'>
+                            <HashLink to='seabourn-destinations#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -368,7 +368,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/holland-youcanhave#top' className='image-container'>
+                            <HashLink to='holland-youcanhave#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -393,7 +393,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/travelleaders-elevate#top' className='image-container'>
+                            <HashLink to='travelleaders-elevate#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -404,7 +404,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/celebrity-getaway#top' className='image-container'>
+                            <HashLink to='celebrity-getaway#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -448,7 +448,7 @@ export default function HomeInspiration() {
                         </HashLink>
                     </Col>
                     <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='/holland-haveitall#top' className='image-container'>
+                        <HashLink to='holland-haveitall#top' className='image-container'>
                             <Image
                                 src={HollandPH}
                                 alt='placeholder image'
@@ -459,7 +459,7 @@ export default function HomeInspiration() {
                         </HashLink>
                     </Col>
                     <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='/norwegian-adventure#top' className='image-container'>
+                        <HashLink to='norwegian-adventure#top' className='image-container'>
                             <Image
                                 src={NorwegianPH}
                                 alt='placeholder image'
@@ -489,7 +489,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/norwegian-vacation#top' className='image-container'>
+                            <HashLink to='norwegian-vacation#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -500,7 +500,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/crystal-solo#top' className='image-container'>
+                            <HashLink to='crystal-solo#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -525,7 +525,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/seabourn-destinations#top' className='image-container'>
+                            <HashLink to='seabourn-destinations#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -536,7 +536,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/holland-youcanhave#top' className='image-container'>
+                            <HashLink to='holland-youcanhave#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -561,7 +561,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/travelleaders-elevate#top' className='image-container'>
+                            <HashLink to='travelleaders-elevate#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -572,7 +572,7 @@ export default function HomeInspiration() {
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='/celebrity-getaway#top' className='image-container'>
+                            <HashLink to='celebrity-getaway#top' className='image-container'>
                                 <Image
                                     src={NorwegianPH}
                                     alt='placeholder image'
@@ -605,7 +605,7 @@ export default function HomeInspiration() {
             <Container className='text-center mb-5'>
                 <Row>
                     <Col xs={12} md={6} className='pe-md-0'>
-                        <HashLink to='/ideacruise' className='image-container'>
+                        <HashLink to='ideacruise' className='image-container'>
                             <Image
                                 src={NorwegianPH}
                                 alt='placeholder image'
