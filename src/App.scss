@@ -124,21 +124,7 @@
     /* 100% width by default */
     max-width: none;
     /* Remove the max-width limit */
-    max-height: 25rem;
-    object-fit: cover;
-    filter: brightness(50%);
-
-    &:hover {
-        filter: brightness(100%) saturate(100%);
-    }
-}
-
-.custom-fluid-hero {
-    width: 100%;
-    /* 100% width by default */
-    max-width: none;
-    /* Remove the max-width limit */
-    max-height: 25rem;
+    max-height: 20rem;
     object-fit: cover;
     filter: brightness(50%);
 
@@ -161,4 +147,36 @@
     .custom-fluid-image {
         width: 100%;
     }
+}
+
+.video {
+    background-color: black;
+    display: none;
+
+    &__youtube {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+        
+        & iframe {
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+
+            @include tablet {
+                padding: 0rem 2rem;
+            }
+
+            @include desktop {
+                padding: 0rem 10rem;
+                height: 90%;
+            }
+        }
+    }
+
 }

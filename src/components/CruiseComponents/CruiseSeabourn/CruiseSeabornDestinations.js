@@ -42,7 +42,7 @@ export default function CruiseSeabournDestinations() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={SeabournPH} className='custom-fluid-hero' width='100%' />
+                <Image src={SeabournPH} className='custom-fluid-image' width='100%' />
                 <div className='text-on-hero'>
                     <h1>EXCITING NEW<br></br>DESTINATIONS AWAIT</h1>
                     <p>TRAVEL AGENTS - CRUISE, SEABOURN</p>
