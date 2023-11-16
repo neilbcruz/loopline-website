@@ -10,7 +10,7 @@
 
 .image_hover {
     filter: brightness(50%);
-    height:300px;
+    height: 300px;
 
     &:hover {
         filter: brightness(120%) saturate(120%);
@@ -20,7 +20,7 @@
 .image_allinclusive {
     filter: brightness(50%);
     height: 300px;
-    
+
     @include tablet {
         height: 225px;
     }
@@ -111,8 +111,10 @@
     text-align: center;
     /* Center align the text */
     background-color: rgba(0, 0, 0, 0);
+
     /* Add background color for better text readability */
-    & h1, p {
+    & h1,
+    p {
         white-space: nowrap;
     }
 }
@@ -124,6 +126,25 @@
     /* Remove the max-width limit */
     max-height: 25rem;
     object-fit: cover;
+    filter: brightness(50%);
+
+    &:hover {
+        filter: brightness(100%) saturate(100%);
+    }
+}
+
+.custom-fluid-hero {
+    width: 100%;
+    /* 100% width by default */
+    max-width: none;
+    /* Remove the max-width limit */
+    max-height: 25rem;
+    object-fit: cover;
+    filter: brightness(50%);
+
+    &:hover {
+        filter: brightness(100%) saturate(100%);
+    }
 }
 
 .all-inclusive__image {

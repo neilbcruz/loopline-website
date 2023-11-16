@@ -16,7 +16,7 @@ import HollandPH from '../../assets/images/holland_placeholder.jpg';
 import NorwegianPH from '../../assets/images/norwegian_placeholder.jpg';
 import CelebrityPH from '../../assets/images/celebrity_placeholder.jpg';
 import CrystalPH from '../../assets/images/crystal_placeholder.jpg';
-import CaribbeanPH from '../../assets/images/cruise_placeholder.jpg';
+import CaribbeanPH from '../../assets/images/icon_placeholder.jpg';
 import SeabournPH from '../../assets/images/seabourn_placeholder.jpg';
 import AmaWaterwaysPH from '../../assets/images/amawayerways_placeholder.jpg';
 import TravelLeadersPH from '../../assets/images/travelleaders_placeholder.jpg';
@@ -83,7 +83,7 @@ export default function HomeInspiration() {
                                     <p>Whether you’re looking for an all-inclusive family getaway or an off the beaten path adventure for two, our experienced beach vacation.</p>
                                 </div>
                                 <div>
-                                    <HashLink to='inspiration/beach#top' >
+                                    <HashLink to='/inspiration/beach#top' >
                                         <Button variant='outline-danger'>
                                             LEARN MORE
                                         </Button>

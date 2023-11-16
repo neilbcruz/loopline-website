@@ -205,7 +205,6 @@ export default function CruiseNorwegianAdventure() {
 
             <Container className='my-3'>
                 <h2>NORWEGIAN CRUISE LINE'S NEWEST SHIPS</h2>
-
                 <div className='image-container'>
                     <Image
                         src={PrimaVivaBanner}
