@@ -250,7 +250,7 @@ export default function HomeInspiration() {
                     {showRows && (
                     <Row>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='avvoyages-luxury#top' className='image-container'>
+                            <HashLink to='vvoyages-luxury#top' className='image-container'>
                                 <Image
                                     src={VVoyagesPH}
                                     alt='placeholder image'

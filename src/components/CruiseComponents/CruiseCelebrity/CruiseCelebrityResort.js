@@ -71,13 +71,13 @@ export default function CruiseCelebrityResort() {
                     Seeing the world on a Celebrity Cruises® ship is more than just a vacation — it’s sailing in luxury and relaxation. When you board a Celebrity ship, you can take your chances at the onboard casinos, explore flavors from around the world without leaving your table or even sign up for archery tournaments to take a shot at the bull’s-eye.
                 </p>
                 <p>
-                    In December 2023, Celebrity Cruises will launch its newest ship — Celebrity AscentSM — which will invite you to retreat into a vast selection of staterooms and suites. Take a break at the adults-only SEA Thermal Suite spa and choose among eight luxurious spaces to unwind or pull up a chair to Celebrity Cruises’ Michelin-starred chef restaurant Luminae at The Retreat.
+                    In December 2023, Celebrity Cruises will launch its newest ship — Celebrity Ascent℠ — which will invite you to retreat into a vast selection of staterooms and suites. Take a break at the adults-only SEA Thermal Suite spa and choose among eight luxurious spaces to unwind or pull up a chair to Celebrity Cruises’ Michelin-starred chef restaurant Luminae at The Retreat.
                 </p>
                 <p>
-                    Dive into Ascent’s culinary experiences like chef Daniel Boulud's inaugural sea venture, Le VoyageSM, that will take you on a global culinary journey, offering dishes inspired by the places that fuel his creativity. Also, don’t miss Eden Restaurant, the place that provides a multisensory culinary experience, drawing inspiration from diverse cuisines and regions worldwide.
+                    Dive into Ascent’s culinary experiences like chef Daniel Boulud's inaugural sea venture, Le Voyage℠, that will take you on a global culinary journey, offering dishes inspired by the places that fuel his creativity. Also, don’t miss Eden Restaurant, the place that provides a multisensory culinary experience, drawing inspiration from diverse cuisines and regions worldwide.
                 </p>
                 <p>
-                    For the first time ever in 2024, Celebrity Cruises is taking you to one of the Caribbean’s most exclusive destinations, Perfect Day at CocoCay, Royal Caribbean’s award-winning private island destination. Step ashore and experience the best of beachside bliss and sun-soaked excitement. From taking on the tallest waterslide in North America to unwinding in your own Overwater Cabana or retreating to the newly added Hideaway BeachSM, an adults-only beachfront paradise.
+                    For the first time ever in 2024, Celebrity Cruises is taking you to one of the Caribbean’s most exclusive destinations, Perfect Day at CocoCay, Royal Caribbean’s award-winning private island destination. Step ashore and experience the best of beachside bliss and sun-soaked excitement. From taking on the tallest waterslide in North America to unwinding in your own Overwater Cabana or retreating to the newly added Hideaway Beach℠, an adults-only beachfront paradise.
                 </p>
                 <p>
                     Book your cruise now to take advantage of this great offer: <strong>Drinks, Wi-Fi and Tips — All Included + Receive US$50 Onboard Credit per Stateroom, only through our agency.</strong>
@@ -135,11 +135,11 @@ export default function CruiseCelebrityResort() {
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
-                            <div className='text-on-image'>Celebrity AscentSM</div>
+                            <div className='text-on-image'>Celebrity Ascent℠</div>
                         </div>
                         <h3>12-Night Italy, France & Spain</h3>
                         <p>
-                            <em>Celebrity AscentSM</em>
+                            <em>Celebrity Ascent℠</em>
                             <br></br>
                             September 2, 2024
                         </p>

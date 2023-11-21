@@ -81,6 +81,7 @@ export default function CruiseAmawaterwaysRiver() {
                         title='YouTube video player'
                         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                         allowFullScreen
+                        className='my-3'
                     ></iframe>
                 </div>
                 <h5>Innovative Ships</h5>
@@ -242,7 +243,7 @@ export default function CruiseAmawaterwaysRiver() {
             <Container className='my-5'>
                 <strong>Terms and Conditions</strong>
                 <p>
-                All rates are per person in CAD for cruise and port charges, based on double occupancy in a base category stateroom.
+                    All rates are per person in CAD for cruise and port charges, based on double occupancy in a base category stateroom.
                 </p>
                 <p>
                     <strong>20% Off | Terms & Conditions:</strong> Pricing referenced is inclusive of this offer. 20% cruise savings is applicable select 2023 and 2024 Europe and Mekong sailings reserved from today – December 31, 2023. 20% cruise savings is also valid for new 2024 group contracts only, for new group bookings reserved today – December 31, 2023. Savings applies to total cruise fare, based on category purchased. Offer is applicable to all categories for double occupancy. Single Supplement of 20% is available for solo travelers only; excludes A+, AA+, SA, SB and suites. Port charges, upgrades, transfers, land packages, gratuities and airfare are additional. Offers are combinable with Loyalty Benefits, Future Cruise Benefit Program, and AirPlus promotions (if applicable on selected date). Offer is limited to availability, capacity controlled and subject to change without notice. AmaWaterways reserves the right to correct any errors or omissions at any time. Other restrictions apply. CST#2065452-20.
@@ -253,19 +254,6 @@ export default function CruiseAmawaterwaysRiver() {
                 </p>
                 <p>
                     <strong>Exclusive Amenities | Terms & Conditions:</strong> US$300 onboard credit per stateroom (US$150 per person), based on double occupancy (solo travelers receive half. Sailing dates and exclusive amenities are current at time of printing and are subject to change without notice. Amenities apply to 1st and 2nd passenger only. Offers are subject to availability at the time of booking, and may be altered or withdrawn at any time without notice. Pricing and amenities will be confirmed at the time of booking. Cancellations, refunds, and penalties are imposed by the cruise line. Amenities are specific to this cruise line and must be booked by one of our travel advisors. If space has been recalled or cancelled by the cruise line amenities cannot be applied. Contact our agency for additional information.
-                </p>
-                <p>
-                    <strong>Wi-Fi Premium Package:</strong> All onboard Internet usage is subject to Holland America Line’s standard policies, which may limit browsing of some sites due to network security and bandwidth usage. Applications that use high bandwidth may be blocked and offerings are subject to change with or without notice. The plan can be activated on any device, but only one device can be actively connected at a time. Upgrades are available once on board for a single day, the remaining duration of the voyage or adding more devices. Offer applies to 1st/2nd guests in a stateroom only.
-                </p>
-                <p>
-                    <strong>Crew Appreciation:</strong> Receive prepaid stateroom gratuities on board. Gratuities for other services, including, but not limited to, bar, dining room, wine accounts and spa/salon services, are not included.
-                </p>
-                <p>
-                    <strong>Low Price Guarantee:</strong> If a guest books a HAL cruise with the Early Booking Bonus Offer (the “original booking”) and such guest finds a cheaper price for an identical booking within the duration of the Early Booking Bonus Offer (the “Comparison Fare”), the difference may be compensated in the form of an onboard credit, stateroom upgrade or other method. HAL reserves the sole right to determine the method of compensation made to guests. A fare will be considered a Comparison Fare only if its booking consists of details that are identical to those of the original booking (including, but not limited to, the same ship, sail dates, stateroom category and number of guests as the original booking). The amount of compensation will be determined by the difference between the booked fare and the current available fare displayed on HollandAmerica.com the day the request is received by HAL. A determination as to whether the located fare is identical to the original booking will be at HAL’s sole discretion. HAL reserves the right to apply this price protection and offer at its discretion. Other restrictions and exclusions may apply.
-                    HAL is neither responsible nor liable for any printing errors. Promotion is based on promotion code(s) N2 and based on double occupancy. Ships’ Registry: The Netherlands.
-                </p>
-                <p>
-                    Sailing dates and amenities, including Distinctive Voyages amenities, are in USD, current at time of printing and are subject to change without notice. Amenities apply to 1st and 2nd passenger only. Offers are subject to availability and may be altered or withdrawn at any time without notice. Pricing and amenities will be confirmed at time of booking. Combinability varies. Cancellations, refunds, and penalties are imposed by the cruise line. Distinctive Voyages amenities may be substituted if a minimum number of guests are not confirmed on any given departure. These amenities are exclusive to this cruise line and must be booked by one of our travel advisors. Contact our agency for additional information.
                 </p>
             </Container>
 

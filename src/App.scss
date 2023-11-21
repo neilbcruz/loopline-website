@@ -52,6 +52,7 @@
 .image-container {
     position: relative;
     display: flex;
+    margin: 1px;
 
     & img {
         object-fit: cover
@@ -98,11 +99,11 @@
 
 .text-on-hero {
     position: absolute;
-    top: 45%;
+    top: 50%;
     /* Adjust the top value to position the text vertically */
     left: 50%;
     /* Adjust the left value to position the text horizontally */
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     /* Center the text both horizontally and vertically */
     color: #fff;
     /* Text color */
@@ -111,12 +112,7 @@
     text-align: center;
     /* Center align the text */
     background-color: rgba(0, 0, 0, 0);
-
     /* Add background color for better text readability */
-    & h1,
-    p {
-        white-space: nowrap;
-    }
 }
 
 .custom-fluid-image {
@@ -124,7 +120,27 @@
     /* 100% width by default */
     max-width: none;
     /* Remove the max-width limit */
+    min-height: 15rem;
     max-height: 20rem;
+    object-fit: cover;
+    filter: brightness(50%);
+
+    @include tablet {
+        max-height: 15rem;
+    }
+
+    &:hover {
+        filter: brightness(100%) saturate(100%);
+    }
+}
+
+.custom-fluid-hero {
+    width: 100%;
+    /* 100% width by default */
+    // max-width: none;
+    /* Remove the max-width limit */
+    min-height: 20rem;
+    max-height: 30rem;
     object-fit: cover;
     filter: brightness(50%);
 
@@ -178,5 +194,26 @@
             }
         }
     }
+}
 
+.carousel-fluid-image {
+    width: 100%;
+    /* 100% width by default */
+    max-width: none;
+    /* Remove the max-width limit */
+    max-height: 50rem;
+    object-fit: scale-down;
+}
+
+/* Customize carousel arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.1); /* Change the background color */
+  /* Add other properties like color, size, etc. */
+}
+
+/* Hover effect for arrows */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Change the hover background color */
 }
