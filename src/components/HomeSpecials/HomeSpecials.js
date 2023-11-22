@@ -260,6 +260,42 @@ export default function HomeInspiration() {
                                 <div className='text-on-image text-start'>VIRGIN VOYAGES<br></br><strong>ALWAYS INCLUDED LUXURY</strong></div>
                             </HashLink>
                         </Col>
+                        <Col xs={12} md={4} className='p-md-0'>
+                            <HashLink to='norwegian-feelfree#top' className='image-container'>
+                                <Image
+                                    src={NorwegianPH}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image text-start'>NORWEGIAN CRUISE LINE<br></br><strong>FEEL FREE TO LET THE OUTSIDE IN</strong></div>
+                            </HashLink>
+                        </Col>
+                        <Col xs={12} md={4} className='p-md-0'>
+                            <HashLink to='amawayerways-sail#top' className='image-container'>
+                                <Image
+                                    src={AmaWaterwaysPH}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image text-start'>AMAWATERWAYS<br></br><strong>SAIL THROUGH THE HEART OF THE DESTINATION</strong></div>
+                            </HashLink>
+                        </Col>
+                    </Row>)}
+                    {showRows && (
+                    <Row>
+                        <Col xs={12} md={4} className='p-md-0'>
+                            <HashLink to='caribbean-sale#top' className='image-container'>
+                                <Image
+                                    src={CaribbeanPH}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image text-start'>ROYAL CARIBBEAN<br></br><strong>BIGGEST SALE OF THE YEAR</strong></div>
+                            </HashLink>
+                        </Col>
                     </Row>)}
             </Container>
 

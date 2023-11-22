@@ -43,6 +43,9 @@ import CruiseAmawaterwaysRiver from './components/CruiseComponents/CruiseAmawate
 import CruiseTravelLeadersElevate from './components/CruiseComponents/CruiseTravelLeaders/CruiseTravelLeadersElevate';
 import CruiseCelebrityGetaway from './components/CruiseComponents/CruiseCelebrity/CruiseCelebrityGetaway';
 import CruiseVVoyagesLuxury from './components/CruiseComponents/CruiseVVoyages/CruiseVVoyagesLuxury';
+import CruiseNorwegianFeelfree from './components/CruiseComponents/CruiseNorwegian/CruiseNorwegianFeelfree';
+import CruiseAmawaterwaysSail from './components/CruiseComponents/CruiseAmawaterways/CruiseAmawaterwaysSail';
+import CruiseCaribbeanSale from './components/CruiseComponents/CruiseCaribbean/CruiseCaribbeanSale';
 
 import Bootstrap from './pages/Bootstrap/Bootstrap';
 import ContactPage from './pages/ContactPage/ContactPage';
@@ -98,6 +101,9 @@ function App() {
             <Route path='/specials/travelleaders-elevate' element={<CruiseTravelLeadersElevate />} />
             <Route path='/specials/celebrity-getaway' element={<CruiseCelebrityGetaway />} />
             <Route path='/specials/vvoyages-luxury' element={<CruiseVVoyagesLuxury />} />
+            <Route path='/specials/norwegian-feelfree' element={<CruiseNorwegianFeelfree />} />
+            <Route path='/specials/amawayerways-sail' element={<CruiseAmawaterwaysSail />} />
+            <Route path='/specials/caribbean-sale' element={<CruiseCaribbeanSale />} />
 
             <Route path='/bootstrap' element={<Bootstrap />} />
             <Route path='/contact' element={<ContactPage />} />

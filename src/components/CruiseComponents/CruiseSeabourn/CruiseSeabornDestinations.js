@@ -12,10 +12,10 @@ import { useEffect, useState } from 'react';
 import SeabournPH from '../../../assets/images/seabourn_placeholder.jpg';
 import SeabournLogo from '../../../assets/logo/SeabournLogo.png';
 
-import EasterIslandPH from '../../../assets/images/cruise_images/easterisland_placeholder.jpg';
-import FireDancePH from '../../../assets/images/cruise_images/firedance_placeholder.jpg';
-import SnorkelPacificPH from '../../../assets/images/cruise_images/snorkelpacific_placeholder.jpg';
-import MitchellFallsPH from '../../../assets/images/cruise_images/mitchellfalls_placeholder.jpg';
+import EasterIsland from '../../../assets/images/cruise_images/seabourn_easterisland.jpg';
+import FireDance from '../../../assets/images/cruise_images/seabourn_firedance.jpg';
+import SnorkelPacific from '../../../assets/images/cruise_images/seabourn_snorkelpacific.jpg';
+import MitchellFalls from '../../../assets/images/cruise_images/seabourn_mitchellfalls.jpg';
 
 export default function CruiseSeabournDestinations() {
     // Scroll-to-Top functions //
@@ -42,9 +42,9 @@ export default function CruiseSeabournDestinations() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={SeabournPH} className='custom-fluid-image' width='100%' />
+                <Image src={SeabournPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
-                    <h1>EXCITING NEW<br></br>DESTINATIONS AWAIT</h1>
+                    <h1>EXCITING NEW DESTINATIONS AWAIT</h1>
                     <p>TRAVEL AGENTS - CRUISE, SEABOURN</p>
                 </div>
                 <Row>
@@ -92,7 +92,7 @@ export default function CruiseSeabournDestinations() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={EasterIslandPH}
+                                src={EasterIsland}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -112,7 +112,7 @@ export default function CruiseSeabournDestinations() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={FireDancePH}
+                                src={FireDance}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -132,7 +132,7 @@ export default function CruiseSeabournDestinations() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SnorkelPacificPH}
+                                src={SnorkelPacific}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -151,7 +151,7 @@ export default function CruiseSeabournDestinations() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={MitchellFallsPH}
+                                src={MitchellFalls}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />

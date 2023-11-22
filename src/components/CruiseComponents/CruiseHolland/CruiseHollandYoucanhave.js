@@ -12,10 +12,10 @@ import { useEffect, useState } from 'react';
 import HollandPH from '../../../assets/images/holland_placeholder.jpg';
 import HollandLogo from '../../../assets/logo/HollandALLogo.png';
 
-import SanJuanPH from '../../../assets/images/cruise_images/sanjuan_placeholder.jpg';
-import SanDiegoPH from '../../../assets/images/cruise_images/sandiego_placeholder.jpg';
-import HonoluluPH from '../../../assets/images/cruise_images/honolulu_placeholder.jpg';
-import PanamaCanalPH from '../../../assets/images/cruise_images/panamacanal_placeholder.jpg';
+import SanJuan from '../../../assets/images/cruise_images/holland_sanjuan.jpg';
+import SanDiego from '../../../assets/images/cruise_images/holland_sandiego.jpg';
+import Honolulu from '../../../assets/images/cruise_images/holland_honolulu.jpg';
+import PanamaCanal from '../../../assets/images/cruise_images/crystal_panamacanal.jpg';
 
 export default function CruiseHollandYoucanhave() {
     // Scroll-to-Top functions //
@@ -42,10 +42,10 @@ export default function CruiseHollandYoucanhave() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={HollandPH} className='custom-fluid-image' width='100%' />
+                <Image src={HollandPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
                     <h1>YOU CAN HAVE IT ALL</h1>
-                    <p>TRAVEL AGENTS -<br></br>CRUISE, HOLLAND AMERICA LINE</p>
+                    <p>TRAVEL AGENTS - CRUISE, HOLLAND AMERICA LINE</p>
                 </div>
                 <Row>
                     <Stack
@@ -82,7 +82,7 @@ export default function CruiseHollandYoucanhave() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SanJuanPH}
+                                src={SanJuan}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -102,7 +102,7 @@ export default function CruiseHollandYoucanhave() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SanDiegoPH}
+                                src={SanDiego}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -123,7 +123,7 @@ export default function CruiseHollandYoucanhave() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={HonoluluPH}
+                                src={Honolulu}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -142,7 +142,7 @@ export default function CruiseHollandYoucanhave() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={PanamaCanalPH}
+                                src={PanamaCanal}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />

@@ -12,16 +12,16 @@ import { useEffect, useState } from 'react';
 import CrystalPH from '../../../assets/images/crystal_placeholder.jpg';
 import CrystalLogo from '../../../assets/logo/CrystalLogo.png';
 
-import LesSaintesPH from '../../../assets/images/cruise_images/lessaintes_placeholder.jpg';
-import RhodesPH from '../../../assets/images/cruise_images/rhodes_placeholder.jpg';
-import InsidePassagePH from '../../../assets/images/cruise_images/insidepassage_placeholder.jpg';
-import AlaskanSealsPH from '../../../assets/images/cruise_images/alaskanseals_placeholder.jpg';
-import PanamaCanalPH from '../../../assets/images/cruise_images/panamacanal_placeholder.jpg';
-import RouenPH from '../../../assets/images/cruise_images/rouen_placeholder.jpg';
+import LesSaintes from '../../../assets/images/cruise_images/crystal_lessaintes.jpg';
+import Rhodes from '../../../assets/images/cruise_images/crystal_rhodes.jpg';
+import InsidePassage from '../../../assets/images/cruise_images/crystal_insidepassage.jpg';
+import AlaskanSeals from '../../../assets/images/cruise_images/crystal_alaskanseals.jpg';
+import PanamaCanal from '../../../assets/images/cruise_images/crystal_panamacanal.jpg';
+import Rouen from '../../../assets/images/cruise_images/crystal_rouen.jpg';
 
-import UmiUmaPH from '../../../assets/images/cruise_images/umiuma_placeholder.jpg';
-import SerenityPH from '../../../assets/images/cruise_images/serenity_placeholder.jpg';
-import AquamarineVerandaPH from '../../../assets/images/cruise_images/aquamarineveranda_placeholder.jpg';
+import UmiUma from '../../../assets/images/cruise_images/crystal_umiuma.jpg';
+import Serenity from '../../../assets/images/cruise_images/crystal_serenity.jpg';
+import AquamarineVeranda from '../../../assets/images/cruise_images/crystal_aquamarineveranda.jpg';
 
 export default function CruiseCrystalSolo() {
     // Scroll-to-Top functions //
@@ -48,10 +48,10 @@ export default function CruiseCrystalSolo() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={CrystalPH} className='custom-fluid-image' width='100%' />
+                <Image src={CrystalPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
                     <h1>SAIL SOLO IN STYLE</h1>
-                    <p>TRAVEL AGENTS -<br></br>CRUISE, CRYSTAL, CARIBBEAN,<br></br>EUROPE, ALASKA, CANADA</p>
+                    <p>TRAVEL AGENTS - CRUISE, CRYSTAL, CARIBBEAN, EUROPE, ALASKA, CANADA</p>
                 </div>
                 <Row>
                     <Stack
@@ -94,7 +94,7 @@ export default function CruiseCrystalSolo() {
                 <Row>
                     <Col xs={12} md={4} className='mb-3'>
                         <Image
-                            src={UmiUmaPH}
+                            src={UmiUma}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -103,7 +103,7 @@ export default function CruiseCrystalSolo() {
                     </Col>
                     <Col xs={12} md={4} className='mb-3'>
                         <Image
-                            src={SerenityPH}
+                            src={Serenity}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -112,7 +112,7 @@ export default function CruiseCrystalSolo() {
                     </Col>
                     <Col xs={12} md={4} className='mb-3'>
                         <Image
-                            src={AquamarineVerandaPH}
+                            src={AquamarineVeranda}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -128,7 +128,7 @@ export default function CruiseCrystalSolo() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={LesSaintesPH}
+                                src={LesSaintes}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -146,7 +146,7 @@ export default function CruiseCrystalSolo() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={RhodesPH}
+                                src={Rhodes}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -165,7 +165,7 @@ export default function CruiseCrystalSolo() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={InsidePassagePH}
+                                src={InsidePassage}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -182,7 +182,7 @@ export default function CruiseCrystalSolo() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={AlaskanSealsPH}
+                                src={AlaskanSeals}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -201,7 +201,7 @@ export default function CruiseCrystalSolo() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={PanamaCanalPH}
+                                src={PanamaCanal}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -218,7 +218,7 @@ export default function CruiseCrystalSolo() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={RouenPH}
+                                src={Rouen}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />

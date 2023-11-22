@@ -12,12 +12,12 @@ import { useEffect, useState } from 'react';
 import NorwegianPH from '../../../assets/images/norwegian_placeholder.jpg';
 import NorwegianLogo from '../../../assets/logo/NorweigianCLLogo.png';
 
-import SantoriniPH from '../../../assets/images/cruise_images/santorini_placeholder.jpg';
-import BarcelonaPH from '../../../assets/images/cruise_images/barcelona_placeholder.jpg';
-import LisbonPH from '../../../assets/images/cruise_images/lisbon_placeholder.jpg';
-import LondonPH from '../../../assets/images/cruise_images/london_placeholder.jpg';
-import MykonosPH from '../../../assets/images/cruise_images/mykonos_placeholder.jpg';
-import IstanbulPH from '../../../assets/images/cruise_images/istanbul_placeholder.jpg';
+import Santorini from '../../../assets/images/cruise_images/norwegian_santorini.jpg';
+import Barcelona from '../../../assets/images/cruise_images/norwegian_barcelona.jpg';
+import Lisbon from '../../../assets/images/cruise_images/norwegian_lisbon.jpg';
+import London from '../../../assets/images/cruise_images/norwegian_london.jpg';
+import Mykonos from '../../../assets/images/cruise_images/norwegian_mykonos.jpg';
+import Istanbul from '../../../assets/images/cruise_images/norwegian_istanbul.jpg';
 
 export default function CruiseNorwegianVacation() {
     // Scroll-to-Top functions //
@@ -44,10 +44,10 @@ export default function CruiseNorwegianVacation() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={NorwegianPH} className='custom-fluid-image' width='100%' />
+                <Image src={NorwegianPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
-                    <h1>YOUR PERFECT VACATION<br></br>STARTS HERE</h1>
-                    <p>TRAVEL AGENTS -<br></br>CRUISE, VACATION PACKAGE/TOUR,<br></br>NORWEGIAN CRUISE LINE</p>
+                    <h1>YOUR PERFECT VACATION STARTS HERE</h1>
+                    <p>TRAVEL AGENTS - CRUISE, VACATION PACKAGE/TOUR, NORWEGIAN CRUISE LINE</p>
                 </div>
                 <Row>
                     <Stack
@@ -84,7 +84,7 @@ export default function CruiseNorwegianVacation() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SantoriniPH}
+                                src={Santorini}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -103,7 +103,7 @@ export default function CruiseNorwegianVacation() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={BarcelonaPH}
+                                src={Barcelona}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -123,7 +123,7 @@ export default function CruiseNorwegianVacation() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={LisbonPH}
+                                src={Lisbon}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -141,7 +141,7 @@ export default function CruiseNorwegianVacation() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={LondonPH}
+                                src={London}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -161,7 +161,7 @@ export default function CruiseNorwegianVacation() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={MykonosPH}
+                                src={Mykonos}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -180,7 +180,7 @@ export default function CruiseNorwegianVacation() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={IstanbulPH}
+                                src={Istanbul}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />

@@ -12,10 +12,10 @@ import { useEffect, useState } from 'react';
 import HollandPH from '../../../assets/images/holland_placeholder.jpg';
 import HollandLogo from '../../../assets/logo/HollandALLogo.png';
 
-import MassachusettsPH from '../../../assets/images/cruise_images/massachusetts_placeholder.jpg';
-import NovaScotiaPH from '../../../assets/images/cruise_images/novascotia_placeholder.jpg';
-import IcelandPH from '../../../assets/images/cruise_images/iceland_placeholder.jpg';
-import QuebecPH from '../../../assets/images/cruise_images/quebec_placeholder.jpg';
+import Massachusetts from '../../../assets/images/cruise_images/holland_massachusetts.jpg';
+import NovaScotia from '../../../assets/images/cruise_images/holland_novascotia.jpg';
+import Iceland from '../../../assets/images/cruise_images/holland_iceland.jpg';
+import Quebec from '../../../assets/images/cruise_images/holland_quebec.jpg';
 
 export default function CruiseHollandHaveitall() {
     // Scroll-to-Top functions //
@@ -42,10 +42,10 @@ export default function CruiseHollandHaveitall() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={HollandPH} className='custom-fluid-image' width='100%' />
+                <Image src={HollandPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
-                    <h1>HAVE IT ALL WITH<br></br>HOLLAND AMERICA LINE</h1>
-                    <p>TRAVEL AGENTS -<br></br>CRUISE, VACATION PACKAGE/TOUR,<br></br> HOLLAND AMERICA LINE</p>
+                    <h1>HAVE IT ALL WITH HOLLAND AMERICA LINE</h1>
+                    <p>TRAVEL AGENTS - CRUISE, VACATION PACKAGE/TOUR, HOLLAND AMERICA LINE</p>
                 </div>
                 <Row>
                     <Stack
@@ -85,7 +85,7 @@ export default function CruiseHollandHaveitall() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={MassachusettsPH}
+                                src={Massachusetts}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -105,7 +105,7 @@ export default function CruiseHollandHaveitall() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={NovaScotiaPH}
+                                src={NovaScotia}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -126,7 +126,7 @@ export default function CruiseHollandHaveitall() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={IcelandPH}
+                                src={Iceland}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -144,7 +144,7 @@ export default function CruiseHollandHaveitall() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={QuebecPH}
+                                src={Quebec}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />

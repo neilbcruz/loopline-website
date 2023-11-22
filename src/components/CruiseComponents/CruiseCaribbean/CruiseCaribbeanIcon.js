@@ -12,13 +12,13 @@ import { useEffect, useState } from 'react';
 import IconPH from '../../../assets/images/icon_placeholder.jpg';
 import RoyalCaribbeanLogo from '../../../assets/logo/RoyalCarribeanLogo.png';
 
-import Cloud17PH from '../../../assets/images/cruise_images/icon-cloud17_placeholder.jpg';
-import OverlookPH from '../../../assets/images/cruise_images/icon-overlook_placeholder.jpg';
-import EmpirePH from '../../../assets/images/cruise_images/icon-empire_placeholder.jpg';
-import SurfsidePH from '../../../assets/images/cruise_images/icon-surfside_placeholder.jpg';
-import HurricanHunterPH from '../../../assets/images/cruise_images/icon-hurricanehunter_placeholder.jpg';
-import CococayPH from '../../../assets/images/cruise_images/cococay_placeholder.jpg';
-import IconOfTheSeasPH from '../../../assets/images/cruise_images/iconseas_placeholder.jpg';
+import Cloud17 from '../../../assets/images/cruise_images/royalcaribbean_icon-cloud17.jpg';
+import Overlook from '../../../assets/images/cruise_images/royalcaribbean_icon-overlook.jpg';
+import Empire from '../../../assets/images/cruise_images/royalcaribbean_icon-empire.jpg';
+import Surfside from '../../../assets/images/cruise_images/royalcaribbean_icon-surfside.jpg';
+import HurricanHunter from '../../../assets/images/cruise_images/royalcaribbean_icon-hurricanehunter.jpg';
+import Cococay from '../../../assets/images/cruise_images/royalcaribbean_cococay.jpg';
+import IconOfTheSeas from '../../../assets/images/cruise_images/royalcaribbean_iconseas.jpg';
 
 export default function CruiseCaribbeanIcon() {
     // Scroll-to-Top functions //
@@ -45,10 +45,10 @@ export default function CruiseCaribbeanIcon() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={IconPH} className='custom-fluid-image' width='100%' />
+                <Image src={IconPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
                     <h1>THE ICON OF VACATIONS℠</h1>
-                    <p>TRAVEL AGENTS -<br></br>CRUISES, CARIBBEAN, ROYAL CARIBBEAN</p>
+                    <p>TRAVEL AGENTS - CRUISES, CARIBBEAN, ROYAL CARIBBEAN</p>
                 </div>
                 <Row>
                     <Stack
@@ -81,7 +81,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={Cloud17PH}
+                                src={Cloud17}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -94,7 +94,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={OverlookPH}
+                                src={Overlook}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -106,7 +106,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={EmpirePH}
+                                src={Empire}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -120,7 +120,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SurfsidePH}
+                                src={Surfside}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -133,7 +133,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={HurricanHunterPH}
+                                src={HurricanHunter}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -145,7 +145,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={CococayPH}
+                                src={Cococay}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -162,9 +162,9 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} lg={6}>
                         <div className='image-container'>
                             <Image
-                                src={IconOfTheSeasPH}
+                                src={IconOfTheSeas}
                                 width='100%'
-                                className='custom-fluid-image'
+                                className='all-inclusive__image my-2'
                             />
                             <div className='text-on-image'>Icon of the Seas℠</div>
                         </div>

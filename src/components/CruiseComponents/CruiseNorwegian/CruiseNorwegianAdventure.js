@@ -12,13 +12,13 @@ import { useEffect, useState } from 'react';
 import NorwegianPH from '../../../assets/images/norwegian_placeholder.jpg';
 import NorwegianLogo from '../../../assets/logo/NorweigianCLLogo.png';
 
-import StThomasPH from '../../../assets/images/cruise_images/stthomas_placeholder.jpg';
-import RomePH from '../../../assets/images/cruise_images/rome_placeholder.jpg';
-import LisbonPH from '../../../assets/images/cruise_images/lisbon_placeholder.jpg';
-import SantoriniPH from '../../../assets/images/cruise_images/santorini_placeholder.jpg';
-import FlorencePH from '../../../assets/images/cruise_images/florence_placeholder.jpg';
-import PrimaPH from '../../../assets/images/cruise_images/norwegianprima_placeholder.jpg';
-import PrimaVivaBanner from '../../../assets/images/cruise_images/primaviva_placeholder.jpg';
+import StThomas from '../../../assets/images/cruise_images/norwegian_stthomas.jpg';
+import Rome from '../../../assets/images/cruise_images/norwegian_rome.jpg';
+import Lisbon from '../../../assets/images/cruise_images/norwegian_lisbon.jpg';
+import Santorini from '../../../assets/images/cruise_images/norwegian_santorini.jpg';
+import Florence from '../../../assets/images/cruise_images/norwegian_florence.jpg';
+import Prima from '../../../assets/images/cruise_images/norwegian_norwegianprima.jpg';
+import PrimaVivaBanner from '../../../assets/images/cruise_images/norwegian_primaviva.jpg';
 
 export default function CruiseNorwegianAdventure() {
     // Scroll-to-Top functions //
@@ -45,7 +45,7 @@ export default function CruiseNorwegianAdventure() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={NorwegianPH} className='custom-fluid-image' width='100%' />
+                <Image src={NorwegianPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
                     <h1>CHOOSE YOUR<br></br>OWN ADVENTURE</h1>
                     <p>TRAVEL AGENTS -<br></br>CRUISE, NORWEGIAN CRUISE LINE</p>
@@ -90,7 +90,7 @@ export default function CruiseNorwegianAdventure() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={StThomasPH}
+                                src={StThomas}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -109,7 +109,7 @@ export default function CruiseNorwegianAdventure() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={RomePH}
+                                src={Rome}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -129,7 +129,7 @@ export default function CruiseNorwegianAdventure() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={LisbonPH}
+                                src={Lisbon}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -147,7 +147,7 @@ export default function CruiseNorwegianAdventure() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SantoriniPH}
+                                src={Santorini}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -167,7 +167,7 @@ export default function CruiseNorwegianAdventure() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={FlorencePH}
+                                src={Florence}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -185,7 +185,7 @@ export default function CruiseNorwegianAdventure() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={PrimaPH}
+                                src={Prima}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />

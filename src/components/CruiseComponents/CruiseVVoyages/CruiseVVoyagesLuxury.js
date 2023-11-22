@@ -14,7 +14,7 @@ import VirginVoyagesLogo from '../../../assets/logo/VoyagesLogo.png';
 
 import SailAway from '../../../assets/images/cruise_images/virgin_sailaway.jpg';
 import RedemptionSpa from '../../../assets/images/cruise_images/virgin_redemptionspa.jpg';
-import BeachClub from '../../../assets/images/cruise_images/virgin_beachclub.jpg.jpg';
+import BeachClub from '../../../assets/images/cruise_images/virgin_beachclub.jpg';
 import ItalianRiviera from '../../../assets/images/cruise_images/virgin_italianriviera.jpg';
 import Included from '../../../assets/images/cruise_images/virgin_included.jpg';
 

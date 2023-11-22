@@ -9,18 +9,19 @@ import {
 import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
-import AmaWaterways from '../../../assets/images/amawayerways_placeholder.jpg';
+import AmaWaterwaysPH from '../../../assets/images/amawayerways_placeholder.jpg';
 import AmaWaterwaysLogo from '../../../assets/logo/AmaWaterwaysLogo.png';
 
-import AmaKristina from '../../../assets/images/cruise_images/amawaterways_amakristina.jpg';
-import MarketVienna from '../../../assets/images/cruise_images/amawaterways_marketvienna.jpg';
-import Amsterdam from '../../../assets/images/cruise_images/amawaterways_amsterdam.jpg';
+import Cologne from '../../../assets/images/cruise_images/amawaterways_cologne.jpg';
 import Hanoi from '../../../assets/images/cruise_images/amawaterways_hanoi.jpg';
-import Rudesheim from '../../../assets/images/cruise_images/amawaterways_rudesheim.jpg';
-import Amalyra from '../../../assets/images/cruise_images/amawaterways_amalyra.jpg';
-import Budapest from '../../../assets/images/cruise_images/amawaterways_budapest.jpg';
+import Amsterdam from '../../../assets/images/cruise_images/amawaterways_amsterdam.jpg';
+import Porto from '../../../assets/images/cruise_images/amawaterways_porto.jpg';
+import AmaMagna from '../../../assets/images/cruise_images/amawaterways_amamagna.jpg';
+import Paris from '../../../assets/images/cruise_images/amawaterways_paris.jpg';
+import Castlenaud from '../../../assets/images/cruise_images/amawaterways_castlenaud.jpg';
+import RhineRiver from '../../../assets/images/cruise_images/amawaterways_rhineriver.jpg';
 
-export default function CruiseAmawaterwaysRiver() {
+export default function CruiseAmawaterwaysSail() {
     // Scroll-to-Top functions //
     const [showButton, setShowButton] = useState(false);
     const handleScroll = () => {
@@ -45,10 +46,10 @@ export default function CruiseAmawaterwaysRiver() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={AmaWaterways} className='custom-fluid-hero' width='100%' />
+                <Image src={AmaWaterwaysPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
-                    <h1>HEART OF THE RIVER</h1>
-                    <p>TRAVEL AGENTS - RIVER CRUISES, AMAWATERWAYS</p>
+                    <h1>SAIL THROUGH THE HEART OF THE DESTINATION</h1>
+                    <p>TRAVEL AGENTS - RIVER CRUISES, EUROPE, AMA WATERWAYS</p>
                 </div>
                 <Row>
                     <Stack
@@ -57,41 +58,46 @@ export default function CruiseAmawaterwaysRiver() {
                         className='d-flex justify-content-center align-items-center text-align-center py-2 px-5 bg-secondary'
                     >
                         <p className='m-0' xs={4}>
-                            BOOKING PERIOD: 2023/10/03 - 2023/12/31
+                            BOOKING PERIOD: 2023/10/18 - 2023/12/31
                         </p>
                         <div className='vr' />
                         <p className='m-0' xs={4}>
                             TRAVEL PERIOD: PRESENT - 2024/12/31
                         </p>
                         <div className='vr' />
-                        <p className='m-0'>VACATION CODE: 2642</p>
+                        <p className='m-0'>VACATION CODE: 2678</p>
                     </Stack>
                 </Row>
             </Container>
 
             <Container className='my-3 mb-5'>
                 <p>
-                    Step aboard a world of unparalleled experiences on an AmaWaterways journey through Europe and Asia. Walk along cobblestone streets filled with delights. Pedal through historic town squares. Tour famous vineyards. Hike up to hilltop monasteries and castles. Discover the essence of the countries you explore. Experience these wonders and more while sailing on intimate, contemporary ships with AmaWaterways, the Heart of the River™.
+                    Step aboard a world of unparalleled experiences on an AmaWaterways journey through the hearts of Europe and Asia. With an award-winning fleet, critically acclaimed dining and a variety of authentic included excursions, AmaWaterways — the Heart of the River™ — will turn every mile of your journey into a cherished memory.
                 </p>
-                <div>
-                    <iframe
-                        width='100%'
-                        height='400'
-                        src='https://www.youtube.com/embed/j8rrDUjMrWw'
-                        title='YouTube video player'
-                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                        allowFullScreen
-                        className='my-3'
-                    ></iframe>
-                </div>
-                <h5>Innovative Ships</h5>
-                <p>The stunning ships of AmaWaterways create the ultimate guest experience. They are the “Highest-Rated River Cruise Ships,” according to popular guidebooks, after outranking the competition in the categories of accommodations, facilities, cuisine, hospitality and more.</p>
-                <h5>Book now to take advantage of this limited-time offer:</h5>
-                <ul>
-                    <li>Save 20% on select 2023 & 2024 Europe and Mekong River cruises</li>
-                    <li>Lock in trans-Atlantic flights at fixed rates on select 2023 & 2024 Europe sailings: Economy Air at $1,099; Premium Economy Air at $2,999; Business Class Air at $4,999</li>
-                    <li>Exclusive from our agency: Receive US$300 in onboard credit per stateroom on select sailings</li>
-                </ul>
+                <p>
+                    The stunning ships of AmaWaterways create the ultimate guest experience. They have been labeled the “Highest Rated River Cruise Ships” after outranking the competition in the categories of accommodations, facilities, cuisine, hospitality and more.
+                </p>
+            </Container>
+
+            <Container className='my-3'>
+                <Row className='d-flex align-items-center'>
+                    <Col lg={6} className='order-lg-2'>
+                        <Image
+                            src={Cologne}
+                            alt='placeholder image'
+                            width='100%'
+                            className='all-inclusive__image my-2'
+                        />
+                    </Col>
+                    <Col xs={12} lg={6} className='order-lg-1'>
+                        <h2>Book now to take advantage of these limited-time offers:</h2>
+                        <ul>
+                            <li><strong>Save 20%</strong> on select 2023 & 2024 Europe and Mekong river cruises</li>
+                            <li><strong>Lock in trans-Atlantic flights at fixed rates</strong> on select 2023 and 2024 Europe sailings: Economy Air at $1,099; Premium Economy Air at $2,999; Business Class Air at $4,999</li>
+                            <li><strong>Exclusive from our agency: Receive up to US$300 in onboard credit</strong> per stateroom on select sailings</li>
+                        </ul>
+                    </Col>
+                </Row>
             </Container>
 
             <Container>
@@ -100,42 +106,22 @@ export default function CruiseAmawaterwaysRiver() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={AmaKristina}
+                                src={Hanoi}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
                             />
-                            <div className='text-on-image'>AmaKristina Lobby at Christmas</div>
+                            <div className='text-on-image'>Hanoi, Vietnam</div>
                         </div>
-                        <h3>7-Night Colors of Provence Christmas</h3>
+                        <h3>7-Night Charms of The Mekong</h3>
                         <p>
-                            <em>AmaKristina</em>
+                            <em>AmaDara</em>
                             <br></br>
-                            November - December 2023 and 2024
+                            January - December 2024
                         </p>
-                        <p>Arles, France (overnight) • Avignon, France • Viviers, France • Tournon, France • Vienne, France • Lyon, France (overnight)</p>
-                        <p className='fw-bold'>Riverview from $3,970 per person</p>
+                        <p>Ho Chi Minh City – My Tho, Vietnam • Cai Be – Sa Dec, Vietnam • Tan Chau, Vietnam – Border crossing, Cambodia • Phnom Penh, Cambodia • Oudong – Kampong Tralach – Phnom Penh • Oknhatey – Angkor Ban, Cambodia • Kampong Cham – Siem Reap</p>
+                        <p className='fw-bold'>Riverview from $2,369 per person</p>
                     </Col>
-                    <Col xs={12} md={6} className='mb-3'>
-                        <div className='image-container'>
-                            <Image
-                                src={MarketVienna}
-                                alt='placeholder image'
-                                className='custom-fluid-image'
-                            />
-                            <div className='text-on-image'>Christmas Market, Vienna, Austria</div>
-                        </div>
-                        <h3>5-Night Majestic Capitals of the Danube: A Taste of Christmas Markets</h3>
-                        <p>
-                            <em>AmaLea, AmaMagna, AmaViola or AmaSonata</em>
-                            <br></br>
-                            December 2023 and 2024
-                        </p>
-                        <p>Budapest, Hungary (overnight) • Bratislava, Slovakia (overnight) • Vienna, Austria (overnight)</p>
-                        <p className='fw-bold'>Riverview from $2,595 per person</p>
-                    </Col>
-                </Row>
-                <Row>
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
@@ -143,92 +129,112 @@ export default function CruiseAmawaterwaysRiver() {
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
-                            <div className='text-on-image'>Amsterdam, The Netherlands</div>
+                            <div className='text-on-image'>Amsterdam, the Netherlands</div>
                         </div>
-                        <h3>7-Night Rhine Castles & Swiss Alps</h3>
+                        <h3>7-Night Captivating Rhine</h3>
                         <p>
-                            <em>AmaSerena or AmaMora</em>
+                            <em>AmaKristina</em>
                             <br></br>
-                            May - December 2024
+                            February - November 2024
                         </p>
-                        <p>Amsterdam, the Netherlands (overnight) • Cologne, Germany • Rhine Gorge – Rudesheim, Germany • Ludwigshafen, Germany • Strasbourg, France • Basel, Switzerland (overnight)</p>
-                        <p className='fw-bold'>Riverview from $3,842 per person</p>
-                    </Col>
-                    <Col xs={12} md={6} className='mb-3'>
-                        <div className='image-container'>
-                            <Image
-                                src={Hanoi}
-                                alt='placeholder image'
-                                className='custom-fluid-image'
-                            />
-                            <div className='text-on-image'>Hanoi, Vietnam</div>
-                        </div>
-                        <h3>7-Night Charms of the Mekong</h3>
-                        <p>
-                            <em>AmaDara</em>
-                            <br></br>
-                            January - December 2024
-                        </p>
-                        <p>Ho Chi Minh City – My Tho, Vietnam • Cai Be – Sa Dec, Vietnam • Tan Chau, Vietnam – Border Crossing, Cambodia • Phnom Penh, Cambodia • Oudong – Kampong Tralach – Phnom Penh, Cambodia • Oknhatey – Angkor Ban, Cambodia • Kampong Cham – Siem Reap, Cambodia</p>
-                        <p className='fw-bold'>Riverview from $2,369 per personon</p>
+                        <p>Amsterdam, the Netherlands (overnight) • Düsseldorf, Germany • Rhine Gorge – Rüdesheim, Germany • Ludwigshafen, Germany • Strasbourg, France • Lyon, France (overnight)</p>
+                        <p className='fw-bold'>Riverview from $2,724 per person</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={Rudesheim}
+                                src={Porto}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
-                            <div className='text-on-image'>Rüdesheim, Germany</div>
+                            <div className='text-on-image'>Porto, Portugal</div>
                         </div>
-                        <h3>7-Night Treasures of the Main & Rhine</h3>
+                        <h3>7-Night Enticing Douro</h3>
                         <p>
-                            <em>AmaCerto or AmaPrima</em>
+                            <em>AmaDouro</em>
                             <br></br>
-                            May - November 2024
+                            March - December 2024
                         </p>
-                        <p>Nuremberg, Germany • Bamberg, Germany • Würzburg, Germany • Wertheim, Germany • Rüdesheim – Lahnstein, Germany • Cologne, Germany • Amsterdam, the Netherlands (overnight)</p>
+                        <p>Porto, Portugal • Entre-Os-Rios, Portugal • Regua – Pinhao, Portugal • Vega De Terron, Spain – Salamanca, Spain • Barca D’Alva, Portugal • Regua, Portugal • Porto, Portugal (overnight)</p>
                         <p className='fw-bold'>Riverview from $4,147 per person</p>
                     </Col>
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={Amalyra}
+                                src={AmaMagna}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
-                            <div className='text-on-image'>AmaLyra, Rouen, France</div>
+                            <div className='text-on-image'>AmaMagna</div>
                         </div>
-                        <h3>7-Night Paris & Normandy</h3>
+                        <h3>7-Night Gems of Southeast Europe</h3>
                         <p>
-                            <em>AmaDante or AmaLyra</em>
+                            <em>AmaMagna</em>
                             <br></br>
                             March - December 2024
                         </p>
-                        <p>Paris, France • Les Andelys, France • Le Havre, France • Caudebec-En-Caux, France – Normandy Beaches • Rouen, France • Vernon-La Roche-Guyon, France • Conflans, France • Paris, France</p>
-                        <p className='fw-bold'>Riverview from $3,944 per person</p>
+                        <p>Budapest, Hungary • Mohács – Pécs, Hungary • Vukovar, Croatia – Novi Sad, Serbia • Belgrade, Serbia • Scenic cruising through the Iron Gates • Vidin, Bulgaria • Rousse, Bulgaria – Giurgiu, Romania (overnight)</p>
+                        <p className='fw-bold'>Riverview from $3,537 per person</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={Budapest}
+                                src={Paris}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
-                            <div className='text-on-image'>Budapest, Hungary</div>
+                            <div className='text-on-image'>Paris, France</div>
                         </div>
-                        <h3>7-Night Gems of Southeast Europe</h3>
+                        <h3>7-Night Paris & Normandy</h3>
                         <p>
-                            <em>AmaBella, AmaMagna or AmaVerde</em>
+                            <em>AmaDante</em>
                             <br></br>
                             March - December 2024
                         </p>
-                        <p>Budapest, Hungary • Mohács – Pécs, Hungary • Vukovar, Croatia – Novi Sad, Serbia • Belgrade, Serbia • scenic cruising through the Iron Gates • Vidin, Bulgaria • Rousse, Bulgaria – Giurgiu, Romania (overnight)</p>
-                        <p className='fw-bold'>Riverview from $3,334 per person</p>
+                        <p>Paris, France (overnight) • Les Andelys, France • Le Havre, France (overnight) • Normandy Beaches – Caudebec En Caux, France • Rouen, France • Vernon, France (overnight) • Paris, France (overnight)</p>
+                        <p className='fw-bold'>Riverview from $3,944 per person</p>
+                    </Col>
+                    <Col xs={12} md={6} className='mb-3'>
+                        <div className='image-container'>
+                            <Image
+                                src={Castlenaud}
+                                alt='placeholder image'
+                                className='custom-fluid-image'
+                            />
+                            <div className='text-on-image'>Castelnaud la Chapelle, France</div>
+                        </div>
+                        <h3>7-Night Taste of Bordeaux</h3>
+                        <p>
+                            <em>AmaDolce</em>
+                            <br></br>
+                            March - November 2024
+                        </p>
+                        <p>Bordeaux, France • Libourne, France (overnight) • Blaye – Bourg, France • Cussac – Fort Medoc, France • Cadillac, France • Bordeaux, France (overnight)</p>
+                        <p className='fw-bold'>Riverview from $3,912 per person</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12} md={6} className='mb-3'>
+                        <div className='image-container'>
+                            <Image
+                                src={RhineRiver}
+                                alt='placeholder image'
+                                className='custom-fluid-image'
+                            />
+                            <div className='text-on-image'>Rhine River, Germany</div>
+                        </div>
+                        <h3>7-Night Rhine Castles & Swiss Alps</h3>
+                        <p>
+                            <em>AmaSerena</em>
+                            <br></br>
+                            May - December 2024
+                        </p>
+                        <p>Amsterdam, the Netherlands (overnight) • Cologne, Germany • Rhine Gorge – Rudesheim, Germany • Ludwigshafen, Germany • Strasbourg, France • Basel, Switzerland (overnight)</p>
+                        <p className='fw-bold'>Riverview from $3,842 per person</p>
                     </Col>
                 </Row>
             </Container>

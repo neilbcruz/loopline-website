@@ -12,10 +12,10 @@ import { useEffect, useState } from 'react';
 import CelebrityPH from '../../../assets/images/celebrity_placeholder.jpg';
 import CelebrityLogo from '../../../assets/logo/CelebrityCruisesLogo.png';
 
-import StThomasPH from '../../../assets/images/cruise_images/stlucia_placeholder.jpg';
-import CuracaoPH from '../../../assets/images/cruise_images/curacao_placeholder.jpg';
-import AscentPH from '../../../assets/images/cruise_images/ascent_placeholder.jpg';
-import CococayPH from '../../../assets/images/cruise_images/cococay_placeholder.jpg';
+import StLucia from '../../../assets/images/cruise_images/celebrity_stlucia.jpg';
+import Curacao from '../../../assets/images/cruise_images/celebrity_curacao.jpg';
+import Ascent from '../../../assets/images/cruise_images/celebrity_ascent.jpg';
+import Cococay from '../../../assets/images/cruise_images/royalcaribbean_cococay.jpg';
 
 export default function CruiseCelebrityResort() {
     // Scroll-to-Top functions //
@@ -42,10 +42,10 @@ export default function CruiseCelebrityResort() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={CelebrityPH} className='custom-fluid-image' width='100%' />
+                <Image src={CelebrityPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
                     <h1>RESORT AT SEA</h1>
-                    <p>TRAVEL AGENTS -<br></br>CRUISE, CRUISING, CELEBRITY CRUISES</p>
+                    <p>TRAVEL AGENTS - CRUISE, CRUISING, CELEBRITY CRUISES</p>
                 </div>
                 <Row>
                     <Stack
@@ -90,7 +90,7 @@ export default function CruiseCelebrityResort() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={StThomasPH}
+                                src={StLucia}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -110,7 +110,7 @@ export default function CruiseCelebrityResort() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={CuracaoPH}
+                                src={Curacao}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -131,7 +131,7 @@ export default function CruiseCelebrityResort() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={AscentPH}
+                                src={Ascent}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -150,7 +150,7 @@ export default function CruiseCelebrityResort() {
                     <Col xs={12} md={6} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={CococayPH}
+                                src={Cococay}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />

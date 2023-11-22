@@ -14,27 +14,27 @@ import TravelLeadersPH from '../../../assets/images/travelleaders_placeholder.jp
 import TravelLeadersCarousel from './TravelLeadersCarousel';
 import TravelLeadersLogos from './TravelLeadersLogos';
 
-import AltourPH from '../../../assets/images/cruise_images/altour_placeholder.jpg';
-import AmalyraPH from '../../../assets/images/cruise_images/amalyra_placeholder.jpg';
-import WorldTravellerPH from '../../../assets/images/cruise_images/worldtraveller_placeholder.jpg';
-import AvalonPH from '../../../assets/images/cruise_images/avalon_placeholder.jpg';
-import MarseillePH from '../../../assets/images/cruise_images/marseille_placeholder.jpg';
-import BicycleWinePH from '../../../assets/images/cruise_images/bicyclewine_placeholder.jpg';
-import CrystalSymphonyPH from '../../../assets/images/cruise_images/crystalsymphony_placeholder.jpg';
-import QueenMary2PH from '../../../assets/images/cruise_images/queenmary2_placeholder.jpg';
-import Explora1PH from '../../../assets/images/cruise_images/explora1_placeholder.jpg';
-import ImpressionIslaPH from '../../../assets/images/cruise_images/impressionisla_placeholder.jpg';
-import SandalsEmeraldBayPH from '../../../assets/images/cruise_images/sandalsemeraldbay_placeholder.jpg';
-import SirenaPH from '../../../assets/images/cruise_images/sirena_placeholder.jpg';
-import PaulGauguinPH from '../../../assets/images/cruise_images/paulgauguin_placeholder.jpg';
-import HubbardGlacierPH from '../../../assets/images/cruise_images/hubbardglacier_placeholder.jpg';
-import KentuckyDerbyPH from '../../../assets/images/cruise_images/kentuckyderby_placeholder.jpg';
-import MountRobsonPH from '../../../assets/images/cruise_images/mountrobson_placeholder.jpg';
-import SandalsDunnRiverPH from '../../../assets/images/cruise_images/sandalsdunnriver_placeholder.jpg';
-import SeabournPursuitPH from '../../../assets/images/cruise_images/seabournpursuit_placeholder.jpg';
-import CadizSpainPH from '../../../assets/images/cruise_images/cadizspain_placeholder.jpg';
-import GarzaBlancaPH from '../../../assets/images/cruise_images/garzablanca_placeholder.jpg';
-import StarPridePH from '../../../assets/images/cruise_images/starpride_placeholder.jpg';
+import Altour from '../../../assets/images/cruise_images/travel-leaders_altour.jpg';
+import Amalyra from '../../../assets/images/cruise_images/amawaterways_amalyra.jpg';
+import WorldTraveller from '../../../assets/images/cruise_images/travel-leaders_worldtraveller.jpg';
+import Avalon from '../../../assets/images/cruise_images/travel-leaders_avalon.jpg';
+import Marseille from '../../../assets/images/cruise_images/travel-leaders_marseille.jpg';
+import BicycleWine from '../../../assets/images/cruise_images/travel-leaders_bicyclewine.jpg';
+import CrystalSymphony from '../../../assets/images/cruise_images/travel-leaders_crystalsymphony.jpg';
+import QueenMary2 from '../../../assets/images/cruise_images/travel-leaders_queenmary2.jpg';
+import Explora1 from '../../../assets/images/cruise_images/travel-leaders_explora1.jpg';
+import ImpressionIsla from '../../../assets/images/cruise_images/travel-leaders_impressionisla.jpg';
+import SandalsEmeraldBay from '../../../assets/images/cruise_images/travel-leaders_sandalsemeraldbay.jpg';
+import Sirena from '../../../assets/images/cruise_images/travel-leaders_sirena.jpg';
+import PaulGauguin from '../../../assets/images/cruise_images/travel-leaders_paulgauguin.jpg';
+import HubbardGlacier from '../../../assets/images/cruise_images/travel-leaders_hubbardglacier.jpg';
+import KentuckyDerby from '../../../assets/images/cruise_images/travel-leaders_kentuckyderby.jpg';
+import MountRobson from '../../../assets/images/cruise_images/travel-leaders_mountrobson.jpg';
+import SandalsDunnRiver from '../../../assets/images/cruise_images/travel-leaders_sandalsdunnriver.jpg';
+import SeabournPursuit from '../../../assets/images/cruise_images/travel-leaders_seabournpursuit.jpg';
+import CadizSpain from '../../../assets/images/cruise_images/travel-leaders_cadizspain.jpg';
+import GarzaBlanca from '../../../assets/images/cruise_images/travel-leaders_garzablanca.jpg';
+import StarPride from '../../../assets/images/cruise_images/travel-leaders_starpride.jpg';
 
 
 
@@ -63,7 +63,7 @@ export default function CruiseCaribbeanIcon() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={TravelLeadersPH} className='custom-fluid-image' width='100%' />
+                <Image src={TravelLeadersPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
                     <h1>ELEVATE THE WAY YOU EXPLORE THE WORLD</h1>
                     <p>TRAVEL AGENTS - LUXURY TRAVEL, CRUISE, TOUR, RAIL, HOTELS AND RESORTS</p>
@@ -101,7 +101,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={AltourPH}
+                                src={Altour}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -114,7 +114,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={AmalyraPH}
+                                src={Amalyra}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -126,7 +126,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={WorldTravellerPH}
+                                src={WorldTraveller}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -140,7 +140,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={AvalonPH}
+                                src={Avalon}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -153,7 +153,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={MarseillePH}
+                                src={Marseille}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -165,7 +165,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={BicycleWinePH}
+                                src={BicycleWine}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -179,7 +179,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={CrystalSymphonyPH}
+                                src={CrystalSymphony}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -192,7 +192,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={QueenMary2PH}
+                                src={QueenMary2}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -204,7 +204,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={Explora1PH}
+                                src={Explora1}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -218,7 +218,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={ImpressionIslaPH}
+                                src={ImpressionIsla}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -231,7 +231,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SandalsEmeraldBayPH}
+                                src={SandalsEmeraldBay}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -243,7 +243,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SirenaPH}
+                                src={Sirena}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -257,7 +257,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={PaulGauguinPH}
+                                src={PaulGauguin}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -270,7 +270,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={HubbardGlacierPH}
+                                src={HubbardGlacier}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -282,7 +282,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={KentuckyDerbyPH}
+                                src={KentuckyDerby}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -296,7 +296,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={MountRobsonPH}
+                                src={MountRobson}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -309,7 +309,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SandalsDunnRiverPH}
+                                src={SandalsDunnRiver}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -321,7 +321,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={SeabournPursuitPH}
+                                src={SeabournPursuit}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -335,7 +335,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={CadizSpainPH}
+                                src={CadizSpain}
                                 alt='placeholder image'
                                 width='100%'
                                 className='custom-fluid-image'
@@ -348,7 +348,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={GarzaBlancaPH}
+                                src={GarzaBlanca}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />
@@ -360,7 +360,7 @@ export default function CruiseCaribbeanIcon() {
                     <Col xs={12} md={4} className='mb-3'>
                         <div className='image-container'>
                             <Image
-                                src={StarPridePH}
+                                src={StarPride}
                                 alt='placeholder image'
                                 className='custom-fluid-image'
                             />

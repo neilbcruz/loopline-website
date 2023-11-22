@@ -13,14 +13,14 @@ import { HashLink } from 'react-router-hash-link';
 
 import AllInclusivePH from '../../../assets/images/allinclusive_placeholder.jpg';
 
-import AllInclusive1Dreams from '../../../assets/images/allinclusive_1_dreams.jpg';
-import AllInclusive2Ibero from '../../../assets/images/allinclusive_2_ibero.jpg';
-import AllInclusive3Majestic from '../../../assets/images/allinclusive_3_majestic.jpg';
-import AllInclusive4Palace from '../../../assets/images/allinclusive_4_palace.jpg';
-import AllInclusive5Sandals from '../../../assets/images/allinclusive_5_sandals.jpg';
-import AllInclusive6Beaches from '../../../assets/images/allinclusive_6_beaches.jpg';
-import AllInclusive7Sandos from '../../../assets/images/allinclusive_7_sandos.jpg';
-import AllInclusive8Riu from '../../../assets/images/allinclusive_8_riu.jpg';
+import AllInclusive1Dreams from '../../../assets/logo/all-inclusive_logos/allinclusive_1_dreams.jpg';
+import AllInclusive2Ibero from '../../../assets/logo/all-inclusive_logos/allinclusive_2_ibero.jpg';
+import AllInclusive3Majestic from '../../../assets/logo/all-inclusive_logos/allinclusive_3_majestic.jpg';
+import AllInclusive4Palace from '../../../assets/logo/all-inclusive_logos/allinclusive_4_palace.jpg';
+import AllInclusive5Sandals from '../../../assets/logo/all-inclusive_logos/allinclusive_5_sandals.jpg';
+import AllInclusive6Beaches from '../../../assets/logo/all-inclusive_logos/allinclusive_6_beaches.jpg';
+import AllInclusive7Sandos from '../../../assets/logo/all-inclusive_logos/allinclusive_7_sandos.jpg';
+import AllInclusive8Riu from '../../../assets/logo/all-inclusive_logos/allinclusive_8_riu.jpg';
 
 export default function IdeaAllInclusive() {
     // Scroll-to-Top functions //

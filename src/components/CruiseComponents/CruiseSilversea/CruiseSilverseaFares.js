@@ -37,9 +37,9 @@ export default function CruiseSilverseaFares() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={SilverseaPH} className='custom-fluid-image' width='100%' />
+                <Image src={SilverseaPH} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
-                    <h1>DOOR-TO-DOOR OR<br></br>PORT-TO-PORT FARES</h1>
+                    <h1>DOOR-TO-DOOR OR PORT-TO-PORT FARES</h1>
                 </div>
                 <Row>
                     <Stack
