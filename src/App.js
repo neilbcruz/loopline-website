@@ -10,42 +10,47 @@ import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';
 
 import InspirationPage from './pages/InspirationPage/InspirationPage';
-import VacayAustralia from './components/InspirationComponents/VacayAustralia/VacayAustralia';
-import VacayItaly from './components/InspirationComponents/VacayItaly/VacayItaly';
-import VacayHawaii from './components/InspirationComponents/VacayHawaii/VacayHawaii';
-import VacayNZ from './components/InspirationComponents/VacayNZ/VacayNZ';
-import IdeaCruise from './components/IdeasComponents/IdeaCruise/IdeaCruise';
-import IdeaFamily from './components/IdeasComponents/IdeaFamily/IdeaFamily';
-import IdeaWedding from './components/IdeasComponents/IdeaWedding/IdeaWedding';
-import IdeaAdventure from './components/IdeasComponents/IdeaAdventure/IdeaAdventure';
-import IdeaWildlife from './components/IdeasComponents/IdeaWildlife/IdeaWildlife';
-import IdeaRomantic from './components/IdeasComponents/IdeaRomantic/IdeaRomantic';
-import IdeaGolf from './components/IdeasComponents/IdeaGolf/IdeaGolf';
-import IdeaBeach from './components/IdeasComponents/IdeaBeach/IdeaBeach';
-import IdeaEuropean from './components/IdeasComponents/IdeaEuropean/IdeaEuropean';
-import IdeaRiverCruise from './components/IdeasComponents/IdeaRiverCruise/IdeaRiverCruise';
-import IdeaAllInclusive from './components/IdeasComponents/IdeaAllInclusive/IdeaAllInclusive';
-import AllInclusiveResorts from './components/IdeasComponents/IdeaAllInclusive/AllInclusiveResort';
-import AllInclusiveWhy from './components/IdeasComponents/IdeaAllInclusive/AllInclusiveWhy';
-import AllInclusiveDestinations from './components/IdeasComponents/IdeaAllInclusive/AllInclusiveDestinations';
+import VacayAustralia from './components/ComponentsInspiration/VacayAustralia/VacayAustralia';
+import VacayItaly from './components/ComponentsInspiration/VacayItaly/VacayItaly';
+import VacayHawaii from './components/ComponentsInspiration/VacayHawaii/VacayHawaii';
+import VacayNZ from './components/ComponentsInspiration/VacayNZ/VacayNZ';
+import IdeaCruise from './components/ComponentsIdeas/IdeaCruise/IdeaCruise';
+import IdeaFamily from './components/ComponentsIdeas/IdeaFamily/IdeaFamily';
+import IdeaWedding from './components/ComponentsIdeas/IdeaWedding/IdeaWedding';
+import IdeaAdventure from './components/ComponentsIdeas/IdeaAdventure/IdeaAdventure';
+import IdeaWildlife from './components/ComponentsIdeas/IdeaWildlife/IdeaWildlife';
+import IdeaRomantic from './components/ComponentsIdeas/IdeaRomantic/IdeaRomantic';
+import IdeaGolf from './components/ComponentsIdeas/IdeaGolf/IdeaGolf';
+import IdeaBeach from './components/ComponentsIdeas/IdeaBeach/IdeaBeach';
+import IdeaEuropean from './components/ComponentsIdeas/IdeaEuropean/IdeaEuropean';
+import IdeaRiverCruise from './components/ComponentsIdeas/IdeaRiverCruise/IdeaRiverCruise';
+import IdeaAllInclusive from './components/ComponentsIdeas/IdeaAllInclusive/IdeaAllInclusive';
+import AllInclusiveResorts from './components/ComponentsIdeas/IdeaAllInclusive/AllInclusiveResort';
+import AllInclusiveWhy from './components/ComponentsIdeas/IdeaAllInclusive/AllInclusiveWhy';
+import AllInclusiveDestinations from './components/ComponentsIdeas/IdeaAllInclusive/AllInclusiveDestinations';
 
 import SpecialsPage from './pages/SpecialsPage/SpecialsPage';
-import CruiseSilverseaFares from './components/CruiseComponents/CruiseSilversea/CruiseSilverseaFares';
-import CruiseHollandHaveitall from './components/CruiseComponents/CruiseHolland/CruiseHollandHaveitall';
-import CruiseNorwegianAdventure from './components/CruiseComponents/CruiseNorwegian/CruiseNorwegianAdventure';
-import CruiseCelebrityResort from './components/CruiseComponents/CruiseCelebrity/CruiseCelebrityResort';
-import CruiseNorwegianVacation from './components/CruiseComponents/CruiseNorwegian/CruiseNorwegianVacation';
-import CruiseCrystalSolo from './components/CruiseComponents/CruiseCrystal/CruiseCrystalSolo';
-import CruiseCaribbeanIcon from './components/CruiseComponents/CruiseCaribbean/CruiseCaribbeanIcon';
-import CruiseSeabournDestinations from './components/CruiseComponents/CruiseSeabourn/CruiseSeabornDestinations';
-import CruiseHollandYoucanhave from './components/CruiseComponents/CruiseHolland/CruiseHollandYoucanhave';
-import CruiseAmawaterwaysRiver from './components/CruiseComponents/CruiseAmawaterways/CruiseAmawaterwaysRiver';
-import CruiseTravelLeadersElevate from './components/CruiseComponents/CruiseTravelLeaders/CruiseTravelLeadersElevate';
-import CruiseCelebrityGetaway from './components/CruiseComponents/CruiseCelebrity/CruiseCelebrityGetaway';
-import CruiseVVoyagesLuxury from './components/CruiseComponents/CruiseVVoyages/CruiseVVoyagesLuxury';
-import CruiseNorwegianFeelfree from './components/CruiseComponents/CruiseNorwegian/CruiseNorwegianFeelfree';
-import CruiseAmawaterwaysSail from './components/CruiseComponents/CruiseAmawaterways/CruiseAmawaterwaysSail';
-import CruiseCaribbeanSale from './components/CruiseComponents/CruiseCaribbean/CruiseCaribbeanSale';
+import CruiseSilverseaFares from './components/ComponentsCruise/CruiseSilversea/CruiseSilverseaFares';
+import CruiseHollandHaveitall from './components/ComponentsCruise/CruiseHolland/CruiseHollandHaveitall';
+import CruiseNorwegianAdventure from './components/ComponentsCruise/CruiseNorwegian/CruiseNorwegianAdventure';
+import CruiseCelebrityResort from './components/ComponentsCruise/CruiseCelebrity/CruiseCelebrityResort';
+import CruiseNorwegianVacation from './components/ComponentsCruise/CruiseNorwegian/CruiseNorwegianVacation';
+import CruiseCrystalSolo from './components/ComponentsCruise/CruiseCrystal/CruiseCrystalSolo';
+import CruiseCaribbeanIcon from './components/ComponentsCruise/CruiseCaribbean/CruiseCaribbeanIcon';
+import CruiseSeabournDestinations from './components/ComponentsCruise/CruiseSeabourn/CruiseSeabornDestinations';
+import CruiseHollandYoucanhave from './components/ComponentsCruise/CruiseHolland/CruiseHollandYoucanhave';
+import CruiseAmawaterwaysRiver from './components/ComponentsCruise/CruiseAmawaterways/CruiseAmawaterwaysRiver';
+import CruiseTravelLeadersElevate from './components/ComponentsCruise/CruiseTravelLeaders/CruiseTravelLeadersElevate';
+import CruiseCelebrityGetaway from './components/ComponentsCruise/CruiseCelebrity/CruiseCelebrityGetaway';
+import CruiseVVoyagesLuxury from './components/ComponentsCruise/CruiseVVoyages/CruiseVVoyagesLuxury';
+import CruiseNorwegianFeelfree from './components/ComponentsCruise/CruiseNorwegian/CruiseNorwegianFeelfree';
+import CruiseAmawaterwaysSail from './components/ComponentsCruise/CruiseAmawaterways/CruiseAmawaterwaysSail';
+import CruiseCaribbeanSale from './components/ComponentsCruise/CruiseCaribbean/CruiseCaribbeanSale';
+import HotelSandalsCuracao from './components/ComponentsHotel/HotelSandals/HotelSandalsCuracao';
+import HotelWestjetVacation from './components/ComponentsHotel/HotelWestjet/HotelWestjetVacation';
+import HotelSandalsDunnRiver from './components/ComponentsHotel/HotelSandals/HotelSandalsDunnRiver';
+import HotelPalaceVacation from './components/ComponentsHotel/HotelPalace/HotelPalaceVacation';
+import HotelWestjetParadise from './components/ComponentsHotel/HotelWestjet/HotelWestjetParadise';
 
 import Bootstrap from './pages/Bootstrap/Bootstrap';
 import ContactPage from './pages/ContactPage/ContactPage';
@@ -104,6 +109,11 @@ function App() {
             <Route path='/specials/norwegian-feelfree' element={<CruiseNorwegianFeelfree />} />
             <Route path='/specials/amawayerways-sail' element={<CruiseAmawaterwaysSail />} />
             <Route path='/specials/caribbean-sale' element={<CruiseCaribbeanSale />} />
+            <Route path='/specials/sandals-curacao' element={<HotelSandalsCuracao />} />
+            <Route path='/specials/westjet-vacation' element={<HotelWestjetVacation />} />
+            <Route path='/specials/sandals-dunnriver' element={<HotelSandalsDunnRiver />} />
+            <Route path='/specials/palace-vacation' element={<HotelPalaceVacation />} />
+            <Route path='/specials/westjet-paradise' element={<HotelWestjetParadise />} />
 
             <Route path='/bootstrap' element={<Bootstrap />} />
             <Route path='/contact' element={<ContactPage />} />

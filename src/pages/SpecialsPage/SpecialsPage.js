@@ -6,7 +6,7 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import HomeSpecials from '../../components/HomeSpecials/HomeSpecials';
+import HomeSpecials from '../../components/SpecialsHome/SpecialsHome';
 
 export default function SpecialsPage() {
     // Scroll-to-Top functions //

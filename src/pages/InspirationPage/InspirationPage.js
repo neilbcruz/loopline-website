@@ -6,7 +6,7 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import HomeInspiration from '../../components/HomeInsipiration/HomeInspiration';
+import HomeInspiration from '../../components/InspirationHome/InspirationHome';
 
 export default function InspirationPage() {
     // Scroll-to-Top functions //
