@@ -51,7 +51,7 @@ export default function HomePage() {
             <Container id='top' className='my-3'>
                 <Row>
                     <Col xs={12} md={9}>
-                        <Container className='my-5'>
+                        <Container className='mb-3'>
                             <Card variant='secondary'>
                                 <Card.Body>
                                     <Row className='d-flex align-items-center justify-content-center'>

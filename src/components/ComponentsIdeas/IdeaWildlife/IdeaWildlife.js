@@ -37,7 +37,7 @@ export default function IdeaWildlife() {
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={CoverWildlife}
-                    className='custom-fluid-image'
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>

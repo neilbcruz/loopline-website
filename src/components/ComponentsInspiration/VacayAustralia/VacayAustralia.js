@@ -40,7 +40,7 @@ export default function VacayAustralia() {
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={AustraliaHero}
-                    className="custom-fluid-image"
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>
@@ -152,7 +152,7 @@ export default function VacayAustralia() {
                 />
             </Container>
 
-            <Container className="scroll-to-top">
+            <Container className='scroll-to-top'>
                 {showButton && (
                     <Button variant='light' onClick={scrollToTop} size='sm' className='position-fixed bottom-0 end-0 opacity-75'>
                         <ArrowUp />

@@ -37,12 +37,12 @@ export default function IdeaBeach() {
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={CoverBeach}
-                    className='custom-fluid-image'
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>
                     <h1>BEACH VACATIONS</h1>
-                    <p>TRAVEL AGENTS - <br></br>BEACH VACATIONS, US, CARIBBEAN, MEXICO</p>
+                    <p>TRAVEL AGENTS - BEACH VACATIONS, US, CARIBBEAN, MEXICO</p>
                 </div>
                 <Row>
                     <Stack

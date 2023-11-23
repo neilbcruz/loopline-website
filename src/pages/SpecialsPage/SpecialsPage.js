@@ -4,7 +4,6 @@ import {
 } from 'react-bootstrap';
 import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
 
 import HomeSpecials from '../../components/SpecialsHome/SpecialsHome';
 
@@ -32,12 +31,6 @@ export default function SpecialsPage() {
 
     return (
         <>
-            <Container  id='top' className='link_style text-center my-3'>
-                <NavLink to='/specials'>
-                    <h1>Travel Specials</h1>
-                </NavLink>
-            </Container>
-
             <HomeSpecials />
 
             <Container className="scroll-to-top">

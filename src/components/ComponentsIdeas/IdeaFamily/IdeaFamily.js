@@ -37,12 +37,12 @@ export default function IdeaFamily() {
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={CoverFamily}
-                    className='custom-fluid-image'
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>
-                    <h1 className='text-black'>FAMILY VACATIONS</h1>
-                    <p className='text-black'>TRAVEL AGENTS - FAMILY VACATIONS</p>
+                    <h1>FAMILY VACATIONS</h1>
+                    <p>TRAVEL AGENTS - FAMILY VACATIONS</p>
                 </div>
                 <Row>
                     <Stack

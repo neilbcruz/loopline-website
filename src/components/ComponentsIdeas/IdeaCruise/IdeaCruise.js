@@ -37,9 +37,9 @@ export default function IdeaCruise() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={CoverCruise} className='custom-fluid-image' width='100%' />
+                <Image src={CoverCruise} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
-                    <h1>WHY CHOOSE<br></br> A CRUISE VACATION?</h1>
+                    <h1>WHY CHOOSE A CRUISE VACATION?</h1>
                     <p>TRAVEL AGENTS - CRUISES, OCEAN CRUISES</p>
                 </div>
                 <Row>

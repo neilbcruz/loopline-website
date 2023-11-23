@@ -4,7 +4,6 @@ import {
 } from 'react-bootstrap';
 import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
 
 import HomeInspiration from '../../components/InspirationHome/InspirationHome';
 
@@ -32,12 +31,6 @@ export default function InspirationPage() {
 
     return (
         <>
-            <Container  id='top' className='link_style text-center my-3'>
-                <NavLink to='/inspiration'>
-                    <h1>Travel Inspiration</h1>
-                </NavLink>
-            </Container>
-
             <HomeInspiration />
 
             <Container className="scroll-to-top">

@@ -22,11 +22,11 @@ import CoverAmaWaterways from '../../assets/images/cruise_images/cover_amawayerw
 import CoverTravelLeaders from '../../assets/images/cruise_images/cover_travelleaders.jpg';
 import CoverVirginVoyages from '../../assets/images/cruise_images/cover_vvoyages.jpg';
 
-import SandalsCuracao from '../../assets/images/hotel_images/cover_sandals-curacao.jpg';
-import WestjetVacation from '../../assets/images/hotel_images/cover_westjet-vacation.jpg';
-import SandalsDunnRiver from '../../assets/images/hotel_images/cover_sandals-dunnriver.jpg';
-import PalaceVacation from '../../assets/images/hotel_images/cover_palace-vacation.jpg';
-import WestjetParadise from '../../assets/images/hotel_images/cover_westjet-paradise.jpg';
+import CoverSandalsCuracao from '../../assets/images/hotel_images/cover_sandals-curacao.jpg';
+import CoverWestjetVacation from '../../assets/images/hotel_images/cover_westjet-vacation.jpg';
+import CoverSandalsDunnRiver from '../../assets/images/hotel_images/cover_sandals-dunnriver.jpg';
+import CoverPalaceVacation from '../../assets/images/hotel_images/cover_palace-vacation.jpg';
+import CoverWestjetParadise from '../../assets/images/hotel_images/cover_westjet-paradise.jpg';
 
 export default function SpecialsHome() {
     const [showRows, setShowRows] = useState(false);
@@ -39,7 +39,7 @@ export default function SpecialsHome() {
 
     return (
         <>
-            <Container className='text-center'>
+            <Container className='text-center my-3'>
                 <h2>TRAVEL SPECIALS</h2>
                 <p>To provide you with the best possible service, our agents specialize in the following areas.</p>
             </Container>
@@ -311,9 +311,9 @@ export default function SpecialsHome() {
             <Container className='text-center mb-5'>
             <Row>
                     <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='silversea-fares#top' className='image-container'>
+                        <HashLink to='sandals-curacao#top' className='image-container'>
                             <Image
-                                src={CoverSilversea}
+                                src={CoverSandalsCuracao}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
@@ -322,25 +322,25 @@ export default function SpecialsHome() {
                         </HashLink>
                     </Col>
                     <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='holland-haveitall#top' className='image-container'>
+                        <HashLink to='westjet-vacation#top' className='image-container'>
                             <Image
-                                src={CoverHolland}
+                                src={CoverWestjetVacation}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image text-start'>HOLLAND AMERICA LINE<br></br><strong>HAVE IT ALL WITH HOLLAND AMERICA LINE</strong></div>
+                            <div className='text-on-image text-start'>WESTJET VACATIONS<br></br><strong>FIND YOUR PERFECT VACATION</strong></div>
                         </HashLink>
                     </Col>
                     <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='norwegian-adventure#top' className='image-container'>
+                        <HashLink to='sandals-dunnriver#top' className='image-container'>
                             <Image
-                                src={CoverNorwegian}
+                                src={CoverSandalsDunnRiver}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image text-start'>NORWEGIAN CRUISE LINE<br></br><strong>CHOOSE YOUR OWN ADVENTURE</strong></div>
+                            <div className='text-on-image text-start'>SANDALS RESORTS<br></br><strong>SANDALS DUNN'S RIVER IS BACK</strong></div>
                         </HashLink>
                     </Col>
                 </Row>
@@ -352,122 +352,36 @@ export default function SpecialsHome() {
                 {showRows && (
                     <Row>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='celebrity-resort#top' className='image-container text-start'>
+                            <HashLink to='travelleaders-elevate#top' className='image-container text-start'>
                                 <Image
-                                    src={CoverSilversea}
+                                    src={CoverTravelLeaders}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>SILVERSEA<br></br><strong>DOOR-TO-DOOR OR PORT-TO-PORT FARES</strong></div>
+                                <div className='text-on-image'>TRAVEL LEADERS TRAVEL PARTNERS<br></br><strong>ELEVATE THE WAY YOU EXPLORE THE WORLD</strong></div>
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='norwegian-vacation#top' className='image-container'>
+                            <HashLink to='palace-vacation#top' className='image-container text-start'>
                                 <Image
-                                    src={CoverNorwegian}
+                                    src={CoverPalaceVacation}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>FAMILY VACATIONS</div>
+                                <div className='text-on-image'>PALACE RESORTS<br></br><strong>FAMILY VACATIONS JUST GOT BETTER</strong></div>
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='crystal-solo#top' className='image-container'>
+                            <HashLink to='westjet-paradise#top' className='image-container text-start'>
                                 <Image
-                                    src={CoverNorwegian}
+                                    src={CoverWestjetParadise}
                                     alt='placeholder image'
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>PLANNING YOUR WEDDING & HONEYMOON</div>
-                            </HashLink>
-                        </Col>
-                    </Row>)}
-                    {showRows && (
-                    <Row>
-                        <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='caribbean-icon#top' className='image-container text-start'>
-                                <Image
-                                    src={CoverSilversea}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>SILVERSEA<br></br><strong>DOOR-TO-DOOR OR PORT-TO-PORT FARES</strong></div>
-                            </HashLink>
-                        </Col>
-                        <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='seabourn-destinations#top' className='image-container'>
-                                <Image
-                                    src={CoverNorwegian}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>FAMILY VACATIONS</div>
-                            </HashLink>
-                        </Col>
-                        <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='holland-youcanhave#top' className='image-container'>
-                                <Image
-                                    src={CoverNorwegian}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>PLANNING YOUR WEDDING & HONEYMOON</div>
-                            </HashLink>
-                        </Col>
-                    </Row>)}
-                    {showRows && (
-                    <Row>
-                        <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='amawayerways-river#top' className='image-container text-start'>
-                                <Image
-                                    src={CoverNorwegian}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>SILVERSEA<br></br><strong>DOOR-TO-DOOR OR PORT-TO-PORT FARES</strong></div>
-                            </HashLink>
-                        </Col>
-                        <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='travelleaders-elevate#top' className='image-container'>
-                                <Image
-                                    src={CoverNorwegian}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>FAMILY VACATIONS</div>
-                            </HashLink>
-                        </Col>
-                        <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='celebrity-getaway#top' className='image-container'>
-                                <Image
-                                    src={CoverNorwegian}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>PLANNING YOUR WEDDING & HONEYMOON</div>
-                            </HashLink>
-                        </Col>
-                    </Row>)}
-                    {showRows && (
-                    <Row>
-                        <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='avvoyages-luxury#top' className='image-container text-start'>
-                                <Image
-                                    src={CoverNorwegian}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>SILVERSEA<br></br><strong>DOOR-TO-DOOR OR PORT-TO-PORT FARES</strong></div>
+                                <div className='text-on-image'>WESTJET VACATIONS<br></br><strong>SPEND TIME TOGETHER IN PARADISE</strong></div>
                             </HashLink>
                         </Col>
                     </Row>)}

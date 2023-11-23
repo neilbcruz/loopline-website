@@ -39,12 +39,12 @@ export default function IdeaAllInclusive() {
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={CoverAllInclusive}
-                    className='custom-fluid-image'
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>
                     <h1>ALL-INCLUSIVE VACATIONS</h1>
-                    <p>TRAVEL AGENTS - <br></br>ALL-INCLUSIVE VACATION PACKAGES</p>
+                    <p>TRAVEL AGENTS - ALL-INCLUSIVE VACATION PACKAGES</p>
                 </div>
                 <Row>
                     <Stack

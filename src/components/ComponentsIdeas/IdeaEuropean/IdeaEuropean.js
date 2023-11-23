@@ -37,12 +37,12 @@ export default function IdeaEuropean() {
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={CoverEuropean}
-                    className='custom-fluid-image'
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>
                     <h1>EUROPEAN VACATIONS</h1>
-                    <p>TRAVEL AGENTS - <br></br>EUROPE, RIVER CRUISES, TOURS</p>
+                    <p>TRAVEL AGENTS - EUROPE, RIVER CRUISES, TOURS</p>
                 </div>
                 <Row>
                     <Stack

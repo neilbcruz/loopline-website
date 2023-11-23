@@ -45,12 +45,12 @@ export default function IdeaWedding() {
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
                     src={CoverWedding}
-                    className='custom-fluid-image'
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>
-                    <h1 className='text-black'>PLANNING YOUR<br></br> WEDDING & HONEYMOON</h1>
-                    <p className='text-black'>TRAVEL AGENTS - <br></br>DESTINATIONS WEDDINGS AND HONEYMOONS</p>
+                    <h1>PLANNING YOUR WEDDING & HONEYMOON</h1>
+                    <p>TRAVEL AGENTS - DESTINATIONS WEDDINGS AND HONEYMOONS</p>
                 </div>
                 <Row>
                     <Stack

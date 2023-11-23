@@ -36,7 +36,7 @@ export default function HomeInspiration() {
 
     return (
         <>
-            <Container className='text-center'>
+            <Container className='text-center my-3'>
                 <h2>DESTINATION INSPIRATION</h2>
                 <p>Find your dream vacation. You can share your trip with your friends or contact an agent to make it happen!</p>
             </Container>
