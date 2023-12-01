@@ -74,9 +74,9 @@
 
 .text-on-image {
     position: absolute;
-    bottom: 0;
+    bottom: 2%;
     left: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
     /* Add background color for better text readability */
     color: #fff;
     /* Text color */
@@ -84,6 +84,7 @@
     /* Adjust padding as needed */
     font-size: 14px;
     /* Adjust font size as needed */
+    width: 100%;
 }
 
 .hero-container {
@@ -123,14 +124,9 @@
     min-height: 15rem;
     max-height: 20rem;
     object-fit: cover;
-    filter: brightness(50%);
 
     @include tablet {
         max-height: 15rem;
-    }
-
-    &:hover {
-        filter: brightness(100%) saturate(100%);
     }
 }
 
@@ -154,6 +150,7 @@
     /* 100% width by default */
     max-width: none;
     /* Remove the max-width limit */
+    min-height: 20rem;
     max-height: 20rem;
     object-fit: cover;
 }

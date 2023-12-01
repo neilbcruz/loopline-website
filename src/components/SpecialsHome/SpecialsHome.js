@@ -23,10 +23,10 @@ import CoverTravelLeaders from '../../assets/images/cruise_images/cover_travelle
 import CoverVirginVoyages from '../../assets/images/cruise_images/cover_vvoyages.jpg';
 
 import CoverSandalsCuracao from '../../assets/images/hotel_images/cover_sandals-curacao.jpg';
-import CoverWestjetVacation from '../../assets/images/hotel_images/cover_westjet-vacation.jpg';
+// import CoverWestjetVacation from '../../assets/images/hotel_images/cover_westjet-vacation.jpg';
 import CoverSandalsDunnRiver from '../../assets/images/hotel_images/cover_sandals-dunnriver.jpg';
 import CoverPalaceVacation from '../../assets/images/hotel_images/cover_palace-vacation.jpg';
-import CoverWestjetParadise from '../../assets/images/hotel_images/cover_westjet-paradise.jpg';
+// import CoverWestjetParadise from '../../assets/images/hotel_images/cover_westjet-paradise.jpg';
 
 export default function SpecialsHome() {
     const [showRows, setShowRows] = useState(false);
@@ -181,7 +181,7 @@ export default function SpecialsHome() {
                             </HashLink>
                         </Col>
                     </Row>)}
-                    {showRows && (
+                {showRows && (
                     <Row>
                         <Col xs={12} md={4} className='p-md-0'>
                             <HashLink to='caribbean-icon#top' className='image-container'>
@@ -217,7 +217,7 @@ export default function SpecialsHome() {
                             </HashLink>
                         </Col>
                     </Row>)}
-                    {showRows && (
+                {showRows && (
                     <Row>
                         <Col xs={12} md={4} className='p-md-0'>
                             <HashLink to='amawayerways-river#top' className='image-container'>
@@ -253,7 +253,7 @@ export default function SpecialsHome() {
                             </HashLink>
                         </Col>
                     </Row>)}
-                    {showRows && (
+                {showRows && (
                     <Row>
                         <Col xs={12} md={4} className='p-md-0'>
                             <HashLink to='vvoyages-luxury#top' className='image-container'>
@@ -289,7 +289,7 @@ export default function SpecialsHome() {
                             </HashLink>
                         </Col>
                     </Row>)}
-                    {showRows && (
+                {showRows && (
                     <Row>
                         <Col xs={12} md={4} className='p-md-0'>
                             <HashLink to='caribbean-sale#top' className='image-container'>
@@ -309,7 +309,7 @@ export default function SpecialsHome() {
                 <h2>HOTEL SPECIALS</h2>
             </Container>
             <Container className='text-center mb-5'>
-            <Row>
+                <Row>
                     <Col xs={12} md={4} className='p-md-0'>
                         <HashLink to='sandals-curacao#top' className='image-container'>
                             <Image
@@ -319,17 +319,6 @@ export default function SpecialsHome() {
                                 className='image_hover'
                             />
                             <div className='text-on-image text-start'>SANDALS RESORTS<br></br><strong>SANDALS ROYAL CURAÇAO - WHERE AMAZING COMES</strong></div>
-                        </HashLink>
-                    </Col>
-                    <Col xs={12} md={4} className='p-md-0'>
-                        <HashLink to='westjet-vacation#top' className='image-container'>
-                            <Image
-                                src={CoverWestjetVacation}
-                                alt='placeholder image'
-                                width='100%'
-                                className='image_hover'
-                            />
-                            <div className='text-on-image text-start'>WESTJET VACATIONS<br></br><strong>FIND YOUR PERFECT VACATION</strong></div>
                         </HashLink>
                     </Col>
                     <Col xs={12} md={4} className='p-md-0'>
@@ -343,26 +332,7 @@ export default function SpecialsHome() {
                             <div className='text-on-image text-start'>SANDALS RESORTS<br></br><strong>SANDALS DUNN'S RIVER IS BACK</strong></div>
                         </HashLink>
                     </Col>
-                </Row>
-                {showButton && (
-                    <Button variant='secondary' className='my-2' onClick={toggleRows}>
-                        Show More
-                    </Button>
-                )}
-                {showRows && (
-                    <Row>
-                        <Col xs={12} md={4} className='p-md-0'>
-                            <HashLink to='travelleaders-elevate#top' className='image-container text-start'>
-                                <Image
-                                    src={CoverTravelLeaders}
-                                    alt='placeholder image'
-                                    width='100%'
-                                    className='image_hover'
-                                />
-                                <div className='text-on-image'>TRAVEL LEADERS TRAVEL PARTNERS<br></br><strong>ELEVATE THE WAY YOU EXPLORE THE WORLD</strong></div>
-                            </HashLink>
-                        </Col>
-                        <Col xs={12} md={4} className='p-md-0'>
+                    <Col xs={12} md={4} className='p-md-0'>
                             <HashLink to='palace-vacation#top' className='image-container text-start'>
                                 <Image
                                     src={CoverPalaceVacation}
@@ -371,6 +341,25 @@ export default function SpecialsHome() {
                                     className='image_hover'
                                 />
                                 <div className='text-on-image'>PALACE RESORTS<br></br><strong>FAMILY VACATIONS JUST GOT BETTER</strong></div>
+                            </HashLink>
+                        </Col>
+                </Row>
+                {/* {showButton && (
+                    <Button variant='secondary' className='my-2' onClick={toggleRows}>
+                        Show More
+                    </Button>
+                )}
+                {showRows && (
+                    <Row>
+                        <Col xs={12} md={4} className='p-md-0'>
+                            <HashLink to='westjet-vacation#top' className='image-container'>
+                                <Image
+                                    src={CoverWestjetVacation}
+                                    alt='placeholder image'
+                                    width='100%'
+                                    className='image_hover'
+                                />
+                                <div className='text-on-image text-start'>WESTJET VACATIONS<br></br><strong>FIND YOUR PERFECT VACATION</strong></div>
                             </HashLink>
                         </Col>
                         <Col xs={12} md={4} className='p-md-0'>
@@ -384,14 +373,14 @@ export default function SpecialsHome() {
                                 <div className='text-on-image'>WESTJET VACATIONS<br></br><strong>SPEND TIME TOGETHER IN PARADISE</strong></div>
                             </HashLink>
                         </Col>
-                    </Row>)}
+                    </Row>)} */}
             </Container>
 
             <Container className='text-center'>
                 <h2>VACATION SPECIALS</h2>
             </Container>
             <Container className='text-center mb-5'>
-            <Row>
+                <Row>
                     <Col xs={12} md={4} className='p-md-0'>
                         <HashLink to='silversea-fares#top' className='image-container'>
                             <Image
@@ -467,7 +456,7 @@ export default function SpecialsHome() {
                             </HashLink>
                         </Col>
                     </Row>)}
-                    {showRows && (
+                {showRows && (
                     <Row>
                         <Col xs={12} md={4} className='p-md-0'>
                             <HashLink to='caribbean-icon#top' className='image-container text-start'>
@@ -503,7 +492,7 @@ export default function SpecialsHome() {
                             </HashLink>
                         </Col>
                     </Row>)}
-                    {showRows && (
+                {showRows && (
                     <Row>
                         <Col xs={12} md={4} className='p-md-0'>
                             <HashLink to='amawayerways-river#top' className='image-container text-start'>
@@ -539,7 +528,7 @@ export default function SpecialsHome() {
                             </HashLink>
                         </Col>
                     </Row>)}
-                    {showRows && (
+                {showRows && (
                     <Row>
                         <Col xs={12} md={4} className='p-md-0'>
                             <HashLink to='avvoyages-luxury#top' className='image-container text-start'>
