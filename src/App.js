@@ -51,8 +51,13 @@ import HotelWestjetVacation from './components/ComponentsHotel/HotelWestjet/Hote
 import HotelSandalsDunnRiver from './components/ComponentsHotel/HotelSandals/HotelSandalsDunnRiver';
 import HotelPalaceVacation from './components/ComponentsHotel/HotelPalace/HotelPalaceVacation';
 import HotelWestjetParadise from './components/ComponentsHotel/HotelWestjet/HotelWestjetParadise';
+import VacationWestjetSecretResorts from './components/ComponentsVacation/VacationWestjet/VacationWestjetSecretResorts';
+import VacationWestjetUpgrade from './components/ComponentsVacation/VacationWestjet/VacationWestjetUpgrade';
+import VacationRoadtripsUltimate from './components/ComponentsVacation/VacationRoadtrips/VacationRoadtripsUltimate';
+import VacationTravelLeadersSingapore from './components/ComponentsVacation/VacationTravelLeaders/VacationTravelLeadersSingapore';
+import VacationFunjetHoneymoons from './components/ComponentsVacation/VacationFunjet/VacationFunjetHoneymoons';
+import VacationCosmosTours from './components/ComponentsVacation/VacationCosmos/VacationCosmosTours';
 
-import Bootstrap from './pages/Bootstrap/Bootstrap';
 import ContactPage from './pages/ContactPage/ContactPage';
 
 function App() {
@@ -114,8 +119,13 @@ function App() {
             <Route path='/specials/sandals-dunnriver' element={<HotelSandalsDunnRiver />} />
             <Route path='/specials/palace-vacation' element={<HotelPalaceVacation />} />
             <Route path='/specials/westjet-paradise' element={<HotelWestjetParadise />} />
+            <Route path='/specials/westjet-secretresorts' element={<VacationWestjetSecretResorts />} />
+            <Route path='/specials/westjet-upgrade' element={<VacationWestjetUpgrade />} />
+            <Route path='/specials/roadtrips-ultimate' element={<VacationRoadtripsUltimate />} />
+            <Route path='/specials/travelleaders-singapore' element={<VacationTravelLeadersSingapore />} />
+            <Route path='/specials/funjet-honeymoons' element={<VacationFunjetHoneymoons />} />
+            <Route path='/specials/cosmos-tours' element={<VacationCosmosTours />} />
 
-            <Route path='/bootstrap' element={<Bootstrap />} />
             <Route path='/contact' element={<ContactPage />} />
           </Routes>
           <PageFooter />

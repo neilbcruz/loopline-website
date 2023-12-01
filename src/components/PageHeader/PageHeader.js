@@ -24,7 +24,7 @@ export default function PageHeader() {
     return (
         <>
             <Container>
-                <Navbar key='md' expand='md' className='d-flex bd-highlight align-items-center'>
+                <Navbar key='md' expand='lg' className='d-flex bd-highlight align-items-center'>
                     <NavLink to='/'>
                         <img className='header__top-logo' src={LLTIcon} alt='Loopline Logo with plane and text of company name' />
                     </NavLink>
@@ -68,9 +68,6 @@ export default function PageHeader() {
                                     <Nav.Link>
                                         <Button variant='success'>Contact Us</Button>
                                     </Nav.Link>
-                                </LinkContainer>
-                                <LinkContainer to='/bootstrap' onClick={handleClose}>
-                                    <Nav.Link>Bootstrap</Nav.Link>
                                 </LinkContainer>
                             </Nav>
                         </Offcanvas.Body>

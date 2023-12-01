@@ -9,7 +9,14 @@ import {
 import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
-import CoverAllInclusive from '../../../assets/images/cover_allinclusive.jpg';
+import CoverAllInclusiveWhy from '../../../assets/images/cover_allinclusive-why.jpg';
+
+import AllInclusiveWhyOneUp from '../../../assets/images/allinclusive_oneupfrontprice.jpg';
+import AllInclusiveWhySetting from '../../../assets/images/allinclusive_stunningsetting.jpg';
+import AllInclusiveWhyDiningOptions from '../../../assets/images/allinclusive_endlessdiningoptions.jpg';
+import AllInclusiveWhyFun from '../../../assets/images/allinclusive_fun.jpg';
+import AllInclusiveWhyAmenities from '../../../assets/images/allinclusive_amenities.jpg';
+import AllInclusiveWhyChoices from '../../../assets/images/allinclusive_choices.jpg';
 
 export default function IdeaAllInclusive() {
     // Scroll-to-Top functions //
@@ -37,8 +44,8 @@ export default function IdeaAllInclusive() {
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
-                    src={CoverAllInclusive}
-                    className='custom-fluid-image'
+                    src={CoverAllInclusiveWhy}
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>
@@ -70,7 +77,7 @@ export default function IdeaAllInclusive() {
                 <Row className='d-flex align-items-center'>
                     <Col lg={6}>
                         <Image
-                            src={CoverAllInclusive}
+                            src={AllInclusiveWhyOneUp}
                             alt='placeholder image'
                             width='100%'
                             className='all-inclusive__image my-2'
@@ -87,7 +94,7 @@ export default function IdeaAllInclusive() {
                 <Row className='d-flex align-items-center'>
                     <Col lg={6} className='order-lg-2'>
                         <Image
-                            src={CoverAllInclusive}
+                            src={AllInclusiveWhySetting}
                             alt='placeholder image'
                             width='100%'
                             className='all-inclusive__image my-2'
@@ -104,7 +111,7 @@ export default function IdeaAllInclusive() {
                 <Row className='d-flex align-items-center'>
                     <Col lg={6}>
                         <Image
-                            src={CoverAllInclusive}
+                            src={AllInclusiveWhyDiningOptions}
                             alt='placeholder image'
                             width='100%'
                             className='all-inclusive__image my-2'
@@ -121,7 +128,7 @@ export default function IdeaAllInclusive() {
                 <Row className='d-flex align-items-center'>
                     <Col lg={6} className='order-lg-2'>
                         <Image
-                            src={CoverAllInclusive}
+                            src={AllInclusiveWhyFun}
                             alt='placeholder image'
                             width='100%'
                             className='all-inclusive__image my-2'
@@ -138,7 +145,7 @@ export default function IdeaAllInclusive() {
                 <Row className='d-flex align-items-center'>
                     <Col lg={6}>
                         <Image
-                            src={CoverAllInclusive}
+                            src={AllInclusiveWhyAmenities}
                             alt='placeholder image'
                             width='100%'
                             className='all-inclusive__image my-2'
@@ -155,7 +162,7 @@ export default function IdeaAllInclusive() {
                 <Row className='d-flex align-items-center'>
                     <Col lg={6} className='order-lg-2'>
                         <Image
-                            src={CoverAllInclusive}
+                            src={AllInclusiveWhyChoices}
                             alt='placeholder image'
                             width='100%'
                             className='all-inclusive__image my-2'

@@ -50,7 +50,7 @@ export default function HomeInspiration() {
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image'>AUSTRALIA VACATIONS</div>
+                            <div className='text-on-nav-image'>AUSTRALIA VACATIONS</div>
                         </HashLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
@@ -61,7 +61,7 @@ export default function HomeInspiration() {
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image'>ITALY VACATIONS</div>
+                            <div className='text-on-nav-image'>ITALY VACATIONS</div>
                         </HashLink>
                     </Col>
                 </Row>
@@ -74,7 +74,7 @@ export default function HomeInspiration() {
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image'>HAWAII VACATIONS</div>
+                            <div className='text-on-nav-image'>HAWAII VACATIONS</div>
                         </HashLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
@@ -85,7 +85,7 @@ export default function HomeInspiration() {
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image'>NEW ZEALAND VACATIONS</div>
+                            <div className='text-on-nav-image'>NEW ZEALAND VACATIONS</div>
                         </HashLink>
                     </Col>
                 </Row>
@@ -105,7 +105,7 @@ export default function HomeInspiration() {
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image'>WHY CHOOSE A CRUISE VACATION?</div>
+                            <div className='text-on-nav-image'>WHY CHOOSE A CRUISE VACATION?</div>
                         </HashLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
@@ -116,7 +116,7 @@ export default function HomeInspiration() {
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image'>FAMILY VACATIONS</div>
+                            <div className='text-on-nav-image'>FAMILY VACATIONS</div>
                         </HashLink>
                     </Col>
                 </Row>
@@ -129,7 +129,7 @@ export default function HomeInspiration() {
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image'>PLANNING YOUR WEDDING & HONEYMOON</div>
+                            <div className='text-on-nav-image'>PLANNING YOUR WEDDING & HONEYMOON</div>
                         </HashLink>
                     </Col>
                     <Col xs={12} md={6} className='ps-md-0'>
@@ -140,7 +140,7 @@ export default function HomeInspiration() {
                                 width='100%'
                                 className='image_hover'
                             />
-                            <div className='text-on-image'>ADVENTURE VACATIONS</div>
+                            <div className='text-on-nav-image'>ADVENTURE VACATIONS</div>
                         </HashLink>
                     </Col>
                 </Row>
@@ -160,7 +160,7 @@ export default function HomeInspiration() {
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>WILDLIFE & SAFARI VACATIONS</div>
+                                <div className='text-on-nav-image'>WILDLIFE & SAFARI VACATIONS</div>
                             </HashLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
@@ -171,7 +171,7 @@ export default function HomeInspiration() {
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>ROMANTIC VACATIONS</div>
+                                <div className='text-on-nav-image'>ROMANTIC VACATIONS</div>
                             </HashLink>
                         </Col>
                     </Row>)}
@@ -185,7 +185,7 @@ export default function HomeInspiration() {
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>GOLF VACATIONS</div>
+                                <div className='text-on-nav-image'>GOLF VACATIONS</div>
                             </HashLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
@@ -196,7 +196,7 @@ export default function HomeInspiration() {
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>BEACH VACATIONS</div>
+                                <div className='text-on-nav-image'>BEACH VACATIONS</div>
                             </HashLink>
                         </Col>
                     </Row>)}
@@ -210,7 +210,7 @@ export default function HomeInspiration() {
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>RIVER CRUISE VACATIONS</div>
+                                <div className='text-on-nav-image'>RIVER CRUISE VACATIONS</div>
                             </HashLink>
                         </Col>
                         <Col xs={12} md={6} className='ps-md-0'>
@@ -221,7 +221,7 @@ export default function HomeInspiration() {
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>EUROPEAN VACATIONS</div>
+                                <div className='text-on-nav-image'>EUROPEAN VACATIONS</div>
                             </HashLink>
                         </Col>
                     </Row>)}
@@ -235,7 +235,7 @@ export default function HomeInspiration() {
                                     width='100%'
                                     className='image_hover'
                                 />
-                                <div className='text-on-image'>ALL-INCLUSIVE VACATIONS</div>
+                                <div className='text-on-nav-image'>ALL-INCLUSIVE VACATIONS</div>
                             </HashLink>
                         </Col>
                     </Row>)}

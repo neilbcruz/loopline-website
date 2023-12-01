@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
-import CoverAllInclusive from '../../../assets/images/cover_allinclusive.jpg';
+import CoverAllInclusiveResort from '../../../assets/images/cover_allinclusive-resort.jpg';
 
 import AllInclusive1Dreams from '../../../assets/logo/all-inclusive_logos/allinclusive_1_dreams.jpg';
 import AllInclusive2Ibero from '../../../assets/logo/all-inclusive_logos/allinclusive_2_ibero.jpg';
@@ -48,8 +48,8 @@ export default function IdeaAllInclusive() {
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
-                    src={CoverAllInclusive}
-                    className='custom-fluid-image'
+                    src={CoverAllInclusiveResort}
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>
@@ -83,7 +83,7 @@ export default function IdeaAllInclusive() {
                         <NavLink
                             to='https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/'
                             target='_blank'
-                            className='image-container'>
+                            className='custom-fluid-image'>
                             <Image
                                 src={AllInclusive1Dreams}
                                 alt='placeholder image'
@@ -96,7 +96,7 @@ export default function IdeaAllInclusive() {
                         <NavLink 
                         to='https://viewer.joomag.com/all-inclusive-digital-experience-guide-2022/0944792001645736353/p5?short&' 
                         target='_blank'
-                        className='image-container'>
+                        className='custom-fluid-image'>
                             <Image
                                 src={AllInclusive2Ibero}
                                 alt='placeholder image'
@@ -109,7 +109,7 @@ export default function IdeaAllInclusive() {
                         <NavLink
                             to='https://www.iberostar.com/en-ca/'
                             target='_blank'
-                            className='image-container'>
+                            className='custom-fluid-image'>
                             <Image
                                 src={AllInclusive3Majestic}
                                 alt='placeholder image'
@@ -124,7 +124,7 @@ export default function IdeaAllInclusive() {
                         <NavLink 
                         to='https://www.palaceresorts.com/' 
                         target='_blank'
-                        className='image-container'>
+                        className='custom-fluid-image'>
                             <Image
                                 src={AllInclusive4Palace}
                                 alt='placeholder image'
@@ -146,7 +146,7 @@ export default function IdeaAllInclusive() {
                         <NavLink 
                         to='https://www.sandals.com/' 
                         target='_blank'
-                        className='image-container'>
+                        className='custom-fluid-image'>
                             <Image
                                 src={AllInclusive5Sandals}
                                 alt='placeholder image'
@@ -161,7 +161,7 @@ export default function IdeaAllInclusive() {
                         <NavLink 
                         to='https://www.beaches.com/' 
                         target='_blank'
-                        className='image-container'>
+                        className='custom-fluid-image'>
                             <Image
                                 src={AllInclusive6Beaches}
                                 alt='placeholder image'
@@ -174,7 +174,7 @@ export default function IdeaAllInclusive() {
                         <NavLink
                             to='https://www.sandos.com/'
                             target='_blank'
-                            className='image-container'>
+                            className='custom-fluid-image'>
                             <Image
                                 src={AllInclusive7Sandos}
                                 alt='placeholder image'
@@ -187,7 +187,7 @@ export default function IdeaAllInclusive() {
                         <NavLink 
                         to='https://www.riu.com/en/home.jsp' 
                         target='_blank'
-                        className='image-container'>
+                        className='custom-fluid-image'>
                             <Image
                                 src={AllInclusive8Riu}
                                 alt='placeholder image'

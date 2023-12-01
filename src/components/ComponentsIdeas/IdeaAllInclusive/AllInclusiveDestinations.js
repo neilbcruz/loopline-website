@@ -8,7 +8,7 @@ import {
 import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
-import CoverAllInclusive from '../../../assets/images/cover_allinclusive.jpg';
+import CoverAllInclusiveDestinations from '../../../assets/images/cover_allinclusive-destinations.jpg';
 import AllInclusiveDestination from '../../../assets/images/allinclusive_destination.jpg';
 
 export default function IdeaAllInclusive() {
@@ -37,8 +37,8 @@ export default function IdeaAllInclusive() {
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
                 <Image
-                    src={CoverAllInclusive}
-                    className='custom-fluid-image'
+                    src={CoverAllInclusiveDestinations}
+                    className='custom-fluid-hero'
                     width='100%'
                 />
                 <div className='text-on-hero'>
