@@ -137,12 +137,11 @@ export default function CruiseVVoyagesLuxury() {
                     <div>
                         <iframe
                             width='100%'
-                            height='400'
                             src='https://www.youtube.com/embed/UOTU2BjYw80'
                             title='YouTube video player'
                             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                             allowFullScreen
-                            className='my-3'
+                            className='my-3 video__breakpoint'
                         ></iframe>
                     </div>
                 </Row>
