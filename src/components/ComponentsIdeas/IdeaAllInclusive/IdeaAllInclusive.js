@@ -11,6 +11,14 @@ import { useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
 import CoverAllInclusive from '../../../assets/images/cover_allinclusive.jpg';
+import CoverAllInclusiveResort from '../../../assets/images/cover_allinclusive-resort.jpg';
+import CoverAllInclusiveWhy from '../../../assets/images/cover_allinclusive-why.jpg';
+import CoverAllInclusiveDestinations from '../../../assets/images/cover_allinclusive-destinations.jpg';
+
+import AllInclusiveTravelKids from '../../../assets/images/allinclusive_travelwithkids.jpg';
+import AllInclusiveBestFamilyVacay from '../../../assets/images/allinclusive_bestfamilyvacation.jpg';
+import AllInclusiveAdultsOnly from '../../../assets/images/allinclusive_adultsonlyvacay.jpg';
+
 
 export default function IdeaAllInclusive() {
     // Scroll-to-Top functions //
@@ -69,7 +77,7 @@ export default function IdeaAllInclusive() {
                 <Row className='text-center'>
                     <Col xs={12} md={4} className='mb-3'>
                         <Image
-                            src={CoverAllInclusive}
+                            src={CoverAllInclusiveResort}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -84,7 +92,7 @@ export default function IdeaAllInclusive() {
                     </Col>
                     <Col xs={12} md={4} className='mb-3'>
                         <Image
-                            src={CoverAllInclusive}
+                            src={CoverAllInclusiveWhy}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -99,7 +107,7 @@ export default function IdeaAllInclusive() {
                     </Col>
                     <Col xs={12} md={4} className='mb-3'>
                         <Image
-                            src={CoverAllInclusive}
+                            src={CoverAllInclusiveDestinations}
                             alt='placeholder image'
                             width='100%'
                             className='custom-fluid-image mb-2'
@@ -119,7 +127,7 @@ export default function IdeaAllInclusive() {
                 <Row className='d-flex align-items-center'>
                     <Col lg={6}>
                         <Image
-                            src={CoverAllInclusive}
+                            src={AllInclusiveTravelKids}
                             alt='placeholder image'
                             width='100%'
                             className='all-inclusive__image my-2'
@@ -136,7 +144,7 @@ export default function IdeaAllInclusive() {
                 <Row className='d-flex align-items-center'>
                     <Col lg={6} className='order-lg-2'>
                         <Image
-                            src={CoverAllInclusive}
+                            src={AllInclusiveBestFamilyVacay}
                             alt='placeholder image'
                             width='100%'
                             className='all-inclusive__image my-2'
@@ -153,7 +161,7 @@ export default function IdeaAllInclusive() {
                 <Row className='d-flex align-items-center'>
                     <Col lg={6}>
                         <Image
-                            src={CoverAllInclusive}
+                            src={AllInclusiveAdultsOnly}
                             alt='placeholder image'
                             width='100%'
                             className='all-inclusive__image my-2'

@@ -137,12 +137,18 @@
     /* 100% width by default */
     max-width: none;
     /* Remove the max-width limit */
-    min-height: 15rem;
+    min-height: 20rem;
     max-height: 20rem;
     object-fit: cover;
 
     @include tablet {
+        min-height: 15rem;
         max-height: 15rem;
+    }
+
+    @include desktop {
+        min-height: 20rem;
+        max-height: 20rem;
     }
 }
 

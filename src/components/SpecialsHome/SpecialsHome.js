@@ -57,7 +57,7 @@ export default function SpecialsHome() {
                 <Row className='text-center'>
                     <Col xs={12} md={6} className='mb-3'>
                         <Row>
-                            <Col xs={12} lg={6} style={{ height: '250px' }}>
+                            <Col xs={12} lg={6}>
                                 <Image
                                     src={CoverAllInclusive}
                                     alt='placeholder image'
@@ -84,7 +84,7 @@ export default function SpecialsHome() {
                     </Col>
                     <Col xs={12} md={6} className='mb-3'>
                         <Row>
-                            <Col xs={12} lg={6} style={{ height: '250px' }}>
+                            <Col xs={12} lg={6}>
                                 <Image
                                     src={CoverBeach}
                                     alt='placeholder image'
