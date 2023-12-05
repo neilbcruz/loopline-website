@@ -1,30 +1,19 @@
 import {
     Container,
-    Card,
     Row,
     Col,
     Button,
-    Stack,
     Image
 } from 'react-bootstrap';
-import { ArrowUp, Linkedin, Facebook, Twitter, Instagram } from 'react-bootstrap-icons';
+import { ArrowUp, Facebook, Instagram } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import Rowena from '../../assets/images/rowena.jpeg';
+// import CardRowena from '../../components/CardRowena/CardRowena';
+
+import RowenaImage from '../../assets/images/rowena.jpeg';
 
 export default function HomePage() {
-    const email = 'email@example.com';
-    const phone = '+1234567890';
-
-    const handleEmailClick = () => {
-        window.location.href = `mailto:${email}`;
-    }
-
-    const handlePhoneClick = () => {
-        window.location.href = `tel:${phone}`
-    }
-
     // Scroll-to-Top functions //
     const [showButton, setShowButton] = useState(false);
     const handleScroll = () => {
@@ -51,33 +40,9 @@ export default function HomePage() {
             <Container id='top' className='my-3'>
                 <Row>
                     <Col xs={12} md={9}>
-                        <Container className='mb-3'>
-                            <Card variant='secondary'>
-                                <Card.Body>
-                                    <Row className='d-flex align-items-center justify-content-center'>
-                                        <Col xs={5} lg={4}>
-                                            <Image
-                                                src={Rowena}
-                                                alt='Rowena image'
-                                                className='my-3 img-fluid'
-                                                width='100%'
-                                            />
-                                        </Col>
-                                        <Col className='text-align-left m-3 ' xs={6} lg={7}>
-                                            <Card.Title>ROWENA CRUZ</Card.Title>
-                                            <Card.Text className='mb-1'>Scarborough, ON</Card.Text>
-                                            <hr className='mt-1 mb-4'></hr>
-                                            <Stack direction='horizontal' gap={2}>
-                                                <Button variant='success' onClick={handleEmailClick}>Email Me</Button>
-                                                <Button variant='success' onClick={handlePhoneClick}>Call Me</Button>
-                                            </Stack>
-                                        </Col>
-                                    </Row>
-                                </Card.Body>
-                            </Card>
-                        </Container>
+                        {/* <CardRowena /> */}
 
-                        <Container className='mb-3'>
+                        <Container className='my-3'>
                             <h2>Certified Travel Counsellor</h2>
                             <Row>
                                 <Col xs={12} lg={6}>
@@ -96,7 +61,7 @@ export default function HomePage() {
                                 </Col>
                                 <Col lg={6}>
                                     <Image
-                                        src={Rowena}
+                                        src={RowenaImage}
                                         className='my-2' />
                                 </Col>
                             </Row>
@@ -104,51 +69,62 @@ export default function HomePage() {
                     </Col>
 
                     <Col xs={12} md={3}>
-                        <Container className='my-5'>
+                        <Container className='my-3'>
                             <h2>DESTINATION EXPERT</h2>
-                            <li>Philippines</li>
-                            <li>South Korea</li>
-                            <li>Austria</li>
-                            <li>Italy</li>
-                            <li>Japan</li>
+                            <ul>
+                                <li>Philippines</li>
+                                <li>South Korea</li>
+                                <li>Austria</li>
+                                <li>Italy</li>
+                                <li>Japan</li>
+                            </ul>
                             <hr></hr>
                             <h2>TRAVEL SPECIALIST:</h2>
-                            <li>Family Vacations</li>
-                            <li>Cruises</li>
-                            <li>River Cruises</li>
+                            <ul>
+                                <li>Family Vacations</li>
+                                <li>Cruises</li>
+                                <li>River Cruises</li>
+                            </ul>
                             <hr></hr>
                             <h2>TOP TRAVEL PARTNERS:</h2>
-                            <li>Royal Caribbean</li>
-                            <li>Globus</li>
+                            <ul>
+                                <li>Royal Caribbean</li>
+                                <li>Globus</li>
+                            </ul>
                             <hr></hr>
                             <h2>CERTIFICATION/ AWARDS:</h2>
-                            <li>CTC</li>
-                            <li>Certified Travel Counsellor</li>
-                            <li>Avalon Waterways Specialist</li>
-                            <li>Certified Globus Tour Expert</li>
-                            <li>Monograms Booking Agent</li>
-                            <li>AMA Waterways Certified Advisor</li>
+                            <ul>
+                                <li>CTC</li>
+                                <li>Certified Travel Counsellor</li>
+                                <li>Avalon Waterways Specialist</li>
+                                <li>Certified Globus Tour Expert</li>
+                                <li>Monograms Booking Agent</li>
+                                <li>AMA Waterways Certified Advisor</li>
+                            </ul>
                             <hr></hr>
                             <h2>LANGUAGES I SPEAK:</h2>
-                            <li>English</li>
-                            <li>Tagalog</li>
+                            <ul>
+                                <li>English</li>
+                                <li>Tagalog</li>
+                            </ul>
                             <hr></hr>
                             <h2>CONNECT WITH ME:</h2>
-                            <Link to='https://www.facebook.com/' className='text-decoration-none' target='_blank'>
-                                <Facebook size='20'/>Facebook
-                            </Link>
-                            <br></br>
-                            <Link to='https://www.linkedin.com/' className='text-decoration-none' target='_blank'>
-                                <Linkedin size='20'/>Linkedin
-                            </Link>
-                            <br></br>
-                            <Link to='https://www.instagram.com/' className='color-inherit text-decoration-none' target='_blank'>
-                                <Instagram color='brown' size='20'/>Instagram
-                            </Link>
-                            <br></br>
-                            <Link to='https://www.twitter.com/' className='color-inherit text-decoration-none' target='_blank'>
-                                <Twitter size='20'/>Twitter
-                            </Link>
+                            <div className='d-flex flex-column gap-1'>
+                                <Link
+                                    to='https://www.facebook.com/looplinetravel'
+                                    className='text-decoration-none'
+                                    target='_blank'
+                                >
+                                    <Facebook size='20' />Facebook
+                                </Link>
+                                <Link
+                                    to='https://www.instagram.com/looplinetravel/'
+                                    className='color-inherit text-decoration-none'
+                                    target='_blank'
+                                >
+                                    <Instagram color='brown' size='20' />Instagram
+                                </Link>
+                            </div>
                         </Container>
                     </Col>
                 </Row>

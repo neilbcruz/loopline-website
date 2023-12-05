@@ -192,6 +192,21 @@
     }
 }
 
+.custom-fluid-card {
+    width: 100%;
+    /* 100% width by default */
+    // max-width: none;
+    /* Remove the max-width limit */
+    min-height: 10rem;
+    max-height: 10rem;
+    object-fit: cover;
+
+    @include tablet {
+        min-height: 15rem;
+        max-height: 15rem;
+    }
+}
+
 .video {
     background-color: black;
     display: none;
