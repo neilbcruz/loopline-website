@@ -22,10 +22,8 @@ export default function TravelLeadersCarousel() {
           <Carousel.Item key={index}>
             <Image
               src={imagePath.default}
-              width='40%'
               alt={`Slide ${index + 1}`}
               className='carousel-fluid-image'
-              style={{ maxHeight: '100vh' }}
             />
           </Carousel.Item>
         ))}

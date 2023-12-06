@@ -81,7 +81,7 @@ export default function HotelSandalsCuracao() {
                                 src={SeasideButlerBungalows}
                                 alt='placeholder image'
                                 width='100%'
-                                className='all-inclusive__image my-2'
+                                className='all-inclusive__image'
                             />
                             <div className='text-on-image'>Seaside Butler Bungalows</div>
                         </div>

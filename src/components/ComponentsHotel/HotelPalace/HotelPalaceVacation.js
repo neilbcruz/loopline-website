@@ -82,9 +82,9 @@ export default function HotelPalaceVacation() {
                                 src={PalaceGrandSuite}
                                 alt='placeholder image'
                                 width='100%'
-                                className='all-inclusive__image my-2'
+                                className='all-inclusive__image'
                             />
-                            <div className='text-on-image'>Seaside Butler Bungalows</div>
+                            <div className='text-on-image'>Moon Palace - The Grand; Grand Family Suite</div>
                         </div>
                     </Col>
                     <Col xs={12} lg={6} className='order-lg-1'>
@@ -98,9 +98,9 @@ export default function HotelPalaceVacation() {
                                 src={PalacePool}
                                 alt='placeholder image'
                                 width='100%'
-                                className='all-inclusive__image my-2'
+                                className='all-inclusive__image'
                             />
-                            <div className='text-on-image'>Seaside Butler Bungalows</div>
+                            <div className='text-on-image'>Moon Palace Pool</div>
                         </div>
                     </Col>
                     <Col xs={12} lg={6} className='order-lg-2'>
@@ -114,9 +114,9 @@ export default function HotelPalaceVacation() {
                                 src={PalaceSpa}
                                 alt='placeholder image'
                                 width='100%'
-                                className='all-inclusive__image my-2'
+                                className='all-inclusive__image'
                             />
-                            <div className='text-on-image'>Seaside Butler Bungalows</div>
+                            <div className='text-on-image'>Awe Spa® Pool</div>
                         </div>
                     </Col>
                     <Col xs={12} lg={6} className='order-lg-1'>

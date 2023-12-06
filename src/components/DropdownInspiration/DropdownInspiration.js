@@ -17,16 +17,16 @@ export default function DropdownInspiration() {
                 className="mt-2"
                 data-bs-theme="light"
             >
-                <LinkContainer to='/about'>
+                <LinkContainer to='/inspiration/australia'>
                     <Dropdown.Item>Australia Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/inspiration'>
+                <LinkContainer to='/inspiration/italy'>
                     <Dropdown.Item>Italy Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/bootstrap'>
+                <LinkContainer to='/inspiration/hawaii'>
                     <Dropdown.Item>Hawaii Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/contact'>
+                <LinkContainer to='/inspiration/nzealand'>
                     <Dropdown.Item>New Zealand Vacations</Dropdown.Item>
                 </LinkContainer>
             </DropdownButton>
@@ -37,40 +37,37 @@ export default function DropdownInspiration() {
                 className="mt-2"
                 data-bs-theme="light"
             >
-                <LinkContainer to='/about'>
+                <LinkContainer to='/inspiration/cruise'>
                     <Dropdown.Item>Why Choose A Cruise Vacation?</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/inspiration'>
+                <LinkContainer to='/inspiration/family'>
                     <Dropdown.Item>Family Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/bootstrap'>
+                <LinkContainer to='/inspiration/wedding'>
                     <Dropdown.Item>Planning Your Wedding & Honeymoon</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/contact'>
+                <LinkContainer to='/inspiration/adventure'>
                     <Dropdown.Item>Adventure Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/contact'>
+                <LinkContainer to='/inspiration/wildlife'>
                     <Dropdown.Item>Wildlife & Safari Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/contact'>
+                <LinkContainer to='/inspiration/romantic'>
                     <Dropdown.Item>Romantic Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/contact'>
+                <LinkContainer to='/inspiration/golf'>
                     <Dropdown.Item>Golf Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/contact'>
+                <LinkContainer to='/inspiration/beach'>
                     <Dropdown.Item>Beach Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/contact'>
+                <LinkContainer to='/inspiration/european'>
                     <Dropdown.Item>European Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/contact'>
-                    <Dropdown.Item>Family Vacations</Dropdown.Item>
-                </LinkContainer>
-                <LinkContainer to='/contact'>
+                <LinkContainer to='/inspiration/rivercruise'>
                     <Dropdown.Item>River Cruise Vacations</Dropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/contact'>
+                <LinkContainer to='/inspiration/allinclusive'>
                     <Dropdown.Item>All Inclusive Vacations</Dropdown.Item>
                 </LinkContainer>
             </DropdownButton>

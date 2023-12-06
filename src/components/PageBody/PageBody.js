@@ -4,7 +4,6 @@ import {
     Row,
     Col,
     Image,
-    Card,
     Carousel
 } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
@@ -16,10 +15,11 @@ import { useEffect, useState } from 'react';
 import Expertise from '../../assets/icons/operator.png';
 import PService from '../../assets/icons/handshake.png';
 import Value from '../../assets/icons/handmoney.png';
-import Rowena from '../../assets/images/rowena.jpeg';
 
 import DropdownInspiration from '../DropdownInspiration/DropdownInspiration';
 import DropdownSpecial from '../DropdownSpecial/DropdownSpecial';
+import CardRowena from '../CardRowena/CardRowena';
+import CarouselInspiration from '../CarouselInspiration/CarouselInspiration';
 
 export default function PageBody() {
     // Scroll-to-Top functions //
@@ -95,58 +95,13 @@ export default function PageBody() {
 
             <Container className='text-center mb-5'>
                 <h1>Meet Rowena</h1>
-                <Card style={{ color: 'black' }}>
-                    <Container>
-                        <Image
-                            src={Rowena}
-                            alt='Rowena image'
-                            width='40%'
-                            className='mt-3'
-                        />
-                    </Container>
-                    <Card.Body>
-                        <Card.Title>
-                            Rowena Cruz
-                        </Card.Title>
-                        <Card.Text>
-                            CERTIFIED TRAVEL COUNSELLOR
-                        </Card.Text>
-                        <HashLink to='/about#top'>
-                            <Button variant='outline-success'>Learn more</Button>
-                        </HashLink>
-                    </Card.Body>
-                </Card>
+                <CardRowena />
             </Container>
 
-            <Container className='text-center bg-secondary bg-opacity-25 py-3 mb-5' fluid>
+            <Container className='text-center py-3 mb-5' fluid>
                 <h1>TRAVEL INSPIRATIONS</h1>
                 <p>To provide you with the best possible service, our agents specialize in the following areas.</p>
-                <Carousel className='mb-3'>
-                    <Carousel.Item itemId={1}>
-                        <Image
-                            src={PService}
-                            width='40%'
-                            text='First slide'
-                            style={{ maxHeigh: '100vh' }}
-                        // className='d-block w-100'
-                        />
-                        <Carousel.Caption className='text-success'>
-                            <h5>First slide label</h5>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item itemId={1}>
-                        <Image
-                            src={Expertise}
-                            width='40%'
-                            text='Second slide'
-                        // style={{maxHeigh:'100vh'}}
-                        // className='d-block w-100'
-                        />
-                        <Carousel.Caption className='text-success'>
-                            <h5>Second slide label</h5>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+                <CarouselInspiration />
                 <DropdownInspiration />
                 <HashLink to='/inspiration#top' >
                     <Button className='mt-3' variant='outline-success'>

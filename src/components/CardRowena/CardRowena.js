@@ -50,7 +50,7 @@ export default function CardRowena() {
                                 <HashLink to='/about' className='text-decoration-none'>
                                     <p className='mb-2 text-success'>Click here to learn more about me</p>
                                     </HashLink>
-                                <Stack direction='horizontal' gap={2}>
+                                <Stack direction='horizontal' className='d-flex justify-content-center' gap={2}>
                                     <Button variant='success' onClick={handleEmailClick}>Email Me</Button>
                                     <Button variant='success' onClick={handlePhoneClick}>Call Me</Button>
                                 </Stack>
