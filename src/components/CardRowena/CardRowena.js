@@ -47,7 +47,7 @@ export default function CardRowena() {
                                 <hr className='mt-0'></hr>
                                 <p className='fw-light'>Certified Travel Counsellor</p>
                                 <p className='d-none d-md-block'>My passion to traveling made me decide to become a travel consultant. I have studied and received certification to be a Travel Consultant.</p>
-                                <HashLink to='/about' className='text-decoration-none'>
+                                <HashLink to='/about#top' className='text-decoration-none'>
                                     <p className='mb-2 text-success'>Click here to learn more about me</p>
                                     </HashLink>
                                 <Stack direction='horizontal' className='d-flex justify-content-center' gap={2}>

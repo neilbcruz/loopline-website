@@ -3,8 +3,7 @@ import {
     Button,
     Row,
     Col,
-    Image,
-    Carousel
+    Image
 } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link'
@@ -20,6 +19,7 @@ import DropdownInspiration from '../DropdownInspiration/DropdownInspiration';
 import DropdownSpecial from '../DropdownSpecial/DropdownSpecial';
 import CardRowena from '../CardRowena/CardRowena';
 import CarouselInspiration from '../CarouselInspiration/CarouselInspiration';
+import CarouselSpecial from '../CarouselSpecial/CarouselSpecial';
 
 export default function PageBody() {
     // Scroll-to-Top functions //
@@ -113,32 +113,7 @@ export default function PageBody() {
             <Container className='text-center bg-secondary bg-opacity-25 py-3 mb-5' fluid>
                 <h1>TRAVEL SPECIALS</h1>
                 <p>The best deals happening now. Act fast, they won't last long!</p>
-                <Carousel className='mb-3'>
-                    <Carousel.Item itemId={1}>
-                        <Image
-                            src={PService}
-                            width='40%'
-                            text='First slide'
-                            style={{ maxHeigh: '100vh' }}
-                        // className='d-block w-100'
-                        />
-                        <Carousel.Caption className='text-success'>
-                            <h5>First slide label</h5>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item itemId={1}>
-                        <Image
-                            src={Expertise}
-                            width='40%'
-                            text='Second slide'
-                        // style={{maxHeigh:'100vh'}}
-                        // className='d-block w-100'
-                        />
-                        <Carousel.Caption className='text-success'>
-                            <h5>Second slide label</h5>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+                <CarouselSpecial />
                 <DropdownSpecial />
                 <NavLink to='/specials'>
                     <Button className='mt-3' variant='outline-success'>
