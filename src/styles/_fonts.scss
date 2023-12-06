@@ -2,93 +2,103 @@
 @use "./mixins" as *;
 @use "./typography" as *;
 
-* {
-    font-family: "Dreaming Outloud Pro", sans-serif;
-}
+// * {
+//     font-family: "Dreaming Outloud Pro", sans-serif;
+// }
 
-h1 {
-    font-size: 1.75rem;
-    line-height: 2.25rem;
-    font-weight: 600;
+// h1 {
+//     font-size: 1.75rem;
+//     line-height: 2.25rem;
+//     font-weight: 600;
 
-    @include tablet {
-        font-size: 2rem;
-        line-height: 2.5rem;
-    }
-}
+//     @include tablet {
+//         font-size: 2rem;
+//         line-height: 2.5rem;
+//     }
+// }
 
-h2 {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    font-weight: 600;
+// h2 {
+//     font-size: 1.25rem;
+//     line-height: 1.75rem;
+//     font-weight: 600;
 
-    @include tablet {
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
-}
+//     @include tablet {
+//         font-size: 1.5rem;
+//         line-height: 2rem;
+//     }
+// }
 
-p {
-    font-size: 0.813rem;
-    line-height: 1.125rem;
-    font-weight: 400;
+// p {
+//     font-size: 0.813rem;
+//     line-height: 1.125rem;
+//     font-weight: 400;
 
-    @include tablet {
-        font-size: 0.875rem;
-        line-height: 1.375rem;
-    }
-}
+//     @include tablet {
+//         font-size: 0.875rem;
+//         line-height: 1.375rem;
+//     }
+// }
 
-h3,
-link,
-button,
-.label {
-    font-size: 0.8125rem;
-    line-height: 1.25rem;
-    font-weight: 600;
+// h3,
+// link,
+// button,
+// .label {
+//     font-size: 0.8125rem;
+//     line-height: 1.25rem;
+//     font-weight: 600;
 
-    @include tablet {
-        font-size: 0.875rem;
-        line-height: 1.125rem;
-    }
-}
+//     @include tablet {
+//         font-size: 0.875rem;
+//         line-height: 1.125rem;
+//     }
+// }
 
-h4 {
-    font-size: 0.6875rem;
-    line-height: 1rem;
+// h4 {
+//     font-size: 0.6875rem;
+//     line-height: 1rem;
 
-    @include tablet {
-        font-size: 0.75rem;
-        line-height: 1.125rem;
-    }
-}
+//     @include tablet {
+//         font-size: 0.75rem;
+//         line-height: 1.125rem;
+//     }
+// }
 
-.p-large {
-    font-size: 0.9375rem;
-    line-height: 1.625rem;
+// h4 {
+//     font-size: 0.6875rem;
+//     line-height: 1rem;
 
-    @include tablet {
-        font-size: 1rem;
-        line-height: 1.75rem;
-    }
-}
+//     @include tablet {
+//         font-size: 0.75rem;
+//         line-height: 1.125rem;
+//     }
+// }
 
-.p-medium {
-    font-size: 0.8125rem;
-    line-height: 1.25rem;
+// .p-large {
+//     font-size: 0.9375rem;
+//     line-height: 1.625rem;
 
-    @include tablet {
-        font-size: 0.875rem;
-        line-height: 1.375rem;
-    }
-}
+//     @include tablet {
+//         font-size: 1rem;
+//         line-height: 1.75rem;
+//     }
+// }
 
-.p-small {
-    font-size: 0.6875rem;
-    line-height: 1rem;
+// .p-medium {
+//     font-size: 0.8125rem;
+//     line-height: 1.25rem;
 
-    @include tablet {
-        font-size: 0.75rem;
-        line-height: 1.125rem;
-    }
-}
+//     @include tablet {
+//         font-size: 0.875rem;
+//         line-height: 1.375rem;
+//     }
+// }
+
+// .p-small {
+//     font-size: 0.6875rem;
+//     line-height: 1rem;
+
+//     @include tablet {
+//         font-size: 0.75rem;
+//         line-height: 1.125rem;
+//     }
+// }

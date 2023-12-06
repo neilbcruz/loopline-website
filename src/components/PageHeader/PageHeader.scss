@@ -10,12 +10,12 @@
 
 .header {
     padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 
     @include tablet {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 2rem;
         padding: 1rem 2rem;
     }
 
@@ -24,11 +24,37 @@
     }
 
     &__top {
-        
+
         &-logo {
             width: 10rem;
         }
 
     }
 
+    &__nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 0;
+
+        & a {
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+                color: black;
+            }
+
+            &:hover {
+                color: blue;
+            }
+        }
+    }
+}
+
+.active {
+    margin: 0;
+    color: orange !important;
 }

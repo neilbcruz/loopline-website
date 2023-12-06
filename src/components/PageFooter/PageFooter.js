@@ -15,13 +15,13 @@ export default function PageFooter() {
             <div className='footer'>
                 <div className='footer__container'>
                     <div className='footer__text'>
-                        <h3>"Loopline Travel is affiliated with:"</h3>
-                        <h3>Nexion Travel Group - Canada, ULC</h3>
-                        <h3>380 Wellington Street, Tower B, 6th Floor, London, ON N6A 5B5</h3>
-                        <h3>HQ Phone 519-660-6966</h3>
-                        <h3>TICO Reg. #1549342."</h3>
+                        <h6>"Loopline Travel is affiliated with:"</h6>
+                        <h6>Nexion Travel Group - Canada, ULC</h6>
+                        <h6>380 Wellington Street, Tower B, 6th Floor, London, ON N6A 5B5</h6>
+                        <h6>HQ Phone 519-660-6966</h6>
+                        <h6>TICO Reg. #1549342."</h6>
                         <br></br>
-                        <h3>Loopline Travel. All Rights Reserved 2015</h3>
+                        <h6>Loopline Travel. All Rights Reserved 2015</h6>
                     </div>
                 </div>
             </div>

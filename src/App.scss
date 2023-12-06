@@ -1,0 +1,277 @@
+@use './styles/fonts' as *;
+@use './styles/mixins' as *;
+@use './styles/variables' as *;
+
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+.image_hover {
+    filter: brightness(50%);
+    height: 300px;
+
+    &:hover {
+        filter: brightness(120%) saturate(120%);
+    }
+
+    @include tablet {
+        height: 250px;
+    }
+
+    @include desktop {
+        height: 300px;
+    }
+}
+
+.image_allinclusive {
+    filter: brightness(50%);
+    height: 300px;
+
+    @include tablet {
+        height: 225px;
+    }
+
+    @include desktop {
+        height: 300px;
+    }
+
+    &:hover {
+        filter: brightness(120%) saturate(120%);
+    }
+}
+
+.link_style {
+    & a {
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        &:hover {
+            color: blue;
+        }
+    }
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    margin: 1px;
+
+    & img {
+        object-fit: cover
+    }
+}
+
+.logo-container {
+    display: flex;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.logo-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-on-image {
+    // custom-fluid-image partner
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Add background color for better text readability */
+    color: #fff;
+    /* Text color */
+    padding: 4px;
+    /* Adjust padding as needed */
+    font-size: 14px;
+    /* Adjust font size as needed */
+    width: 100%;
+}
+
+.text-on-nav-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Add background color for better text readability */
+    color: #fff;
+    /* Text color */
+    padding: 4px;
+    /* Adjust padding as needed */
+    font-size: 14px;
+    /* Adjust font size as needed */
+    width: 100%;
+}
+
+.hero-container {
+    position: relative;
+    padding: 0;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.text-on-hero {
+    position: absolute;
+    top: 50%;
+    /* Adjust the top value to position the text vertically */
+    left: 50%;
+    /* Adjust the left value to position the text horizontally */
+    transform: translate(-50%, -60%);
+    /* Center the text both horizontally and vertically */
+    color: #fff;
+    /* Text color */
+    font-size: 20px;
+    /* Adjust font size as needed */
+    text-align: center;
+    /* Center align the text */
+    background-color: rgba(0, 0, 0, 0);
+    /* Add background color for better text readability */
+}
+
+.custom-fluid-image {
+    width: 100%;
+    /* 100% width by default */
+    max-width: none;
+    /* Remove the max-width limit */
+    min-height: 20rem;
+    max-height: 20rem;
+    object-fit: cover;
+
+    @include tablet {
+        min-height: 15rem;
+        max-height: 15rem;
+    }
+
+    @include desktop {
+        min-height: 20rem;
+        max-height: 20rem;
+    }
+}
+
+.custom-fluid-hero {
+    width: 100%;
+    /* 100% width by default */
+    // max-width: none;
+    /* Remove the max-width limit */
+    min-height: 20rem;
+    max-height: 30rem;
+    object-fit: cover;
+    filter: brightness(50%);
+
+    &:hover {
+        filter: brightness(100%) saturate(100%);
+    }
+}
+
+.all-inclusive__image {
+    width: 100%;
+    /* 100% width by default */
+    max-width: none;
+    /* Remove the max-width limit */
+    min-height: 20rem;
+    max-height: 20rem;
+    object-fit: cover;
+}
+
+.custom-fluid-card {
+    width: 100%;
+    min-height: 10rem;
+    max-height: 15rem;
+    object-fit: cover;
+
+    @include tablet {
+        max-height: 20rem;
+    }
+
+    @include desktop {
+        max-height: 25rem;
+    }
+}
+
+.video {
+    background-color: black;
+    display: none;
+
+    &__youtube {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+        
+        & iframe {
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+
+            @include tablet {
+                padding: 0rem 2rem;
+            }
+
+            @include desktop {
+                padding: 0rem 10rem;
+                height: 90%;
+            }
+        }
+    }
+}
+
+.video__breakpoint {
+    height: 290px;
+
+    @include tablet {
+        height: 530px;
+    }
+
+    @include desktop {
+        height: 730px;
+    }
+}
+
+.carousel-fluid-image {
+    object-fit: scale-down;
+    width: 100%;
+    min-height: 18rem;
+    max-height: 18rem;
+    transition: all 0.5s;
+
+    @include tablet {
+        width: 80%;
+        min-height: 25rem;
+        max-height: 25rem;
+    }
+
+    @include desktop {
+        width: 100%;
+        min-height: 35rem;
+        max-height: 35rem;
+    }
+}
+
+/* Customize carousel arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.1); /* Change the background color */
+  /* Add other properties like color, size, etc. */
+}
+
+/* Hover effect for arrows */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Change the hover background color */
+}

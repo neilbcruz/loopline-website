@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Dreaming Outloud Pro";
+  src: url("../assets/fonts/DreamingOutloudRegularPro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dreaming Outloud Pro";
+  src: url("../assets/fonts/DreamingOutloudRegularPro.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dreaming Outloud Pro";
+  src: url("../assets/fonts/DreamingOutloudRegularPro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  font-family: "Dreaming Outloud Pro", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header {
+    padding: 1.25rem 10rem;
+  }
+}
+.header__top-logo {
+  width: 10rem;
+}
+.header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+.header__nav a:link, .header__nav a:visited {
+  text-decoration: none;
+  color: black;
+}
+.header__nav a:hover {
+  color: blue;
+}
+
+.active {
+  margin: 0;
+  color: red !important;
+}/*# sourceMappingURL=PageHeader.css.map */

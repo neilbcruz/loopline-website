@@ -1,0 +1,13 @@
+/* CSS file or within your component styling */
+
+/* Custom class for setting background color */
+.custom-card {
+  background-color: #f0f0f0; /* Change to your desired background color */
+}
+
+/* Custom class for changing height at large breakpoint */
+@media (min-width: 992px) {
+  .custom-card {
+    min-height: 200px; /* Change the height value as needed */
+  }
+}
