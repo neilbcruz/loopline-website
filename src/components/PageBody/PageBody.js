@@ -20,6 +20,10 @@ import DropdownSpecial from '../DropdownSpecial/DropdownSpecial';
 import CardRowena from '../CardRowena/CardRowena';
 import CarouselInspiration from '../CarouselInspiration/CarouselInspiration';
 import CarouselSpecial from '../CarouselSpecial/CarouselSpecial';
+import SuppliersLogos from './SuppliersLogos';
+import CertifiedLogos from './CertificationLogos';
+
+import CoverAllInclusive from '../../assets/images/cover_allinclusive.jpg';
 
 export default function PageBody() {
     // Scroll-to-Top functions //
@@ -99,7 +103,7 @@ export default function PageBody() {
             </Container>
 
             <Container className='text-center py-3 mb-5' fluid>
-                <h1>TRAVEL INSPIRATIONS</h1>
+                <h1>TRAVEL INSPIRATION</h1>
                 <p>To provide you with the best possible service, our agents specialize in the following areas.</p>
                 <CarouselInspiration />
                 <DropdownInspiration />
@@ -110,7 +114,7 @@ export default function PageBody() {
                 </HashLink>
             </Container>
 
-            <Container className='text-center bg-secondary bg-opacity-25 py-3 mb-5' fluid>
+            <Container className='text-center py-3 mb-5' fluid>
                 <h1>TRAVEL SPECIALS</h1>
                 <p>The best deals happening now. Act fast, they won't last long!</p>
                 <CarouselSpecial />
@@ -120,6 +124,32 @@ export default function PageBody() {
                         SEE ALL TRAVEL SPECIALS
                     </Button>
                 </NavLink>
+            </Container>
+
+            <Container className='text-center py-3 bg-secondary bg-opacity-25' fluid>
+                <h1 className='text-light bg-dark bg-opacity-100 p-3'>PREFFERRED SUPPLIERS</h1>
+                <p>Our long-standing relationships with trusted travel suppliers enable us to provide you with exclusive pricing, promotions and amenities.</p>
+            </Container>
+            <SuppliersLogos />
+
+            <Container className='text-center mb-5'>
+                <h1>EXCLUSIVE EXPERIENCES</h1>
+                <h6>For complimentary room upgrades to shipboard credits, our agency can provide you with exclusive bonus amenities not available through anyone else.</h6>
+                <HashLink to='/inspiration/allinclusive#top' className='image-container'>
+                    <Image
+                        src={CoverAllInclusive}
+                        alt='placeholder image'
+                        width='100%'
+                        className='all-inclusive__image'
+                    />
+                    <div className='text-on-image'>ALL INCLUSIVE</div>
+                </HashLink>
+            </Container>
+
+            <Container className='text-center'>
+                <h1>CERTIFICATIONS & AWARDS</h1>
+                <p>Our long-standing relationships with trusted travel suppliers enable us to provide you with exclusive pricing, promotions and amenities.</p>
+                <CertifiedLogos />
             </Container>
 
             <Container className="scroll-to-top">
