@@ -9,6 +9,8 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverEuropean from '../../../assets/images/cover_european.jpg';
+import EuropeanOceanCruise from '../../../assets/images/european_oceancruise.jpg';
+import EuropeanGuidedVacations from '../../../assets/images/european_guidedvacations.jpg';
 
 export default function IdeaEuropean() {
     // Scroll-to-Top functions //
@@ -66,7 +68,7 @@ export default function IdeaEuropean() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverEuropean}
+                    src={EuropeanOceanCruise}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -89,7 +91,7 @@ export default function IdeaEuropean() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverEuropean}
+                    src={EuropeanGuidedVacations}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />

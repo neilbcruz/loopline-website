@@ -9,6 +9,7 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverHawaii from '../../../assets/images/cover_hawaii.jpg';
+import HawaiiLeahi from '../../../assets/images/hawaii_leahi.jpg';
 import HawaiiLogo from '../../../assets/logo/HawaiiLogo.png';
 
 export default function VacayHawaii() {
@@ -66,7 +67,7 @@ export default function VacayHawaii() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverHawaii}
+                    src={HawaiiLeahi}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />

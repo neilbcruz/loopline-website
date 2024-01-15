@@ -9,6 +9,8 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverRomantic from '../../../assets/images/cover_romantic.jpg';
+import RomanticAdultOnlyResort from '../../../assets/images/romantic_adultonlyresort.jpg';
+import RomanticNapaValley from '../../../assets/images/romantic_napavalley.jpg';
 
 export default function IdeaRomantic() {
     // Scroll-to-Top functions //
@@ -66,7 +68,7 @@ export default function IdeaRomantic() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverRomantic}
+                    src={RomanticAdultOnlyResort}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -87,7 +89,7 @@ export default function IdeaRomantic() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverRomantic}
+                    src={RomanticNapaValley}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />

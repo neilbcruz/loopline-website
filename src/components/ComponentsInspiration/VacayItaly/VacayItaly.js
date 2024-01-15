@@ -8,6 +8,10 @@ import { useEffect, useState } from 'react';
 
 import CoverItaly from '../../../assets/images/cover_italy.jpg';
 
+import ItalyRuins from '../../../assets/images/italy_ruins.jpg';
+import ItalyTiramisu from '../../../assets/images/italy_tiramisu.jpg';
+import ItalyBikeTour from '../../../assets/images/italy_biketour.jpg';
+
 export default function VacayItaly() {
     // Scroll-to-Top functions //
     const [showButton, setShowButton] = useState(false);
@@ -51,7 +55,7 @@ export default function VacayItaly() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverItaly}
+                    src={ItalyRuins}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -66,7 +70,7 @@ export default function VacayItaly() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverItaly}
+                    src={ItalyTiramisu}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -81,11 +85,10 @@ export default function VacayItaly() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverItaly}
+                    src={ItalyBikeTour}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
-                <h2>Authentic Italy Experiences</h2>
                 <ul>
                     <li><strong>Burn off all the pasta with a bike tour of Tuscany.</strong> Weave around the many hills, vineyards and waterfalls of this famous region in Italy. Make sure to stop for a glass of vino or a photo op!</li>
                     <li><strong>Escape to the island of Capri</strong>, home to celebrity sightings, wildflower bushes, picturesque coasts and seaside cafes.</li>

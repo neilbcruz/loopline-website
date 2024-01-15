@@ -9,6 +9,8 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverGolf from '../../../assets/images/cover_golf.jpg';
+import GolfOahu from '../../../assets/images/golf_oahu.jpg';
+import GolfSpain from '../../../assets/images/golf_spain.jpg';
 
 export default function IdeaGolf() {
     // Scroll-to-Top functions //
@@ -73,7 +75,7 @@ export default function IdeaGolf() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverGolf}
+                    src={GolfOahu}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -89,7 +91,7 @@ export default function IdeaGolf() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverGolf}
+                    src={GolfSpain}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />

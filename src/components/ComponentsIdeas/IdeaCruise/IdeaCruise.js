@@ -8,7 +8,9 @@ import {
 import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
-import CoverCruise from '../../../assets/images/cover_cruise.jpg';
+import CoverWhyCruise from '../../../assets/images/cover_whycruise.jpg';
+import WhyCruiseOnboard from '../../../assets/images/whycruise_onboard.jpg';
+import WhyCruiseDistinctiveVoyages from '../../../assets/images/whycruise_distinctivevoyages.jpg';
 
 import IdeaCruiseLogos from '../IdeaCruise/IdeaCruiseLogos'
 
@@ -37,7 +39,7 @@ export default function IdeaCruise() {
     return (
         <>
             <Container id='top' className='text-center my-3 p-0 hero-container' fluid>
-                <Image src={CoverCruise} className='custom-fluid-hero' width='100%' />
+                <Image src={CoverWhyCruise} className='custom-fluid-hero' width='100%' />
                 <div className='text-on-hero'>
                     <h1>WHY CHOOSE A CRUISE VACATION?</h1>
                     <p>TRAVEL AGENTS - CRUISES, OCEAN CRUISES</p>
@@ -81,7 +83,7 @@ export default function IdeaCruise() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverCruise}
+                    src={WhyCruiseOnboard}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -137,7 +139,7 @@ export default function IdeaCruise() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverCruise}
+                    src={WhyCruiseDistinctiveVoyages}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
