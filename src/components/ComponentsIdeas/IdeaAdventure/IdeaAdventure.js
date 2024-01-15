@@ -9,6 +9,8 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverAdventure from '../../../assets/images/cover_adventure.jpg';
+import AdventureHeliSki from '../../../assets/images/adventure_heliski.jpg';
+import AdventureIncaTrail from '../../../assets/images/adventure_incatrail.jpg';
 
 export default function IdeaAdventure() {
     // Scroll-to-Top functions //
@@ -66,7 +68,7 @@ export default function IdeaAdventure() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverAdventure}
+                    src={AdventureHeliSki}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -86,7 +88,7 @@ export default function IdeaAdventure() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverAdventure}
+                    src={AdventureIncaTrail}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />

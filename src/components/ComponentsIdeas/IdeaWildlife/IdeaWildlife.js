@@ -9,6 +9,8 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverWildlife from '../../../assets/images/cover_wildlife.jpg';
+import WildlifeVacation from '../../../assets/images/wildlife_vacation.jpg';
+import WildlifeCloudForest from '../../../assets/images/wildlife_cloudforest.jpg';
 
 export default function IdeaWildlife() {
     // Scroll-to-Top functions //
@@ -66,7 +68,7 @@ export default function IdeaWildlife() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverWildlife}
+                    src={WildlifeVacation}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -87,14 +89,14 @@ export default function IdeaWildlife() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverWildlife}
+                    src={WildlifeCloudForest}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
                 <h2>Wildlife & Safari Vacation Ideas</h2>
                 <ul>
                     <li><strong>Kenya:</strong> This varied landscape is home to the Great Rift Valley, a UNESCO World Heritage Site, and lush grasslands and savannas that many African animals call home.</li>
-                    <li><strong>Monteverde Cloud Forrest:</strong> This lush Costa Rican reserve is home to 400 different birds and more than 100 different mammals, including sloths, monkeys and anteaters.</li>
+                    <li><strong>Monteverde Cloud Forest:</strong> This lush Costa Rican reserve is home to 400 different birds and more than 100 different mammals, including sloths, monkeys and anteaters.</li>
                     <li><strong>Ningaloo Coast:</strong> A World Heritage Site due to its natural beauty and biodiversity, the Ningaloo Coast is a nature lover’s dream on the Western coast of Australia.</li>
                     <li><strong>Galapagos:</strong> A living museum where you can swim with sea lions, bask in the sun next to iguanas and listen to bull elephants bellow.</li>
                     <li><strong>Seward & Kenai Fjords:</strong> Summertime visitors will have a grand time spotting otters, whales and puffins.</li>

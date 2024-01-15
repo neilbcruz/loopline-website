@@ -10,6 +10,9 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverRiverCruise from '../../../assets/images/cover_rivercruise.jpg';
+import RiverCruiseAmaWaterways from '../../../assets/images/rivercruise_amawaterways.jpg';
+import RiverCruiseAvalon from '../../../assets/images/rivercruise_avalon.jpg';
+import RiverCruiseViking from '../../../assets/images/rivercruise_viking.jpg';
 
 import AmaWaterwaysLogo from '../../../assets/logo/AmaWaterwaysLogo.png';
 import AvalonWaterwaysLogo from '../../../assets/logo/AvalonWaterwaysLogo.png';
@@ -71,7 +74,7 @@ export default function IdeaRiverCruise() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverRiverCruise}
+                    src={RiverCruiseAmaWaterways}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -90,7 +93,7 @@ export default function IdeaRiverCruise() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverRiverCruise}
+                    src={RiverCruiseAvalon}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -105,7 +108,7 @@ export default function IdeaRiverCruise() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverRiverCruise}
+                    src={RiverCruiseViking}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />

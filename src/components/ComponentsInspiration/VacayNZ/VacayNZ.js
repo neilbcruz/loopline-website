@@ -9,6 +9,9 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverNZ from '../../../assets/images/cover_nz.jpg';
+import NZBlackWaterRafting from '../../../assets/images/nz_blackwaterrafting.jpg';
+import NZLakeTaupo from '../../../assets/images/nz_laketaupo.jpg';
+import NZHobbiton from '../../../assets/images/nz_hobbiton.jpg';
 import NZLogo from '../../../assets/logo/NZLogo.jpg';
 
 export default function VacayNZ() {
@@ -66,7 +69,7 @@ export default function VacayNZ() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverNZ}
+                    src={NZBlackWaterRafting}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -83,7 +86,7 @@ export default function VacayNZ() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverNZ}
+                    src={NZLakeTaupo}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -93,7 +96,7 @@ export default function VacayNZ() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverNZ}
+                    src={NZHobbiton}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />

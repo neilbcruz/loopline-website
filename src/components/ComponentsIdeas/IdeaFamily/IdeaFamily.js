@@ -9,6 +9,9 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverFamily from '../../../assets/images/cover_family.jpg';
+import FamilyThemePark from '../../../assets/images/family_themepark.jpg';
+import FamilyVale from '../../../assets/images/family_vale.jpg';
+import FamilyEuropeFamily from '../../../assets/images/family_europefamily.jpg';
 
 export default function IdeaFamily() {
     // Scroll-to-Top functions //
@@ -71,7 +74,7 @@ export default function IdeaFamily() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverFamily}
+                    src={FamilyThemePark}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -89,7 +92,7 @@ export default function IdeaFamily() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverFamily}
+                    src={FamilyVale}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -105,7 +108,7 @@ export default function IdeaFamily() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverFamily}
+                    src={FamilyEuropeFamily}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />

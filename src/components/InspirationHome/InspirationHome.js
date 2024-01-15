@@ -8,12 +8,12 @@ import {
 import { HashLink } from 'react-router-hash-link';
 import { useState } from 'react';
 
-import CoverAustralia from '../../assets/images/cover_australia.jpg';
+import CoverAustralia from '../../assets/images/australia_abundantwildlife.jpg';
 import CoverItaly from '../../assets/images/cover_italy.jpg';
 import CoverHawaii from '../../assets/images/cover_hawaii.jpg';
 import CoverNZ from '../../assets/images/cover_nz.jpg';
 
-import CoverCruise from '../../assets/images/cover_cruise.jpg';
+import CoverWhyCruise from '../../assets/images/cover_whycruise.jpg';
 import CoverFamily from '../../assets/images/cover_family.jpg';
 import CoverWedding from '../../assets/images/cover_wedding.jpg';
 import CoverAdventure from '../../assets/images/cover_adventure.jpg';
@@ -100,7 +100,7 @@ export default function HomeInspiration() {
                     <Col xs={12} md={6} className='pe-md-0'>
                         <HashLink to='cruise#top' className='image-container'>
                             <Image
-                                src={CoverCruise}
+                                src={CoverWhyCruise}
                                 alt='placeholder image'
                                 width='100%'
                                 className='image_hover'

@@ -9,6 +9,8 @@ import { ArrowUp } from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 
 import CoverBeach from '../../../assets/images/cover_beach.jpg';
+import BeachPlayaDelCarmen from '../../../assets/images/beach_playadelcarmen.jpg';
+import BeachDestinFlorida from '../../../assets/images/beach_destinflorida.jpg';
 
 export default function IdeaBeach() {
     // Scroll-to-Top functions //
@@ -66,7 +68,7 @@ export default function IdeaBeach() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverBeach}
+                    src={BeachPlayaDelCarmen}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
@@ -87,7 +89,7 @@ export default function IdeaBeach() {
 
             <Container className='mb-4'>
                 <Image
-                    src={CoverBeach}
+                    src={BeachDestinFlorida}
                     width='100%'
                     className='custom-fluid-image mb-2'
                 />
